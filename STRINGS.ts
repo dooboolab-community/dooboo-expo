@@ -9,7 +9,6 @@ const strings = {
     EMAIL: 'Email',
     PASSWORD: 'Password',
     SIGNUP: 'SIGN UP',
-    LOGIN: 'LOGIN',
     FORGOT_PW: 'Forgot password?',
   },
   ko: {
@@ -18,7 +17,6 @@ const strings = {
     EMAIL: '이메일',
     PASSWORD: '패스워드',
     SIGNUP: '회원가입',
-    LOGIN: '로그인',
     FORGOT_PW: '비밀번호를 잊어버리셨나요?',
   },
 };
@@ -33,9 +31,9 @@ export const setLocale = async () => {
   };
 };
 
-export const getString = (param) => {
+export const getString = (param: string) => {
   const LANG = appStore.locale.value;
-  const string = strings[LANG] ? strings[LANG][param.toString()] : null;
+  const string = strings[LANG] ? strings[LANG][param] : null;
 
   if (!string) {
     return '...';
