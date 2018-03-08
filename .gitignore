@@ -1,3 +1,5 @@
+dist/
 node_modules/**/*
 .expo/*
 npm-debug.*
+# .expo-source

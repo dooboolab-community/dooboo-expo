@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "dooboo",
-    "description": "This project is really great.",
+    "description": "Expo starter from dooboo-cli.",
     "slug": "dooboo",
     "privacy": "public",
     "sdkVersion": "25.0.0",
@@ -11,8 +11,19 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "png"
+      ],
+      "sourceExts": [
+        "ts",
+        "tsx"
+      ],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
     },
     "ios": {
       "supportsTablet": true
