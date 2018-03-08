@@ -12,9 +12,6 @@ exports[`Intro component test renders as expected 1`] = `
   }
 >
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Object {
         "color": "white",
@@ -34,9 +31,6 @@ exports[`Intro component test renders as expected 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "#eee",
@@ -46,9 +40,6 @@ exports[`Intro component test renders as expected 1`] = `
       }
     />
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "#eee",
@@ -58,9 +49,6 @@ exports[`Intro component test renders as expected 1`] = `
       }
     />
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "#eee",
@@ -79,7 +67,6 @@ exports[`Intro component test renders as expected 1`] = `
     }
   >
     <Button
-      activeOpacity={0.5}
       imgLeftSrc={
         Object {
           "process": [Function],
@@ -93,7 +80,6 @@ exports[`Intro component test renders as expected 1`] = `
           "width": 49.99999999999999,
         }
       }
-      indicatorColor="white"
       isDisabled={false}
       isLoading={false}
       onPress={[Function]}
@@ -117,7 +103,7 @@ exports[`Intro component test renders as expected 1`] = `
         }
       }
     >
-      Login
+      로그인
     </Button>
   </View>
 </View>
@@ -267,7 +253,7 @@ exports[`Intro renders without crashing 1`] = `
             }
           }
         >
-          Login
+          로그인
         </Text>
       </View>
     </View>
