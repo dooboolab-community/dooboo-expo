@@ -5,5 +5,5 @@
  */
 
 {
-  "name": "expo"
+  "name": "react-native"
 }

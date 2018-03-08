@@ -19,7 +19,7 @@
 # INSTALL
 ```
 1. npm install
-2. npm start
+2. expo start
 ```
 
 # Structures
