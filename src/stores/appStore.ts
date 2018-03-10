@@ -50,7 +50,9 @@ class ObservableListStore {
 
   public set locale(locale: ILocale ) {
     this._locale = locale;
-    if (locale.value === 'ko' || locale.value === 'ja') {
+    switch (locale) {
+      case 'ko':
+      case 'ja':
       moment.locale(locale.value);
       return;
     }
