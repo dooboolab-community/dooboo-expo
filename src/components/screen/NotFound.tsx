@@ -12,8 +12,8 @@ import {
   FlatList,
   InteractionManager,
 } from 'react-native';
-import appStore from '@stores/appStore';
 import NativeButton from 'apsl-react-native-button';
+import { inject } from 'mobx-react/native';
 
 import { ratio } from '@utils/Styles';
 import {
@@ -29,6 +29,7 @@ const styles: any = StyleSheet.create({
   },
 });
 
+@inject('store')
 class Page extends Component<any, any> {
   constructor(props) {
     super(props);

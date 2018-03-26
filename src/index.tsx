@@ -1,9 +1,10 @@
 // import { observer } from 'mobx-react/native';
 import { Constants } from 'expo';
 import React from 'react';
+import { Provider } from 'mobx-react';
 import { Platform, StatusBar, StyleSheet, View, Text } from 'react-native';
 import RootStackNavigator from '@navigation/RootStackNavigator';
-// import appStore from '@stores/appStore';
+import appStore from '@stores/appStore';
 // import { ratio } from '@utils/Styles';
 // import { ICONS } from '@utils/Icons';
 
@@ -11,9 +12,11 @@ import RootStackNavigator from '@navigation/RootStackNavigator';
 class App extends React.Component {
   public render() {
     return (
-      <View style={styles.container}>
-        <RootStackNavigator />
-      </View>
+      <Provider store={ appStore }>
+        <View style={styles.container}>
+          <RootStackNavigator />
+        </View>
+      </Provider>
     );
   }
 }
