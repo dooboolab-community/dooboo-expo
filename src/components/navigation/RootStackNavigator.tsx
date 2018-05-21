@@ -2,6 +2,7 @@ import React from 'react';
 import { AsyncStorage, View, Platform } from 'react-native';
 import { StackNavigator, NavigationActions } from 'react-navigation';
 import CardStackStyleInterpolator from 'react-navigation/src/views/CardStack/CardStackStyleInterpolator';
+import NavigationService from '@navigation/NavigationService';
 
 import Intro from '@screen/Intro';
 import NotFound from '@screen/NotFound';
@@ -69,7 +70,13 @@ class RootNavigator extends React.Component<any, IState> {
     // }
 
     return (
-      <RootStackNavigator />
+      <RootStackNavigator
+        ref={(v) => {
+          if (v) {
+            NavigationService.setTopLevelNavigator(v);
+          }
+        }}
+      />
     );
   }
 }
