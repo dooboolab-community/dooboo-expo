@@ -1,6 +1,6 @@
 
 import Expo from 'expo';
-import appStore from '@stores/appStore';
+import appStore from './src/stores/appStore';
 
 const strings = {
   en: {

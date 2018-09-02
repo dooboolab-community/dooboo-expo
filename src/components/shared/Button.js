@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 // import NativeButton from 'apsl-react-native-button';
 
-import { ratio, colors } from '@utils/Styles';
+import { ratio, colors } from '../../utils/Styles';
 
 const styles: any = StyleSheet.create({
   btn: {
@@ -62,7 +62,7 @@ interface ItemProps {
 }
 
 class Button extends Component<ItemProps, any> {
-  private static defaultProps: Partial<ItemProps> = {
+  static defaultProps: Partial<ItemProps> = {
     isLoading: false,
     isDisabled: false,
     style: styles.btn,
@@ -78,7 +78,7 @@ class Button extends Component<ItemProps, any> {
     };
   }
 
-  public render() {
+  render() {
     if (this.props.isDisabled) {
       return (
         <View style={this.props.disabledStyle}>

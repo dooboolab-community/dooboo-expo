@@ -7,24 +7,5 @@
         "transform-react-jsx-source"
       ]
     }
-  },
-  "plugins": [
-    ["module-resolver", {
-      "root": ["./App"],
-      "alias": {
-        "@apis": "./src/apis",
-        "@screen": "./src/components/screen",
-        "@navigation": "./src/components/navigation",
-        "@models": "./src/models",
-        "@stores": "./src/stores",
-        "@utils": "./src/utils",
-        "@STRINGS": "./STRINGS",
-        "@BaseStyles": "./src/BaseStyles",
-        "@assets": "./assets",
-        "@shared": "./src/components/shared",
-        "@App_dev": "./App_dev",
-        "@app": "./src/app"
-      }
-    }]
-  ]
+  }
 }

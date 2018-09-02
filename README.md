@@ -1,18 +1,18 @@
-# Expo React Native Typescript Starter
+# Expo Flow Starter
 > Specification
-* typescript
+* flow
 * react-navigation
-* test jest with typescript
+* test jest with flow
 * localization
 * mobx
 * data models
 
 # Gain points
 ```
-1. Typescript support. No need to run tsc because webpack is doing it for you with ts-loader.
+1. Flow support.
 2. Sample of mobx and data modeling.
-3. Able to learn how to structure react app with typescript and mobx.
-4. Test with jest-ts.
+3. Able to learn how to structure react app with flow and mobx.
+4. Test with jest.
 5. Learn how to localize your project.
 ```
 
@@ -89,7 +89,7 @@ We've created test examples with jest-ts in `src/components/screen/__tests__` an
 We've defined Localization strings in `STRINGS.js` which is in root dir.
 ```
 import Expo from 'expo';
-import appStore from '@stores/appStore';
+import appStore from './stores/appStore';
 
 const strings = {
   en: {
