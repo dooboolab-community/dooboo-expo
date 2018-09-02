@@ -24,8 +24,8 @@ class ObservableListStore {
   @observable user: User;
 
   constructor() {
-    this._rootNavigatorActionHorizontal = false;
-    this._user = new User();
+    this.rootNavigatorActionHorizontal = false;
+    this.user = new User();
   }
 
   get locale(): Locale {

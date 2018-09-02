@@ -35,14 +35,13 @@ const navigatorConfig = {
   // }),
   navigationOptions: {
     headerStyle: {
-      headerBackTitle: null,
       backgroundColor: colors.dodgerBlue,
       borderBottomColor: 'transparent',
       borderBottomWidth: 0,
       elevation: 0,
     },
-    headerTitleStyle: {color: 'white'},
     headerTintColor: 'white',
+    headerTitleStyle: { color: 'white' },
   },
 };
 

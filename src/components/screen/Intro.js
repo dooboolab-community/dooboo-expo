@@ -1,3 +1,4 @@
+// @flow
 import React, { Component } from 'react';
 import {
   Platform,
@@ -8,35 +9,93 @@ import {
   Image,
   ScrollView,
   Text,
-  SafeAreaView,
   View,
   FlatList,
   InteractionManager,
 } from 'react-native';
-
+import { observable } from 'mobx';
+import { observer } from 'mobx-react';
 import { inject } from 'mobx-react/native';
+import { NavigationScreenProp, NavigationStateRoute } from 'react-navigation';
+
 import { ratio, colors } from '../../utils/Styles';
 import { IC_MASK } from '../../utils/Icons';
-
-import { getString } from '../../../STRINGS';
 import User from '../../models/User';
+import { getString } from '../../../STRINGS';
 import Button from '../shared/Button';
-import appStore from '../../stores/appStore';
 
-interface State {
+const styles: any = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.background,
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  titleTxt: {
+    marginTop: 100,
+    color: colors.dusk,
+    fontSize: 24,
+  },
+  txtLogin: {
+    fontSize: 14,
+    color: 'white',
+  },
+  imgBtn: {
+    width: 24,
+    height: 24,
+    position: 'absolute',
+    left: 16,
+  },
+  viewUser: {
+    marginTop: 60,
+    alignItems: 'center',
+  },
+  txtUser: {
+    fontSize: 16,
+    color: colors.dusk,
+    lineHeight: 48,
+  },
+  btnBottomWrapper: {
+    position: 'absolute',
+    bottom: 40,
+  },
+  btnLogin: {
+    backgroundColor: colors.dodgerBlue,
+    alignSelf: 'center',
+    borderRadius: 4,
+    width: 320,
+    height: 52,
+
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  btnNavigate: {
+    backgroundColor: 'white',
+    alignSelf: 'center',
+    borderRadius: 4,
+    width: 320,
+    height: 52,
+
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+
+type Props = {
+  store: any;
+  navigation: NavigationScreenProp<NavigationStateRoute>;
+};
+type State = {
   isLoggingIn: boolean;
 }
 
-@inject('store')
-class Page extends Component<any, State> {
+@inject('store') @observer
+class Page extends Component<Props, State> {
   timer: any;
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      isLoggingIn: false,
-    };
-  }
+  state = {
+    isLoggingIn: false,
+  };
 
   componentWillUnmount() {
     if (this.timer) {
@@ -46,12 +105,12 @@ class Page extends Component<any, State> {
 
   render() {
     return (
-      <SafeAreaView style={styles.container}>
+      <View style={styles.container}>
         <Text style={styles.titleTxt}>DOOBOO NATIVE</Text>
         <View style={styles.viewUser}>
-          {/* <Text style={styles.txtUser}>{this.props.store.user.displayName}</Text>
+          <Text style={styles.txtUser}>{this.props.store.user.displayName}</Text>
           <Text style={styles.txtUser}>{this.props.store.user.age}</Text>
-          <Text style={styles.txtUser}>{this.props.store.user.job}</Text> */}
+          <Text style={styles.txtUser}>{this.props.store.user.job}</Text>
         </View>
         <View style={styles.btnBottomWrapper}>
           <Button
@@ -62,8 +121,20 @@ class Page extends Component<any, State> {
             imgLeftSrc={IC_MASK}
             imgLeftStyle={styles.imgBtn}
           >{getString('LOGIN')}</Button>
+          <Button
+            onPress={() => this.props.navigation.navigate('Temp') }
+            style={[
+              styles.btnNavigate,
+              {
+                marginTop: 15,
+              },
+            ]}
+            textStyle={{
+              color: colors.dodgerBlue,
+            }}
+          >Navigate</Button>
         </View>
-      </SafeAreaView>
+      </View>
     );
   }
 
@@ -79,55 +150,5 @@ class Page extends Component<any, State> {
     });
   }
 }
-
-const styles: any = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: colors.background,
-    flexDirection: 'column',
-    alignItems: 'center',
-  },
-  titleTxt: {
-    marginTop: 140 * ratio,
-    color: 'white',
-    fontSize: 28 * ratio,
-  },
-  btnBottomWrapper: {
-    position: 'absolute',
-    bottom: 16 * ratio,
-  },
-  btnLogin: {
-    backgroundColor: 'transparent',
-    alignSelf: 'center',
-    borderRadius: 4 * ratio,
-    borderWidth: 2 * ratio,
-    width: 320 * ratio,
-    height: 52 * ratio,
-    borderColor: 'white',
-
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  txtLogin: {
-    fontSize: 14 * ratio,
-    color: 'white',
-  },
-  imgBtn: {
-    width: 24 * ratio,
-    height: 24 * ratio,
-    position: 'absolute',
-    left: 16 * ratio,
-  },
-  viewUser: {
-    marginTop: 40 * ratio,
-    alignItems: 'center',
-  },
-  txtUser: {
-    fontSize: 16 * ratio,
-    color: '#eee',
-    lineHeight: 48,
-  },
-});
-
 
 export default Page;
