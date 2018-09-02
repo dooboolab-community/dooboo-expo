@@ -66,20 +66,40 @@ npm test
 ```
 > Result
 ```
-> jest -u
- PASS  src/components/screen/__tests__/Intro.test.tsx (6.1s)
- › 2 snapshots updated.
- PASS  src/components/shared/__tests__/Button.test.tsx (6.106s)
- › 3 snapshots updated.
+> node node_modules/jest/bin/jest.js -u
+
+ PASS  src/components/shared/__tests__/Button.test.tsx
+  ● Console
+
+    console.log src/utils/Styles.ts:5
+      calRatio: 8.995502248875562
+    console.log src/utils/Styles.ts:19
+      calRatio: 83.33333333333333
+    console.log src/utils/Styles.ts:24
+      ratio: 2.083333333333333
+
+ PASS  src/components/screen/__tests__/Intro.test.tsx
+  ● Console
+
+    console.log src/utils/Styles.ts:5
+      calRatio: 8.995502248875562
+    console.log src/utils/Styles.ts:19
+      calRatio: 83.33333333333333
+    console.log src/utils/Styles.ts:24
+      ratio: 2.083333333333333
+
+ › 1 snapshot written.
+ › 1 snapshot updated.
 
 Snapshot Summary
- › 5 snapshots updated in 2 test suites.
+ › 1 snapshot written in 1 test suite.
+ › 1 snapshot updated in 1 test suite.
 
 Test Suites: 2 passed, 2 total
 Tests:       5 passed, 5 total
-Snapshots:   5 updated, 1 passed, 6 total
-Time:        9.322s
-Ran all test suites.s
+Snapshots:   1 updated, 1 added, 4 passed, 6 total
+Time:        2.472s, estimated 4s
+Ran all test suites.
 ```
 
 # Writing tests with Jest
