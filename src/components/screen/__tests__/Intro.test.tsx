@@ -11,7 +11,6 @@ describe('Intro', () => {
   it('renders without crashing', () => {
     const rendered = renderer.create(
     <Intro
-      navigation={}
       store={appStore}
     />).toJSON();
     expect(rendered).toMatchSnapshot();
@@ -21,7 +20,6 @@ describe('Intro', () => {
   describe('component test', () => {
     const wrapper = shallow(
       <Intro
-        navigation={}
         store={appStore}
       />,
     );
