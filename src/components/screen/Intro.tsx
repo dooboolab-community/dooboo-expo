@@ -12,14 +12,16 @@ import {
   FlatList,
   InteractionManager,
 } from 'react-native';
-
-import { ratio, colors } from '@utils/Styles';
-import { IC_MASK } from '@utils/Icons';
-
-import { getString } from '@STRINGS';
-import User from '@models/User';
-import Button from '@shared/Button';
+import { observable } from 'mobx';
+import { observer } from 'mobx-react';
 import { inject } from 'mobx-react/native';
+import { NavigationScreenProp, NavigationStateRoute } from 'react-navigation';
+
+import { ratio, colors } from '../../utils/Styles';
+import { IC_MASK } from '../../utils/Icons';
+import User from '../../models/User';
+import { getString } from '../../../STRINGS';
+import Button from '../shared/Button';
 
 const styles: any = StyleSheet.create({
   container: {
@@ -29,61 +31,70 @@ const styles: any = StyleSheet.create({
     alignItems: 'center',
   },
   titleTxt: {
-    marginTop: 140 * ratio,
+    marginTop: 100,
+    color: colors.dusk,
+    fontSize: 24,
+  },
+  txtLogin: {
+    fontSize: 14,
     color: 'white',
-    fontSize: 28 * ratio,
+  },
+  imgBtn: {
+    width: 24,
+    height: 24,
+    position: 'absolute',
+    left: 16,
+  },
+  viewUser: {
+    marginTop: 60,
+    alignItems: 'center',
+  },
+  txtUser: {
+    fontSize: 16,
+    color: colors.dusk,
+    lineHeight: 48,
   },
   btnBottomWrapper: {
     position: 'absolute',
-    bottom: 16 * ratio,
+    bottom: 40,
   },
   btnLogin: {
-    backgroundColor: 'transparent',
+    backgroundColor: colors.dodgerBlue,
     alignSelf: 'center',
-    borderRadius: 4 * ratio,
-    borderWidth: 2 * ratio,
-    width: 320 * ratio,
-    height: 52 * ratio,
-    borderColor: 'white',
+    borderRadius: 4,
+    width: 320,
+    height: 52,
 
     alignItems: 'center',
     justifyContent: 'center',
   },
-  txtLogin: {
-    fontSize: 14 * ratio,
-    color: 'white',
-  },
-  imgBtn: {
-    width: 24 * ratio,
-    height: 24 * ratio,
-    position: 'absolute',
-    left: 16 * ratio,
-  },
-  viewUser: {
-    marginTop: 40 * ratio,
+  btnNavigate: {
+    backgroundColor: 'white',
+    alignSelf: 'center',
+    borderRadius: 4,
+    width: 320,
+    height: 52,
+
     alignItems: 'center',
-  },
-  txtUser: {
-    fontSize: 16 * ratio,
-    color: '#eee',
-    lineHeight: 48,
+    justifyContent: 'center',
   },
 });
 
+interface IProps {
+  store: any;
+  navigation: NavigationScreenProp<NavigationStateRoute>;
+}
 interface IState {
   isLoggingIn: boolean;
 }
 
-@inject('store')
-class Page extends Component<any, IState> {
-  private timer: any;
+@inject('store') @observer
+class Page extends Component<IProps, IState> {
+  public state = {
+    isLoggingIn: false,
+  };
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      isLoggingIn: false,
-    };
-  }
+  private timer: any;
 
   public componentWillUnmount() {
     if (this.timer) {
@@ -109,6 +120,18 @@ class Page extends Component<any, IState> {
             imgLeftSrc={IC_MASK}
             imgLeftStyle={styles.imgBtn}
           >{getString('LOGIN')}</Button>
+          <Button
+            onPress={() => this.props.navigation.navigate('Temp') }
+            style={[
+              styles.btnNavigate,
+              {
+                marginTop: 15,
+              },
+            ]}
+            textStyle={{
+              color: colors.dodgerBlue,
+            }}
+          >Navigate</Button>
         </View>
       </View>
     );

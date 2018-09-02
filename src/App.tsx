@@ -24,7 +24,6 @@ class App extends React.Component {
 const styles: any = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: Platform.OS === 'ios' ? Constants.statusBarHeight : 0, // false to get height of android too.
     flexDirection: 'column',
     backgroundColor: 'transparent',
   },

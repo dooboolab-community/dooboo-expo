@@ -1,4 +1,4 @@
-import User from '@models/User';
+import User from '../models/User';
 import { observable } from 'mobx';
 
 import moment from 'moment';
@@ -15,40 +15,24 @@ interface ILocale {
 }
 
 class ObservableListStore {
-  @observable private _ready: boolean;
-  @observable private _rootNavigatorActionHorizontal: boolean;
+  @observable public ready: boolean;
+  @observable public rootNavigatorActionHorizontal: boolean;
+  @observable public user: User;
   @observable private _locale: ILocale = {
     value: 'ko',
     locale_moment: 'ko',
   };
-  @observable private _user: User;
 
   constructor() {
-    this._rootNavigatorActionHorizontal = false;
-    this._user = new User();
+    this.rootNavigatorActionHorizontal = false;
+    this.user = new User();
   }
 
-  public get ready(): boolean  {
-    return this._ready;
-  }
-
-  public set ready(value: boolean ) {
-    this._ready = value;
-  }
-
-  public get rootNavigatorActionHorizontal(): boolean {
-    return this._rootNavigatorActionHorizontal;
-  }
-
-  public set rootNavigatorActionHorizontal(value: boolean) {
-    this._rootNavigatorActionHorizontal = value;
-  }
-
-  public get locale(): ILocale  {
+  get locale(): ILocale {
     return this._locale;
   }
 
-  public set locale(locale: ILocale ) {
+  set locale(locale: ILocale ) {
     this._locale = locale;
     switch (locale.value) {
       case 'ko':
@@ -57,14 +41,6 @@ class ObservableListStore {
       return;
     }
     moment.locale('en');
-  }
-
-  public get user(): User {
-    return this._user;
-  }
-
-  public set user(value: User) {
-    this._user = value;
   }
 }
 

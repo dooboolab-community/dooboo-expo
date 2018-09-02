@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 // import NativeButton from 'apsl-react-native-button';
 
-import { ratio, colors } from '@utils/Styles';
+import { ratio, colors } from '../../utils/Styles';
 
 const styles: any = StyleSheet.create({
   btn: {
@@ -48,7 +48,7 @@ const styles: any = StyleSheet.create({
   },
 });
 
-interface ItemProps {
+interface IProps {
   isLoading?: boolean;
   isDisabled?: boolean;
   onPress?: () => void;
@@ -61,8 +61,8 @@ interface ItemProps {
   activeOpacity?: number;
 }
 
-class Button extends Component<ItemProps, any> {
-  private static defaultProps: Partial<ItemProps> = {
+class Button extends Component<IProps, any> {
+  private static defaultProps: Partial<IProps> = {
     isLoading: false,
     isDisabled: false,
     style: styles.btn,

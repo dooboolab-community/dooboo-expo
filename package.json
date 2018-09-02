@@ -1,6 +1,6 @@
 {
   "name": "dooboo",
-  "main": "App.js",
+  "main": "index.js",
   "version": "0.0.0",
   "description": "Expo starter from dooboo-cli.",
   "author": "hyochan <dooboolab@gmail.com>",
@@ -23,15 +23,14 @@
     "lint": "tslint -c tslint.json './src/**/*.ts'"
   },
   "dependencies": {
-    "expo": "^26.0.0",
-    "react": "16.3.0-alpha.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
-    "abortcontroller-polyfill": "^1.1.8",
-    "moment": "^2.22.0",
-    "immutability-helper": "^2.6.4",
+    "expo": "^29.0.0",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
+    "moment": "^2.22.2",
+    "immutability-helper": "^2.7.1",
     "mobx": "^4.1.1",
     "mobx-react": "^5.0.0",
-    "react-navigation": "^1.5.8"
+    "react-navigation": "^2.9.3"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.9",
@@ -48,7 +47,7 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
     "jest": "22.4.3",
-    "jest-expo": "^26.0.0",
+    "jest-expo": "^29.0.0",
     "react-dom": "^16.3.0",
     "react-native-typescript-transformer": "^1.2.3",
     "react-test-renderer": "16.3.0-alpha.1",
