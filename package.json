@@ -1,120 +1,58 @@
 {
   "name": "dooboo",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "tsc": "tsc",
+    "start": "tsc -w && expo start",
+    "production": "expo start --no-dev",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node node_modules/jest/bin/jest.js",
+    "lint": "tslint -c tslint.json './src/**/*.ts'"
+  },
+  "private": true,
   "version": "0.0.0",
   "description": "Expo starter from dooboo-cli.",
   "author": "hyochan <dooboolab@gmail.com>",
   "license": "",
-  "scripts": {
-    "build": "rm -rf ./dist && tsc",
-    "build:android": "cd android && ./gradlew assembleRelease",
-    "clean": "rm -rf ./dist",
-    "dev": "tsc -w & exp start --offline --dev",
-    "start": "tsc -w & exp start",
-    "start:android": "exp start -a --dev --lan",
-    "tsc": "tsc",
-    "watch": "tsc -w",
-    "start:offline": "tsc -w & exp start --offline",
-    "start:reset": "exp start --offline -c --dev",
-    "start:exp": "exp start --lan",
-    "production": "exp start --no-dev",
-    "test": "node node_modules/jest/bin/jest.js -u",
-    "lint:validate": "tsc --noEmit",
-    "lint": "tslint -c tslint.json './src/**/*.ts'"
-  },
   "dependencies": {
-    "expo": "^29.0.0",
-    "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
-    "moment": "^2.22.2",
-    "immutability-helper": "^2.7.1",
-    "mobx": "^4.1.1",
-    "mobx-react": "^5.0.0",
-    "react-navigation": "^2.9.3"
+    "expo": "^32.0.4",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "moment": "^2.24.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-navigation": "^3.1.5",
+    "sentry-expo": "^1.11.2"
   },
   "devDependencies": {
-    "@types/enzyme": "^3.1.9",
-    "@types/expo": "^25.0.3",
-    "@types/jest": "^22.2.2",
-    "@types/react": "16.1.0",
-    "@types/react-native": "0.52.22",
-    "apsl-react-native-button": "^3.1.0",
-    "babel-jest": "22.4.3",
-    "babel-plugin-module-resolver": "^3.1.1",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-preset-react-native": "4.0.0",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.3",
-    "jest": "22.4.3",
-    "jest-expo": "^29.0.0",
-    "react-dom": "^16.3.0",
-    "react-native-typescript-transformer": "^1.2.3",
-    "react-test-renderer": "16.3.0-alpha.1",
-    "ts-jest": "^22.4.2",
-    "tslib": "^1.9.0",
-    "tslint": "^5.9.1",
-    "tslint-react": "^3.5.1",
-    "typescript": "^2.8.1"
-  },
-  "babel": {
-    "presets": [
-      "babel-preset-expo"
-    ],
-    "env": {
-      "development": {
-        "plugins": [
-          "transform-react-jsx-source"
-        ]
-      }
-    }
-  },
-  "jest": {
-    "preset": "jest-expo",
-    "setupFiles": [
-      "./test/shimSetup.js",
-      "./test/jestSetup.ts"
-    ],
-    "globals": {
-      "ts-jest": {
-        "useBabelrc": true,
-        "tsConfigFile": "tsconfig.json"
-      }
-    },
-    "transform": {
-      "^.+\\.jsx?$": "<rootDir>/node_modules/babel-jest",
-      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "ios.ts",
-      "ios.tsx",
-      "android.ts",
-      "android.tsx"
-    ],
-    "moduleNameMapper": {
-      "^@apis(.*)$": "<rootDir>/src/apis$1",
-      "^@screen(.*)$": "<rootDir>/src/screen$1",
-      "^@navigation(.*)$": "<rootDir>/src/navigation$1",
-      "^@models(.*)$": "<rootDir>/src/models$1",
-      "^@stores(.*)$": "<rootDir>/src/stores$1",
-      "^@utils(.*)$": "<rootDir>/src/utils$1",
-      "^@STRINGS(.*)$": "<rootDir>/src/STRINGS$1",
-      "^@BaseStyles(.*)$": "<rootDir>/src/BaseStyles$1",
-      "^@assets(.*)$": "<rootDir>/src/assets$1",
-      "^@shared(.*)$": "<rootDir>/src/shared$1",
-      "^@App_dev(.*)$": "<rootDir>/src/App_dev$1",
-      "^@app(.*)$": "<rootDir>/src/app$1",
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/test/assetsTransformer.js",
-      "\\.(css|less)$": "<rootDir>/test/assetsTransformer.js"
-    },
-    "snapshotSerializers": [
-      "./node_modules/enzyme-to-json/serializer"
-    ]
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-decorators": "7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/plugin-transform-runtime": "7.2.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/expo": "^32.0.0",
+    "@types/jest": "^24.0.0",
+    "@types/react": "^16.8.2",
+    "@types/react-native": "0.57.34",
+    "@types/react-test-renderer": "^16.8.0",
+    "apsl-react-native-button": "^3.1.1",
+    "babel-jest": "24.1.0",
+    "babel-preset-expo": "^5.0.0",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "24.1.0",
+    "jest-expo": "^32.0.0",
+    "react-dom": "^16.8.1",
+    "react-native-typescript-transformer": "^1.2.11",
+    "react-test-renderer": "16.8.1",
+    "ts-jest": "^23.10.5",
+    "tslib": "^1.9.3",
+    "tslint": "^5.12.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.3"
   }
 }

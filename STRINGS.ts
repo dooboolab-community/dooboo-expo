@@ -1,6 +1,6 @@
 
 import Expo from 'expo';
-import appStore from '@stores/appStore';
+import appStore from './src/stores/appStore';
 
 const strings = {
   en: {
@@ -10,7 +10,7 @@ const strings = {
     PASSWORD: 'Password',
     SIGNUP: 'SIGN UP',
     FORGOT_PW: 'Forgot password?',
-  },
+},
   ko: {
     HELLO: '안녕하세요',
     LOGIN: '로그인',

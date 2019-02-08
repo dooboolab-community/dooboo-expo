@@ -1,20 +1,18 @@
 // import { observer } from 'mobx-react/native';
-import { Constants } from 'expo';
 import React from 'react';
 import { Provider } from 'mobx-react';
 import { Platform, StatusBar, StyleSheet, View, Text } from 'react-native';
-import RootStackNavigator from '@navigation/RootStackNavigator';
-import appStore from '@stores/appStore';
-// import { ratio } from '@utils/Styles';
-// import { ICONS } from '@utils/Icons';
 
-// @observer
+import appStore from './src/stores/appStore';
+import SwitchNavigator from './src/components/navigation/SwitchNavigator';
+import { ratio } from './src/utils/Styles';
+
 class App extends React.Component {
-  public render() {
+  render() {
     return (
       <Provider store={ appStore }>
         <View style={styles.container}>
-          <RootStackNavigator />
+          <SwitchNavigator />
         </View>
       </Provider>
     );

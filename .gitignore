@@ -1,6 +1,11 @@
+.DS_STORE
 dist/
 node_modules/**/*
 .expo/*
 npm-debug.*
-.DS_STORE
-# .expo-source
+*.jks
+*.p12
+*.key
+*.mobileprovision
+.jest
+coverage/

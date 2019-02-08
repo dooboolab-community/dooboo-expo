@@ -11,8 +11,8 @@ import {
   View,
   FlatList,
   InteractionManager,
+  ViewStyle,
 } from 'react-native';
-import NativeButton from 'apsl-react-native-button';
 import { inject } from 'mobx-react/native';
 
 import { ratio } from '../../utils/Styles';
@@ -20,12 +20,17 @@ import {
   IC_MASK,
 } from '../../utils/Icons';
 
-const styles: any = StyleSheet.create({
+interface IStyle {
+  container: ViewStyle;
+}
+
+const styles = StyleSheet.create<IStyle>({
   container: {
     flex: 1,
     backgroundColor: 'transparent',
-    flexDirection: 'column',
+    flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 

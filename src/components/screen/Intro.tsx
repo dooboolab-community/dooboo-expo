@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import {
-  Platform,
-  StatusBar,
   StyleSheet,
-  TouchableHighlight,
-  TouchableOpacity,
-  Image,
-  ScrollView,
   Text,
   View,
-  FlatList,
-  InteractionManager,
+  ViewStyle,
+  TextStyle,
+  ImageStyle,
 } from 'react-native';
 import { observable } from 'mobx';
 import { observer } from 'mobx-react';
@@ -23,7 +18,19 @@ import User from '../../models/User';
 import { getString } from '../../../STRINGS';
 import Button from '../shared/Button';
 
-const styles: any = StyleSheet.create({
+interface IStyles {
+  container: ViewStyle;
+  titleTxt: TextStyle;
+  txtLogin: TextStyle;
+  imgBtn: ImageStyle;
+  viewUser: ViewStyle;
+  txtUser: TextStyle;
+  btnBottomWrapper: ViewStyle;
+  btnLogin: ViewStyle;
+  btnNavigate: ViewStyle;
+}
+
+const styles = StyleSheet.create<IStyles>({
   container: {
     flex: 1,
     backgroundColor: colors.background,
