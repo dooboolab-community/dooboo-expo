@@ -55,9 +55,8 @@ app/
 # Running the project
 Running the project is as simple as running
 ```sh
-exp start
+expo start
 ```
-Or you can use `exp xde`.
 
 # Testing the project
 Testing is also just a command away:
