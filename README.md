@@ -154,4 +154,4 @@ export const getString = (param) => {
 ```
 
 ## Expo version
-25.0.0
+32.0.0
