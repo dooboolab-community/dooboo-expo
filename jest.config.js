@@ -1,4 +1,7 @@
+const { defaults: tsJestConfig } = require('ts-jest/presets');
+
 module.exports = {
+  ...tsJestConfig,
   "preset": "jest-expo",
   "transformIgnorePatterns": [
     "node_modules/(?!((jest-)?react-native|react-clone-referenced-element|expo(nent)?/.*|@expo(nent)?/.*|react-navigation))",
@@ -22,6 +25,10 @@ module.exports = {
     "**/__tests__/**/*.ts?(x)",
     "**/?(*.)+(spec|test).ts?(x)"
   ],
+  "testPathIgnorePatterns": [		
+    "\\.snap$",
+    "<rootDir>/node_modules/"
+  ],
   // "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
   "cacheDirectory": ".jest/cache",
   "moduleFileExtensions": [
@@ -34,6 +41,12 @@ module.exports = {
     "ios.tsx",
     "android.ts",
     "android.tsx"
+  ],
+  "modulePathIgnorePatterns": [
+    "node_modules/expo-constants/",
+  ],
+  "unmockedModulePathPatterns": [
+    "node_modules/expo-constants/",
   ],
   // "moduleNameMapper": {
   //   "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/test/assetsTransformer.js"

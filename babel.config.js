@@ -4,6 +4,7 @@ module.exports = function(api) {
     presets: ['babel-preset-expo', '@babel/preset-typescript'],
     sourceMaps: "inline",
     plugins: [
+      '@babel/transform-react-jsx-source',
       [
         "@babel/plugin-proposal-decorators",
         {
