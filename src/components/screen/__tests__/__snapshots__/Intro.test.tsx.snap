@@ -1,27 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Intro component test renders as expected 1`] = `
-<Page
-  navigation={true}
-  store={
-    ObservableListStore {
-      "_locale": Object {
-        "locale_moment": "ko",
-        "value": "ko",
-      },
-      "ready": undefined,
-      "rootNavigatorActionHorizontal": false,
-      "user": User {
-        "_age": undefined,
-        "_displayName": undefined,
-        "_job": undefined,
-      },
-    }
-  }
-/>
-`;
-
-exports[`Intro renders without crashing 1`] = `
+exports[`Intro page DOM rendering test component and snapshot matches 1`] = `
 <View
   style={
     Object {
@@ -33,9 +12,6 @@ exports[`Intro renders without crashing 1`] = `
   }
 >
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Object {
         "color": "rgb(65,77,107)",
@@ -55,9 +31,6 @@ exports[`Intro renders without crashing 1`] = `
     }
   >
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgb(65,77,107)",
@@ -67,9 +40,6 @@ exports[`Intro renders without crashing 1`] = `
       }
     />
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgb(65,77,107)",
@@ -79,9 +49,6 @@ exports[`Intro renders without crashing 1`] = `
       }
     />
     <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
       style={
         Object {
           "color": "rgb(65,77,107)",
@@ -100,16 +67,8 @@ exports[`Intro renders without crashing 1`] = `
     }
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
       isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -121,8 +80,6 @@ exports[`Intro renders without crashing 1`] = `
           "opacity": 1,
         }
       }
-      testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -138,11 +95,7 @@ exports[`Intro renders without crashing 1`] = `
         }
       >
         <Image
-          source={
-            Object {
-              "process": [Function],
-            }
-          }
+          source={1}
           style={
             Object {
               "height": 24,
@@ -153,9 +106,6 @@ exports[`Intro renders without crashing 1`] = `
           }
         />
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "white",
@@ -168,16 +118,8 @@ exports[`Intro renders without crashing 1`] = `
       </View>
     </View>
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
       isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -189,8 +131,6 @@ exports[`Intro renders without crashing 1`] = `
           "opacity": 1,
         }
       }
-      testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -211,9 +151,6 @@ exports[`Intro renders without crashing 1`] = `
         }
       >
         <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
           style={
             Object {
               "color": "rgb(58,139,255)",

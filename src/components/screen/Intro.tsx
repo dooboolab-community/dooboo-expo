@@ -88,8 +88,8 @@ const styles = StyleSheet.create<IStyles>({
 });
 
 interface IProps {
-  store: any;
-  navigation?: NavigationScreenProp<NavigationStateRoute>;
+  store?: any;
+  navigation?: any;
 }
 interface IState {
   isLoggingIn: boolean;
