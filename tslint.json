@@ -4,9 +4,6 @@
     "tslint-react"
   ],
   "rules": {
-    /*
-     * Any rules specified here will override those from the base config we are extending.
-     */
     "ordered-imports": false,
     "curly": true,
     "no-var-keyword": true,
@@ -14,7 +11,7 @@
     "no-eval": true,
     "no-internal-module": true,
     "no-trailing-whitespace": true,
-    "no-var-requires": false, // to use require statment in ts
+    "no-var-requires": false,
     "semicolon": true,
     "object-literal-sort-keys": false,
     "quotemark": [true, "single"],
@@ -22,7 +19,6 @@
     "only-arrow-functions": false,
     "prefer-const": true,
     "variable-name": false,
-    // tslint-react rules.
     "jsx-no-lambda": false,
     "jsx-no-multiline-js": false,
     "jsx-wrap-multiline": false,

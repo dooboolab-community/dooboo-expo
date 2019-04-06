@@ -1,5 +1,4 @@
-
-import Expo from 'expo';
+import { Util } from 'expo';
 import appStore from './src/stores/appStore';
 
 const strings = {
@@ -22,7 +21,7 @@ const strings = {
 };
 
 export const setLocale = async () => {
-  const locale = await Expo.Util.getCurrentLocaleAsync();
+  const locale = await Util.getCurrentLocaleAsync();
   const localeStr = locale.substring(0, 2);
 
   appStore.locale = {
