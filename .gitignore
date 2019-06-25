@@ -1,4 +1,4 @@
-.DS_STORE
+.DS_Store
 dist/
 node_modules/**/*
 .expo/*
@@ -12,3 +12,5 @@ coverage/
 *.orig.*
 web-build/
 web-report/
+
+package-lock.json
