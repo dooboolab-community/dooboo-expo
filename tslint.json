@@ -3,6 +3,11 @@
     "tslint:recommended",
     "tslint-react"
   ],
+  "linterOptions": {
+    "exclude": [
+      "src/styled.d.ts"
+    ]
+  },
   "rules": {
     "ordered-imports": false,
     "curly": true,
