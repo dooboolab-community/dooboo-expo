@@ -1,13 +1,11 @@
 import React from 'react';
-import { createStackNavigator, createAppContainer } from 'react-navigation';
-import { observer } from 'mobx-react/native';
+import { Text } from 'react-native';
+import { createStackNavigator, NavigationRouteConfig, StackNavigatorConfig } from 'react-navigation';
 
-import { colors } from '../../utils/Styles';
-import appStore from '../../stores/appStore';
 import IntroScreen from '../screen/Intro';
 import TempScreen from '../screen/Temp';
 
-const routeConfig = {
+const routeConfig: NavigationRouteConfig = {
   Intro: {
     screen: IntroScreen,
     navigationOptions: {
@@ -17,26 +15,30 @@ const routeConfig = {
   },
   Temp: {
     screen: TempScreen,
-    path: 'Temp',
+    navigationOptions: {
+      headerTitle: <Text style={{
+        fontSize: 18,
+      }}>Temp</Text>,
+    },
+    path: 'temp',
   },
 };
 
-const navigatorConfig = {
+const navigatorConfig: StackNavigatorConfig = {
   initialRouteName: 'Intro',
-  // header: null,
   // headerMode: 'none',
-  gesturesEnabled: true,
-  statusBarStyle: 'light-content',
-  navigationOptions: {
-    headerStyle: {
-      headerBackTitle: null,
-      backgroundColor: colors.dodgerBlue,
-      borderBottomColor: 'transparent',
-      borderBottomWidth: 0,
-      elevation: 0,
-    },
-    headerTitleStyle: { color: 'white' },
-    headerTintColor: 'white',
+  navigationOptions: ({ navigation, screenProps } : { navigation: any, screenProps: any}) => {
+    const { theme } = screenProps;
+    return ({
+      headerStyle: {
+        backgroundColor: theme.background,
+        borderBottomColor: 'transparent',
+        borderBottomWidth: 0,
+        elevation: 0,
+      },
+      headerTitleStyle: { color: theme.fontColor },
+      headerTintColor: theme.tintColor,
+    });
   },
 };
 
@@ -44,14 +46,19 @@ const RootStackNavigator = createStackNavigator(routeConfig, navigatorConfig);
 
 interface IProps {
   navigation?: any;
+  theme?: object;
 }
 
-@observer
 class RootNavigator extends React.Component<IProps> {
   private static router = RootStackNavigator.router;
 
   public render() {
-    return <RootStackNavigator navigation={this.props.navigation}/>;
+    return (
+      <RootStackNavigator
+        navigation={this.props.navigation}
+        screenProps={{ theme: this.props.theme }}
+      />
+    );
   }
 }
 

@@ -1,160 +1,143 @@
 import React, { Component } from 'react';
 import {
+  Platform,
+  StatusBar,
   StyleSheet,
+  TouchableHighlight,
+  TouchableOpacity,
+  Image,
+  ScrollView,
   Text,
   View,
-  ViewStyle,
-  TextStyle,
-  ImageStyle,
+  FlatList,
+  InteractionManager,
 } from 'react-native';
-import { observable } from 'mobx';
-import { observer } from 'mobx-react';
-import { inject } from 'mobx-react/native';
 import { NavigationScreenProp, NavigationStateRoute } from 'react-navigation';
 
-import { ratio, colors } from '../../utils/Styles';
+import {
+  IUser,
+} from '../../types';
+import { AppProvider as Provider, AppConsumer, AppContext } from '../../providers';
+
+import styled from 'styled-components/native';
+
+import { ThemeType } from '../../theme';
 import { IC_MASK } from '../../utils/Icons';
-import User from '../../models/User';
-import { getString } from '../../../STRINGS';
+// import { getString } from '../../../STRINGS';
 import Button from '../shared/Button';
+import { getString } from '../../../STRINGS';
 
-interface IStyles {
-  container: ViewStyle;
-  titleTxt: TextStyle;
-  txtLogin: TextStyle;
-  imgBtn: ImageStyle;
-  viewUser: ViewStyle;
-  txtUser: TextStyle;
-  btnBottomWrapper: ViewStyle;
-  btnLogin: ViewStyle;
-  btnNavigate: ViewStyle;
-}
+const Container = styled.View`
+  flex: 1;
+  align-self: stretch;
+  overflow: scroll;
+  background-color: ${({ theme }) => theme.background};
 
-const styles = StyleSheet.create<IStyles>({
-  container: {
-    flex: 1,
-    backgroundColor: colors.background,
-    flexDirection: 'column',
-    alignItems: 'center',
-  },
-  titleTxt: {
-    marginTop: 100,
-    color: colors.dusk,
-    fontSize: 24,
-  },
-  txtLogin: {
-    fontSize: 14,
-    color: 'white',
-  },
-  imgBtn: {
-    width: 24,
-    height: 24,
-    position: 'absolute',
-    left: 16,
-  },
-  viewUser: {
-    marginTop: 60,
-    alignItems: 'center',
-  },
-  txtUser: {
-    fontSize: 16,
-    color: colors.dusk,
-    lineHeight: 48,
-  },
-  btnBottomWrapper: {
-    position: 'absolute',
-    bottom: 40,
-  },
-  btnLogin: {
-    backgroundColor: colors.dodgerBlue,
-    alignSelf: 'center',
-    borderRadius: 4,
-    width: 320,
-    height: 52,
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+`;
 
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  btnNavigate: {
-    backgroundColor: 'white',
-    alignSelf: 'center',
-    borderRadius: 4,
-    width: 320,
-    height: 52,
+const ContentWrapper = styled.View`
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+`;
 
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const ButtonWrapper = styled.View`
+  position: absolute;
+  flex-direction: column;
+  bottom: 40;
+  width: 85%;
+  align-self: center;
+`;
+
+const StyledText = styled.Text`
+  font-size: 18;
+  line-height: 27;
+  color: ${({ theme }) => theme.fontColor};
+`;
 
 interface IProps {
   store?: any;
-  navigation?: any;
-}
-interface IState {
-  isLoggingIn: boolean;
+  navigation: NavigationScreenProp<NavigationStateRoute<any>>;
 }
 
-@inject('store') @observer
-class Page extends Component<IProps, IState> {
-  public state = {
-    isLoggingIn: false,
+function Intro(props: IProps) {
+  let timer: any;
+  const { state, dispatch } = React.useContext(AppContext);
+  const [isLoggingIn, setIsLoggingIn] = React.useState(false);
+
+  const onLogin = () => {
+    dispatch({ type: 'reset-user' });
+    setIsLoggingIn(true);
+    timer = setTimeout(() => {
+      const user: IUser = {
+        displayName: 'dooboolab',
+        age: 30,
+        job: 'developer',
+      };
+      dispatch({ type: 'set-user', payload: user });
+      setIsLoggingIn(false);
+      clearTimeout(timer);
+    }, 1000);
   };
 
-  private timer: any;
-
-  public componentWillUnmount() {
-    if (this.timer) {
-      clearTimeout(this.timer);
+  const changeTheme = () => {
+    let payload: object;
+    if (state.theme === ThemeType.LIGHT) {
+      payload = {
+        theme: ThemeType.DARK,
+      };
+    } else {
+      payload = {
+        theme: ThemeType.LIGHT,
+      };
     }
-  }
-
-  public render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.titleTxt}>DOOBOO NATIVE</Text>
-        <View style={styles.viewUser}>
-          <Text style={styles.txtUser}>{this.props.store.user.displayName}</Text>
-          <Text style={styles.txtUser}>{this.props.store.user.age}</Text>
-          <Text style={styles.txtUser}>{this.props.store.user.job}</Text>
-        </View>
-        <View style={styles.btnBottomWrapper}>
-          <Button
-            isLoading={this.state.isLoggingIn}
-            onPress={this.onLogin}
-            style={styles.btnLogin}
-            textStyle={styles.txtLogin}
-            imgLeftSrc={IC_MASK}
-            imgLeftStyle={styles.imgBtn}
-          >{getString('LOGIN')}</Button>
-          <Button
-            onPress={() => this.props.navigation.navigate('Temp') }
-            style={[
-              styles.btnNavigate,
-              {
-                marginTop: 15,
-              },
-            ]}
-            textStyle={{
-              color: colors.dodgerBlue,
-            }}
-          >Navigate</Button>
-        </View>
-      </View>
-    );
-  }
-
-  private onLogin = () => {
-    this.props.store.user = new User();
-    this.setState({ isLoggingIn: true }, () => {
-      this.timer = setTimeout(() => {
-        this.props.store.user.displayName = 'dooboolab';
-        this.props.store.user.age = 30;
-        this.props.store.user.job = 'developer';
-        this.setState({ isLoggingIn: false });
-      }, 1000);
+    dispatch({
+      type: 'change-theme-mode',
+      payload,
     });
-  }
+  };
+
+  return (
+    <Container>
+      <ContentWrapper>
+        <StyledText
+          style={{
+            marginTop: 100,
+          }}
+        >{state.user.displayName}</StyledText>
+        <StyledText>{state.user.age ? state.user.age : ''}</StyledText>
+        <StyledText>{state.user.job}</StyledText>
+      </ContentWrapper>
+      <ButtonWrapper>
+        <Button
+          testID='btn1'
+          imgLeftSrc={IC_MASK}
+          isLoading={isLoggingIn}
+          onClick={() => onLogin()}
+          text={getString('LOGIN')}
+        />
+        <View style={{ marginTop: 8 }}/>
+        <Button
+          testID='btn2'
+          onClick={() => props.navigation.navigate('Temp') }
+          text={getString('NAVIGATE')}
+        />
+        <View style={{ marginTop: 8 }}/>
+        <Button
+          testID='btn3'
+          onClick={() => changeTheme() }
+          text={getString('CHANGE_THEME')}
+        />
+
+      </ButtonWrapper>
+    </Container>
+  );
 }
 
-export default Page;
+export default Intro;
