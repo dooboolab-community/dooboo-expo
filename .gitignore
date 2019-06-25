@@ -9,3 +9,6 @@ npm-debug.*
 *.mobileprovision
 .jest
 coverage/
+*.orig.*
+web-build/
+web-report/
