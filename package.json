@@ -48,6 +48,7 @@
     "babel-jest": "^24.8.0",
     "babel-preset-expo": "^5.2.0",
     "babel-preset-react-native": "4.0.1",
+    "codecov": "^3.5.0",
     "jest-expo": "^33.0.2",
     "jest-expo-ts": "^22.0.1",
     "react-native-testing-library": "^1.9.1",
