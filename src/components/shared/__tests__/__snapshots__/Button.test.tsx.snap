@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[Button] should render without crashing 1`] = `
+exports[`[Button] renders without crashing 1`] = `
 <View
   accessible={true}
   isTVSelectable={true}
@@ -15,6 +15,7 @@ exports[`[Button] should render without crashing 1`] = `
       "opacity": 1,
     }
   }
+  testID="btn"
 >
   <View
     style={

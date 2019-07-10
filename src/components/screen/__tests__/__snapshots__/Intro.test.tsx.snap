@@ -101,6 +101,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           "opacity": 1,
         }
       }
+      testID="btn1"
     >
       <View
         style={
@@ -167,6 +168,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           "opacity": 1,
         }
       }
+      testID="btn2"
     >
       <View
         style={
@@ -220,6 +222,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           "opacity": 1,
         }
       }
+      testID="btn3"
     >
       <View
         style={
