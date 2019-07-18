@@ -1,11 +1,11 @@
 interface ITheme {
-  colors: object
-};
+  colors: object;
+}
 
 export enum ThemeType {
   LIGHT = 'LIGHT',
   DARK = 'DARK',
-};
+}
 
 const colors = {
   skyBlue: '#069ccd',
