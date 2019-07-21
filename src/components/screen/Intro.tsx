@@ -1,29 +1,16 @@
-import React, { Component } from 'react';
-import {
-  Platform,
-  StatusBar,
-  StyleSheet,
-  TouchableHighlight,
-  TouchableOpacity,
-  Image,
-  ScrollView,
-  Text,
-  View,
-  FlatList,
-  InteractionManager,
-} from 'react-native';
+import React from 'react';
+import { View } from 'react-native';
 import { NavigationScreenProp, NavigationStateRoute } from 'react-navigation';
 
+import { IC_MASK } from '../../utils/Icons';
 import {
-  IUser,
+  User,
 } from '../../types';
-import { AppProvider as Provider, AppConsumer, AppContext } from '../../providers';
+import { AppContext } from '../../providers';
 
 import styled from 'styled-components/native';
 
 import { ThemeType } from '../../theme';
-import { IC_MASK } from '../../utils/Icons';
-// import { getString } from '../../../STRINGS';
 import Button from '../shared/Button';
 import { getString } from '../../../STRINGS';
 
@@ -75,7 +62,7 @@ function Intro(props: IProps) {
     dispatch({ type: 'reset-user' });
     setIsLoggingIn(true);
     timer = setTimeout(() => {
-      const user: IUser = {
+      const user: User = {
         displayName: 'dooboolab',
         age: 30,
         job: 'developer',

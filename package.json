@@ -11,7 +11,7 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "test": "node node_modules/jest/bin/jest.js",
-    "lint": "tslint -c tslint.json './src/**/*.ts'"
+    "lint": "tslint -c .tslintrc.js --project tsconfig.json src/**/*.ts{,x}"
   },
   "private": true,
   "version": "0.0.0",
@@ -26,25 +26,25 @@
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
     "react-native-web": "^0.11.5",
-    "react-navigation": "^3.11.0",
+    "react-navigation": "^3.11.1",
     "sentry-expo": "^1.13.0",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
-    "@babel/core": "^7.5.4",
-    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/plugin-proposal-decorators": "7.4.4",
-    "@babel/plugin-proposal-object-rest-spread": "^7.5.4",
-    "@babel/plugin-transform-runtime": "7.5.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-runtime": "7.5.5",
     "@babel/preset-typescript": "^7.3.3",
     "@testing-library/react-native": "^4.0.7",
     "@types/expo": "^32.0.13",
     "@types/jest": "^24.0.15",
     "@types/react": "^16.8.23",
-    "@types/react-native": "0.60.0",
+    "@types/react-native": "0.60.2",
     "@types/react-test-renderer": "^16.8.2",
-    "@types/styled-components": "^4.1.17",
+    "@types/styled-components": "^4.1.18",
     "apsl-react-native-button": "^3.1.1",
     "babel-jest": "^24.8.0",
     "babel-preset-expo": "^5.2.0",
@@ -58,6 +58,7 @@
     "tslib": "^1.10.0",
     "tslint": "^5.18.0",
     "tslint-react": "^4.0.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.3"
   }
 }
