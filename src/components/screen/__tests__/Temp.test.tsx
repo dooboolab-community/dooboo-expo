@@ -1,9 +1,9 @@
-import 'react-native';
 import * as React from 'react';
+import 'react-native';
 
+import { act, fireEvent, render, RenderResult } from '@testing-library/react-native';
 import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components/native';
-import { render, fireEvent, act, RenderResult } from '@testing-library/react-native';
 
 import { createTheme, ThemeType } from '../../../theme';
 import Temp from '../Temp';

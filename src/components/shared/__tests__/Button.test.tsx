@@ -1,11 +1,11 @@
-import 'react-native';
 import * as React from 'react';
+import 'react-native';
 import { ThemeProvider } from 'styled-components/native';
 
-import { render, fireEvent, act, RenderResult } from '@testing-library/react-native';
+import { act, fireEvent, render, RenderResult } from '@testing-library/react-native';
 
-import Button from '../Button';
 import { createTheme, ThemeType } from '../../../theme';
+import Button from '../Button';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';

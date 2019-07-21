@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { AppContext } from '../../contexts';
-import { createSwitchNavigator, createAppContainer } from 'react-navigation';
-import RootNavigator from './RootStackNavigator';
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 import { ThemeProvider } from 'styled-components';
+import { AppContext } from '../../contexts';
 import { createTheme } from '../../theme';
+import RootNavigator from './RootStackNavigator';
 
 const SwitchNavigator = createSwitchNavigator(
   {

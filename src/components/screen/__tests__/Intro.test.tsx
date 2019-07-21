@@ -1,15 +1,15 @@
-import 'react-native';
 import * as React from 'react';
+import 'react-native';
 
 // Note: test renderer must be required after react-native.
-import { ThemeProvider } from 'styled-components/native';
+import { act, fireEvent, render, RenderResult } from '@testing-library/react-native';
 import renderer from 'react-test-renderer';
-import { render, fireEvent, act, RenderResult } from '@testing-library/react-native';
+import { ThemeProvider } from 'styled-components/native';
 
 import { AppProvider } from '../../../providers';
-import Intro from '../Intro';
-import Button from '../../shared/Button';
 import { createTheme, ThemeType } from '../../../theme';
+import Button from '../../shared/Button';
+import Intro from '../Intro';
 
 const createTestProps = (obj: object) => ({
   navigation: {
