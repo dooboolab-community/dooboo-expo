@@ -1,9 +1,10 @@
+// import { AbortController } from 'react-native';
 const ROOT_URL = 'http://localhost:3000/api';
 
-export const sample = async (body: object, signal?: AbortController['signal']) => {
+export const sample = async (body: object, signal?: any['signal']) => {
   try {
     let res: any = await fetch(`${ROOT_URL}/sample`, {
-      signal,
+      // signal,
       method: 'POST',
       headers: new Headers({
         'Accept': 'application/json',
