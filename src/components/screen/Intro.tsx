@@ -2,17 +2,17 @@ import React from 'react';
 import { View } from 'react-native';
 import { NavigationScreenProp, NavigationStateRoute } from 'react-navigation';
 
-import { IC_MASK } from '../../utils/Icons';
+import { AppContext } from '../../providers';
 import {
   User,
 } from '../../types';
-import { AppContext } from '../../providers';
+import { IC_MASK } from '../../utils/Icons';
 
 import styled from 'styled-components/native';
 
+import { getString } from '../../../STRINGS';
 import { ThemeType } from '../../theme';
 import Button from '../shared/Button';
-import { getString } from '../../../STRINGS';
 
 const Container = styled.View`
   flex: 1;
@@ -48,12 +48,12 @@ const StyledText = styled.Text`
   color: ${({ theme }) => theme.fontColor};
 `;
 
-interface IProps {
+interface Props {
   store?: any;
   navigation: NavigationScreenProp<NavigationStateRoute<any>>;
 }
 
-function Intro(props: IProps) {
+function Intro(props: Props) {
   let timer: any;
   const { state, dispatch } = React.useContext(AppContext);
   const [isLoggingIn, setIsLoggingIn] = React.useState(false);

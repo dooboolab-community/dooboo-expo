@@ -1,5 +1,5 @@
-import 'react-native';
 import * as React from 'react';
+import 'react-native';
 import { AppProvider } from '../AppProvider';
 
 // Note: test renderer must be required after react-native.

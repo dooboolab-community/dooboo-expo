@@ -8,7 +8,8 @@ import Temp from '../screen/Temp';
 const routeConfig: NavigationRouteConfig = {
   Intro: {
     screen: Intro,
-    navigationOptions: ({ navigation, screenProps } : { navigation: any, screenProps: any }) => {
+    navigationOptions: ({ navigation, screenProps }
+      : { navigation: any, screenProps: any }) => {
       const { theme } = screenProps;
       return ({
         title: navigation.state.routeName,
@@ -23,7 +24,8 @@ const routeConfig: NavigationRouteConfig = {
   },
   Temp: {
     screen: Temp,
-    navigationOptions: ({ navigation, screenProps } : { navigation: any, screenProps: any }) => {
+    navigationOptions: ({ navigation, screenProps }
+      : { navigation: any, screenProps: any }) => {
       const { theme } = screenProps;
       return ({
         headerTitle: <Text style={{

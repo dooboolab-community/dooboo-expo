@@ -14,9 +14,9 @@ function cacheImages(images: Image[]) {
       return Asset.fromModule(image).downloadAsync();
     }
   });
-};
+}
 
-const _loadAssetsAsync = async() => {
+const loadAssetsAsync = async() => {
   const imageAssets = cacheImages(Icons);
   await Promise.all([...imageAssets]);
 };
@@ -27,9 +27,9 @@ const App = () => {
   if (loading) {
     return (
       <AppLoading
-        startAsync={_loadAssetsAsync}
+        startAsync={loadAssetsAsync}
         onFinish={() => setLoading(true)}
-        onError={console.warn}
+        // onError={console.warn}
       />
     );
   }

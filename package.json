@@ -11,7 +11,7 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "test": "node node_modules/jest/bin/jest.js",
-    "lint": "tslint -c .tslintrc.js --project tsconfig.json src/**/*.ts{,x}"
+    "lint": "tslint 'src/**/*.ts{,x}' -c .tslintrc.js"
   },
   "private": true,
   "version": "0.0.0",
