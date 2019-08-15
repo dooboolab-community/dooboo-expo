@@ -1,21 +1,26 @@
 ### ANNOUNCEMENT
+
 DO NOT MODIFY OR CHANGE THE CODE BEFORE CONFIRMED BY `DOOBOOLAB`. THIS REPOSITORY IS USED IN `DOOBOO-CLI`.
 
 # Expo TS Boilerplate
+
 [![CircleCI](https://circleci.com/gh/dooboolab/dooboo-expo.svg?style=shield)](https://circleci.com/gh/dooboolab/dooboo-expo)
 [![codecov](https://codecov.io/gh/dooboolab/dooboo-expo/branch/master/graph/badge.svg)](https://codecov.io/gh/dooboolab/dooboo-expo)
 
 > Specification
-* [react-native](https://github.com/facebook/react-native)
-* [react-navigation](https://github.com/react-navigation/react-navigation)
-* [typescript](https://github.com/Microsoft/TypeScript)
-* [localization](https://github.com/stefalda/ReactNativeLocalization)
-* [styled-components](https://github.com/styled-components/styled-components)
-* [ts-jest](https://github.com/kulshekhar/ts-jest)
-* [react-native-testing-library](https://github.com/callstack/react-native-testing-library)
-* [react-hook](https://reactjs.org/docs/hooks-intro.html)
+
+- [react-native](https://github.com/facebook/react-native)
+- [react-navigation](https://github.com/react-navigation/react-navigation)
+- [typescript](https://github.com/Microsoft/TypeScript)
+- [localization](https://github.com/stefalda/ReactNativeLocalization)
+- [styled-components](https://github.com/styled-components/styled-components)
+- [ts-jest](https://github.com/kulshekhar/ts-jest)
+- [react-native-testing-library](https://github.com/callstack/react-native-testing-library)
+- [react-hook](https://reactjs.org/docs/hooks-intro.html)
+- [prettier](https://prettier.io)
 
 ### Gain points
+
 ```
 1. Sample of context-api with `react-hook` (`useContext`).
 2. Know how to structure react native app with typescript.
@@ -26,6 +31,7 @@ DO NOT MODIFY OR CHANGE THE CODE BEFORE CONFIRMED BY `DOOBOOLAB`. THIS REPOSITOR
 ```
 
 ### INSTALL
+
 ```
 npm install && npm start
 // or
@@ -33,6 +39,7 @@ yarn && yarn start
 ```
 
 ### Structures
+
 ```text
 app/
 ├─ .doobooo // necessary if using dooboo-cli
@@ -68,7 +75,9 @@ app/
 ```
 
 ### Running the project
+
 Running the project is as simple as running
+
 ```sh
 npm run start
 ```
@@ -77,11 +86,15 @@ This runs the `start` script specified in our `package.json`, and will spawn off
 Typically the server runs at `http://localhost:8080`, but should be automatically opened for you.
 
 ## Testing the project
+
 Testing is also just a command away:
+
 ```sh
 npm test
 ```
+
 > Result
+
 ```
 > jest -u
 
@@ -100,11 +113,14 @@ Ran all test suites
 ```
 
 ### Writing tests with Jest
+
 We've created test examples with jest-ts in `src/components/screen/__tests__` and `src/components/shared/__tests__`. Since react is component oriented, we've designed to focus on writing test in same level of directory with component. You can simply run `npm test` to test if it succeeds and look more closer opening the source.
 
 ### Localization
+
 We've defined Localization strings in `STRINGS.js` which is in root dir.
 We used [react-native-localization](https://github.com/stefalda/ReactNativeLocalization) pacakage for this one.
+
 ```
 import * as Localization from 'expo-localization';
 import i18n from 'i18n-js';
@@ -159,8 +175,40 @@ NativeModules.ReactLocalization = {
 };
 ```
 
+# Vscode prettier and eslint setup
+
+```
+"eslint.enable": true,
+"eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+],
+// prettier extension setting
+"editor.formatOnSave": true,
+"[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"prettier.singleQuote": true,
+"prettier.trailingComma": "all",
+"prettier.arrowParens": "always",
+"prettier.jsxSingleQuote": true
+```
+
 ### React version
+
 16.8.3
 
 ### Expo
+
 33

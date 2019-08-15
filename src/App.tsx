@@ -1,10 +1,10 @@
 import { AppLoading, Asset } from 'expo';
 import React, { useState } from 'react';
-import { Image } from 'react-native';
-import SwitchNavigator from './components/navigation/SwitchNavigator';
 
-import { AppProvider as Provider } from './providers';
 import Icons from './utils/Icons';
+import { Image } from 'react-native';
+import { AppProvider as Provider } from './providers';
+import SwitchNavigator from './components/navigation/SwitchNavigator';
 
 function cacheImages(images: Image[]) {
   return images.map((image: Image) => {
@@ -16,7 +16,7 @@ function cacheImages(images: Image[]) {
   });
 }
 
-const loadAssetsAsync = async() => {
+const loadAssetsAsync = async () => {
   const imageAssets = cacheImages(Icons);
   await Promise.all([...imageAssets]);
 };

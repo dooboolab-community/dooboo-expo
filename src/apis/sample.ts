@@ -7,7 +7,7 @@ export const sample = async (body: object, signal?: any['signal']) => {
       // signal,
       method: 'POST',
       headers: new Headers({
-        'Accept': 'application/json',
+        Accept: 'application/json',
         'Content-Type': 'application/json',
       }),
       body: JSON.stringify(body),
