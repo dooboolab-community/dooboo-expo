@@ -1,13 +1,11 @@
-import {
-  NavigationRouteConfig,
-  StackNavigatorConfig,
-  createStackNavigator,
-} from 'react-navigation';
+import { NavigationComponent, NavigationRouteConfig } from 'react-navigation';
 
 import Intro from '../screen/Intro';
 import React from 'react';
+import { ScreenProps } from './SwitchNavigator';
 import Temp from '../screen/Temp';
 import { Text } from 'react-native';
+import { createStackNavigator } from 'react-navigation-stack';
 
 const routeConfig: NavigationRouteConfig = {
   Intro: {
@@ -16,8 +14,8 @@ const routeConfig: NavigationRouteConfig = {
       navigation,
       screenProps,
     }: {
-      navigation: any;
-      screenProps: any;
+      navigation: NavigationComponent;
+      screenProps: ScreenProps;
     }) => {
       const { theme } = screenProps;
       return {
@@ -62,10 +60,10 @@ const routeConfig: NavigationRouteConfig = {
   },
 };
 
-const navigatorConfig: StackNavigatorConfig = {
+const navigatorConfig = {
   initialRouteName: 'Intro',
-  mode: 'card',
-  headerMode: 'screen',
+  // mode: 'card',
+  // headerMode: 'screen',
   // headerMode: 'none',
 };
 
