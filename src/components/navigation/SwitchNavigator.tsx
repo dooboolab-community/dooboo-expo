@@ -1,11 +1,6 @@
-import {
-  NavigationScreenProps,
-  SwitchNavigatorConfig,
-  createAppContainer,
-  createSwitchNavigator,
-} from 'react-navigation';
 import React, { useContext } from 'react';
 import { Theme, createTheme } from '../../theme';
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 
 import { AppContext } from '../../contexts';
 import RootNavigator from './RootStackNavigator';
