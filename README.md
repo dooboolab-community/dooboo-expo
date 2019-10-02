@@ -10,12 +10,14 @@ DO NOT MODIFY OR CHANGE THE CODE BEFORE CONFIRMED BY `DOOBOOLAB`. THIS REPOSITOR
 > Specification
 
 - [react-native](https://github.com/facebook/react-native)
+- [expo](https://github.com/expo/expo)
 - [react-navigation](https://github.com/react-navigation/react-navigation)
 - [typescript](https://github.com/Microsoft/TypeScript)
 - [localization](https://github.com/stefalda/ReactNativeLocalization)
 - [styled-components](https://github.com/styled-components/styled-components)
 - [ts-jest](https://github.com/kulshekhar/ts-jest)
-- [react-native-testing-library](https://github.com/callstack/react-native-testing-library)
+- [@testing-library/react-native](https://github.com/testing-library/native-testing-library)
+- [@testing-library/react-hooks](https://github.com/testing-library/react-hooks-testing-library)
 - [react-hook](https://reactjs.org/docs/hooks-intro.html)
 - [prettier](https://prettier.io)
 
@@ -25,8 +27,8 @@ DO NOT MODIFY OR CHANGE THE CODE BEFORE CONFIRMED BY `DOOBOOLAB`. THIS REPOSITOR
 1. Sample of context-api with `react-hook` (`useContext`).
 2. Know how to structure react native app with typescript.
 3. Know how to navigate between screens with `react-navigation`.
-4. Know how to write test code with `react-native-testing-library`.
-5. Know how to `lint` your project with `tslint`.
+4. Know how to write test code with `testing-library`.
+5. Know how to `lint` your project with `eslint` for both `ts` and maybe some `js`.
 6. Know how to localize your project.
 ```
 
@@ -205,10 +207,6 @@ NativeModules.ReactLocalization = {
 "prettier.jsxSingleQuote": true
 ```
 
-### React version
-
-16.8.3
-
 ### Expo
 
-34
+35
