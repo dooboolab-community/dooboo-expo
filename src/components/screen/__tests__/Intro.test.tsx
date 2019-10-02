@@ -9,12 +9,13 @@ import {
   fireEvent,
   render,
 } from '@testing-library/react-native';
-import { ThemeType, createTheme } from '../../../theme';
 
 import { AppProvider } from '../../../providers';
 import Button from '../../shared/Button';
 import Intro from '../Intro';
 import { ThemeProvider } from 'styled-components/native';
+import { ThemeType } from '../../../types';
+import { createTheme } from '../../../theme';
 import renderer from 'react-test-renderer';
 
 const createTestProps = (obj: object) => ({

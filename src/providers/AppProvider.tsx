@@ -1,8 +1,7 @@
 import React, { useReducer } from 'react';
+import { ThemeType, User } from '../types';
 
 import { AppContext } from '../contexts';
-import { ThemeType } from '../theme';
-import { User } from '../types';
 
 const AppConsumer = AppContext.Consumer;
 

@@ -1,7 +1,5 @@
-export enum ThemeType {
-  LIGHT = 'LIGHT',
-  DARK = 'DARK',
-}
+import { DefaultTheme } from 'styled-components';
+import { ThemeType } from './types';
 
 const colors = {
   skyBlue: '#069ccd',
@@ -16,18 +14,6 @@ const colors = {
   darkBackground: '#323739',
   darkBackgroundLight: '#393241',
 };
-
-export interface Theme {
-  background: string;
-  btnPrimary: string;
-  btnPrimaryFont: string;
-  btnPrimaryLight: string;
-  btnPrimaryLightFont: string;
-  textDisabled: string;
-  btnDisabled: string;
-  fontColor: string;
-  tintColor: string;
-}
 
 const theme = {
   light: {
@@ -54,7 +40,7 @@ const theme = {
   },
 };
 
-export const createTheme = (type = ThemeType.LIGHT) => {
+export const createTheme = (type = ThemeType.LIGHT): DefaultTheme => {
   switch (type) {
     case ThemeType.LIGHT:
       return theme.light;

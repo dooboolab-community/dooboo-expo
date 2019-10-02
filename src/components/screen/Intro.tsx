@@ -1,11 +1,10 @@
 import { NavigationScreenProp, NavigationStateRoute } from 'react-navigation';
+import { ThemeType, User } from '../../types';
 
 import { AppContext } from '../../providers';
 import Button from '../shared/Button';
 import { IC_MASK } from '../../utils/Icons';
 import React from 'react';
-import { ThemeType } from '../../theme';
-import { User } from '../../types';
 import { View } from 'react-native';
 import { getString } from '../../../STRINGS';
 import styled from 'styled-components/native';
