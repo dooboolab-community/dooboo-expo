@@ -5,10 +5,28 @@ import { AppContext } from '../contexts';
 
 const AppConsumer = AppContext.Consumer;
 
-interface Action {
-  type: 'reset-user' | 'set-user' | 'change-theme-mode';
-  payload: any;
+export enum ActionType {
+  ResetUser = 'reset-user',
+  SetUser = 'set-user',
+  ChangeThemeMode = 'change-theme-mode',
 }
+
+interface ResetUserAction {
+  type: ActionType.ResetUser;
+  payload: User;
+}
+
+interface SetUserAction {
+  type: ActionType.SetUser;
+  payload: User;
+}
+
+interface ChangeThemeModeAction {
+  type: ActionType.ChangeThemeMode;
+  payload: ThemeType;
+}
+
+type Action = ChangeThemeModeAction | SetUserAction | ResetUserAction;
 
 interface Props {
   navigation?: any;
@@ -31,11 +49,11 @@ export const initialState: State = {
 
 const reducer = (state: State, action: Action) => {
   switch (action.type) {
-    case 'change-theme-mode':
-      return { ...state, theme: action.payload.theme };
-    case 'reset-user':
+    case ActionType.ChangeThemeMode:
+      return { ...state, theme: action.payload };
+    case ActionType.ResetUser:
       return { ...state, user: initialState.user };
-    case 'set-user':
+    case ActionType.SetUser:
       return { ...state, user: action.payload };
   }
 };

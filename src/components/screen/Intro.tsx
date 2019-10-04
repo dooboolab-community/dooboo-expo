@@ -1,6 +1,7 @@
 import { NavigationScreenProp, NavigationStateRoute } from 'react-navigation';
 import { ThemeType, User } from '../../types';
 
+import { ActionType } from '../../providers/AppProvider';
 import { AppContext } from '../../providers';
 import Button from '../shared/Button';
 import { IC_MASK } from '../../utils/Icons';
@@ -69,18 +70,14 @@ function Intro(props: Props) {
   };
 
   const changeTheme = () => {
-    let payload: object;
+    let payload: ThemeType;
     if (state.theme === ThemeType.LIGHT) {
-      payload = {
-        theme: ThemeType.DARK,
-      };
+      payload = ThemeType.DARK;
     } else {
-      payload = {
-        theme: ThemeType.LIGHT,
-      };
+      payload = ThemeType.LIGHT;
     }
     dispatch({
-      type: 'change-theme-mode',
+      type: ActionType.ChangeThemeMode,
       payload,
     });
   };
