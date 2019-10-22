@@ -1,45 +1,25 @@
 import React, { useReducer } from 'react';
-import { ThemeType, User } from '../types';
 
-import { AppContext } from '../contexts';
+import { User } from '../types';
+import createCtx from '../utils/createCtx';
 
-const AppConsumer = AppContext.Consumer;
+interface Context {
+  state: State;
+  setUser: (user: User) => void;
+  resetUser: () => void;
+}
+const [useCtx, Provider] = createCtx<Context>();
 
 export enum ActionType {
   ResetUser = 'reset-user',
   SetUser = 'set-user',
-  ChangeThemeMode = 'change-theme-mode',
-}
-
-interface ResetUserAction {
-  type: ActionType.ResetUser;
-  payload: User;
-}
-
-interface SetUserAction {
-  type: ActionType.SetUser;
-  payload: User;
-}
-
-interface ChangeThemeModeAction {
-  type: ActionType.ChangeThemeMode;
-  payload: ThemeType;
-}
-
-type Action = ChangeThemeModeAction | SetUserAction | ResetUserAction;
-
-interface Props {
-  navigation?: any;
-  children?: any;
 }
 
 export interface State {
   user: User;
-  theme: ThemeType;
 }
 
-export const initialState: State = {
-  theme: ThemeType.LIGHT,
+const initialState: State = {
   user: {
     displayName: '',
     age: 0,
@@ -47,24 +27,59 @@ export const initialState: State = {
   },
 };
 
-const reducer = (state: State, action: Action) => {
+interface SetUserAction {
+  type: ActionType.SetUser;
+  payload: User;
+}
+
+interface ResetUserAction {
+  type: ActionType.ResetUser;
+}
+
+type Action = SetUserAction | ResetUserAction;
+
+interface Props {
+  children?: React.ReactElement;
+}
+
+type Reducer = (state: State, action: Action) => State;
+
+const setUser = (dispatch: React.Dispatch<SetUserAction>) => (
+  user: User,
+): void => {
+  dispatch({
+    type: ActionType.SetUser,
+    payload: user,
+  });
+};
+
+const resetUser = (dispatch: React.Dispatch<ResetUserAction>) => (): void => {
+  dispatch({
+    type: ActionType.ResetUser,
+  });
+};
+
+// prettier-ignore
+const reducer: Reducer = (state = initialState, action) => {
   switch (action.type) {
-    case ActionType.ChangeThemeMode:
-      return { ...state, theme: action.payload };
-    case ActionType.ResetUser:
-      return { ...state, user: initialState.user };
-    case ActionType.SetUser:
+    case 'reset-user':
+      return initialState;
+    case 'set-user':
       return { ...state, user: action.payload };
+    default:
+      return state;
   }
 };
 
-function AppProvider(props: Props) {
-  const [state, dispatch] = useReducer(reducer, initialState);
-  const value = { state, dispatch };
+function AppProvider(props: Props): React.ReactElement {
+  const [state, dispatch] = useReducer<Reducer>(reducer, initialState);
 
-  return (
-    <AppContext.Provider value={value}>{props.children}</AppContext.Provider>
-  );
+  const actions = {
+    setUser: setUser(dispatch),
+    resetUser: resetUser(dispatch),
+  };
+
+  return <Provider value={{ state, ...actions }}>{props.children}</Provider>;
 }
 
-export { AppConsumer, AppProvider, AppContext };
+export { useCtx as useAppContext, AppProvider };

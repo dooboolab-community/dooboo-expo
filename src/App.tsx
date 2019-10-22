@@ -1,9 +1,9 @@
 import { AppLoading, Asset } from 'expo';
 import React, { useState } from 'react';
 
+import AllProviders from './providers';
 import Icons from './utils/Icons';
 import { Image } from 'react-native';
-import { AppProvider as Provider } from './providers';
 import SwitchNavigator from './components/navigation/SwitchNavigator';
 
 function cacheImages(images: Image[]) {
@@ -29,14 +29,14 @@ const App = () => {
       <AppLoading
         startAsync={loadAssetsAsync}
         onFinish={() => setLoading(true)}
-        // onError={console.warn}
+      // onError={console.warn}
       />
     );
   }
   return (
-    <Provider>
+    <AllProviders>
       <SwitchNavigator />
-    </Provider>
+    </AllProviders>
   );
 };
 
