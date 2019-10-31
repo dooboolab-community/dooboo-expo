@@ -17,13 +17,13 @@ const FakeChild = (): React.ReactElement => {
 
   return (
     <View>
-      <Text testID='TEXT'>{JSON.stringify(themeType, null, 2)}</Text>
+      <Text testID="TEXT">{JSON.stringify(themeType, null, 2)}</Text>
       <Button
-        testID='BUTTON'
+        testID="BUTTON"
         onPress={(): void => {
           changeThemeType();
         }}
-        title='Button'
+        title="Button"
       />
     </View>
   );
