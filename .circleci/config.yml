@@ -31,7 +31,7 @@ jobs:
           name: jest tests
           command: |
             mkdir -p test-results/jest
-            yarn run test
+            yarn test
           environment:
             JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
 
@@ -44,19 +44,19 @@ jobs:
           name: Lint Test
           working_directory: .
           command: |
-            npm run lint
+            yarn lint
 
       - run:
           name: Typescript Test
           working_directory: .
           command: |
-            npm run tsc
+            yarn tsc
 
       - run:
           name: Jest Test
           command: |
             mkdir -p coverage
-            yarn run test
+            yarn test --coverage
           environment:
             JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
 
@@ -98,18 +98,6 @@ jobs:
           paths:
             - node_modules
 
-      # - restore_cache:
-      #     key: bundle-v2-{{ checksum "android/Gemfile.lock" }}-{{ arch }}
-
-      # - run:
-      #     command: bundle install --path vendor/bundle
-      #     working_directory: android
-
-      # - save_cache:
-      #     key: bundle-v2-{{ checksum "android/Gemfile.lock" }}-{{ arch }}
-      #     paths:
-      #       - android/vendor/bundle
-
       - run:
           name: Check MD5 on files
           command: |
@@ -134,7 +122,7 @@ jobs:
           name: Build Android JS Bundle
           working_directory: android
           command: |
-            npm run build:android
+            yarn build:android
 
       - run:
           name: Build Android APK
