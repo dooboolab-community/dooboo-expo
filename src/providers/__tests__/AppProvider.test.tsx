@@ -2,23 +2,22 @@ import * as React from 'react';
 
 import { AppProvider, useAppContext } from '../AppProvider';
 import { Button, Text, View } from 'react-native';
-import { act, fireEvent, render } from '@testing-library/react-native';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
 const FakeChild = (): React.ReactElement => {
-  const { state, setUser, resetUser } = useAppContext();
+  const { state, resetUser } = useAppContext();
 
   return (
     <View>
-      <Text testID='TEXT'>{JSON.stringify(state, null, 2)}</Text>
+      <Text testID="TEXT">{JSON.stringify(state, null, 2)}</Text>
       <Button
-        testID='BUTTON'
+        testID="BUTTON"
         onPress={(): void => {
           resetUser();
         }}
-        title='Button'
+        title="Button"
       />
     </View>
   );

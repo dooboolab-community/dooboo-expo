@@ -1,35 +1,37 @@
 import 'react-native';
 
-import * as React from 'react';
-
+import React, { ReactElement } from 'react';
 import {
   RenderResult,
   act,
   fireEvent,
   render,
 } from '@testing-library/react-native';
+import { createTestElement, createTestProps } from '../../../../test/testUtils';
 
-import AllProviders from '../../../providers';
 import Temp from '../Temp';
+import { ThemeType } from '../../../types';
 import renderer from 'react-test-renderer';
 
-const props = {
-  navigation: {
-    goBack: jest.fn(),
-  },
-};
-
-const component = (
-  <AllProviders isTest>
-    <Temp {...(props as any)} />
-  </AllProviders>
-);
+let props;
+let component: ReactElement;
 
 describe('[Temp] render', () => {
+  props = createTestProps({});
+  component = createTestElement(<Temp {...props} />);
+
   it('renders without crashing', () => {
     const rendered = renderer.create(component).toJSON();
     expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
+  });
+
+  it('should render [Dark] theme', () => {
+    props = createTestProps({});
+    component = createTestElement(<Temp {...props} />, ThemeType.DARK);
+    const json = renderer.create(component).toJSON();
+    expect(json).toMatchSnapshot();
+    expect(json).toBeTruthy();
   });
 });
 

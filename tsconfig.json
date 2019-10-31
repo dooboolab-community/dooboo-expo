@@ -11,7 +11,6 @@
     "resolveJsonModule": true,
     "noEmit": true,
     "noImplicitAny": false,
-    "noUnusedLocals": true,
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
@@ -20,7 +19,6 @@
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "**/*.test.tsx", "**/*.spec.ts"],
-  "files": ["environment.d.ts"],
   "types": ["typePatches"],
   "jest": {
     "globals": {
@@ -29,5 +27,6 @@
         // "tsConfigFile": "my-tsconfig.json"
       }
     }
-  }
+  },
+  "files": ["environment.d.ts"]
 }

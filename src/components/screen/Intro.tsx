@@ -1,13 +1,8 @@
-import {
-  NavigationParams,
-  NavigationScreenProp,
-  NavigationState,
-} from 'react-navigation';
+import { DefaultNavigationProps, User } from '../../types';
 
 import Button from '../shared/Button';
 import { IC_MASK } from '../../utils/Icons';
 import React from 'react';
-import { User } from '../../types';
 import { View } from 'react-native';
 import { getString } from '../../../STRINGS';
 import styled from 'styled-components/native';
@@ -49,7 +44,7 @@ const StyledText = styled.Text`
 `;
 
 interface Props {
-  navigation: NavigationScreenProp<NavigationState, NavigationParams>;
+  navigation: DefaultNavigationProps;
 }
 
 function Intro(props: Props): React.ReactElement {
@@ -87,7 +82,7 @@ function Intro(props: Props): React.ReactElement {
       </ContentWrapper>
       <ButtonWrapper>
         <Button
-          testID='btn1'
+          testID="btn1"
           imgLeftSrc={IC_MASK}
           isLoading={isLoggingIn}
           onClick={(): void => onLogin()}
@@ -95,13 +90,13 @@ function Intro(props: Props): React.ReactElement {
         />
         <View style={{ marginTop: 8 }} />
         <Button
-          testID='btn2'
+          testID="btn2"
           onClick={(): boolean => props.navigation.navigate('Temp')}
           text={getString('NAVIGATE')}
         />
         <View style={{ marginTop: 8 }} />
         <Button
-          testID='btn3'
+          testID="btn3"
           onClick={(): void => changeThemeType()}
           text={getString('CHANGE_THEME')}
         />
