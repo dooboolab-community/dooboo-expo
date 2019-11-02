@@ -1,10 +1,11 @@
 import { AppLoading, Asset } from 'expo';
 import React, { useState } from 'react';
 
-import AllProviders from './providers';
 import Icons from './utils/Icons';
 import { Image } from 'react-native';
-import SwitchNavigator from './components/navigation/SwitchNavigator';
+import RootNavigator from './components/navigation/RootStackNavigator';
+import RootProvider from './providers';
+import { useThemeContext } from './providers/ThemeProvider';
 
 function cacheImages(images: Image[]): Image[] {
   return images.map((image: Image) => {
@@ -21,7 +22,12 @@ const loadAssetsAsync = async (): Promise<void> => {
   await Promise.all([...imageAssets]);
 };
 
-const App = (): React.ReactElement => {
+function App(): React.ReactElement {
+  const { theme, changeThemeType } = useThemeContext();
+  return <RootNavigator screenProps={{ theme, changeThemeType }} />;
+}
+
+function ProviderWrapper(): React.ReactElement {
   const [loading, setLoading] = useState(false);
 
   if (loading) {
@@ -34,10 +40,10 @@ const App = (): React.ReactElement => {
     );
   }
   return (
-    <AllProviders>
-      <SwitchNavigator />
-    </AllProviders>
+    <RootProvider>
+      <App />
+    </RootProvider>
   );
-};
+}
 
-export default App;
+export default ProviderWrapper;
