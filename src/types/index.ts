@@ -1,11 +1,8 @@
-import {
-  NavigationParams,
-  NavigationScreenProp,
-  NavigationState,
-} from 'react-navigation';
 import { StyleProp, TextStyle } from 'react-native';
 
+import { DefaultTheme } from 'styled-components';
 import { SFC } from 'react';
+import { StackNavigationProp } from '@react-navigation/stack';
 
 export interface User {
   displayName: string;
@@ -18,9 +15,19 @@ export enum ThemeType {
   DARK = 'DARK',
 }
 
+export interface ScreenProps {
+  theme: DefaultTheme;
+  changeThemeType: Function;
+}
+
+type StackParamList = {
+  Intro: { userId: string };
+  Temp: undefined;
+};
+
 export type DefaultNavigationProps<
-  T extends NavigationState = NavigationState
-> = NavigationScreenProp<T, NavigationParams>;
+  T extends keyof StackParamList
+> = StackNavigationProp<StackParamList, T>;
 
 interface IconProps {
   style?: StyleProp<TextStyle>;
