@@ -5,7 +5,7 @@ import Icons from './utils/Icons';
 import { Image } from 'react-native';
 import RootNavigator from './components/navigation/RootStackNavigator';
 import RootProvider from './providers';
-import { useThemeContext } from './providers/ThemeProvider';
+import { useThemeContext } from '@dooboo-ui/native-theme';
 
 function cacheImages(images: Image[]): Image[] {
   return images.map((image: Image) => {

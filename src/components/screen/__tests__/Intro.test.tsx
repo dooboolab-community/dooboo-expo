@@ -9,7 +9,7 @@ import { createTestElement, createTestProps } from '../../../../test/testUtils';
 
 import Button from '../../shared/Button';
 import Intro from '../Intro';
-import { ThemeType } from '../../../types';
+import { ThemeType } from '@dooboo-ui/native-theme';
 import renderer from 'react-test-renderer';
 
 let props: any;
@@ -17,7 +17,7 @@ let component: ReactElement;
 
 describe('[Intro] screen rendering test', () => {
   beforeEach(() => {
-    props = createTestProps({});
+    props = createTestProps();
     component = createTestElement(<Intro {...props} />);
   });
 
