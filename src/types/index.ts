@@ -10,11 +10,6 @@ export interface User {
   job: string;
 }
 
-export enum ThemeType {
-  LIGHT = 'LIGHT',
-  DARK = 'DARK',
-}
-
 export interface ScreenProps {
   theme: DefaultTheme;
   changeThemeType: Function;

@@ -19,6 +19,7 @@
   "author": "hyochan <dooboolab@gmail.com>",
   "license": "",
   "dependencies": {
+    "@dooboo-ui/native-theme": "^0.1.1",
     "@react-native-community/masked-view": "^0.1.5",
     "@react-navigation/core": "^5.0.0-alpha.20",
     "@react-navigation/native": "^5.0.0-alpha.14",
