@@ -13,7 +13,7 @@ export const createTestElement = (
 );
 
 export const createTestProps = (
-  obj: object,
+  obj?: object,
   moreScreenProps?: object,
 ): object | unknown | any => ({
   navigation: {
