@@ -89,7 +89,9 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
   >
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -156,7 +158,9 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     />
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -210,7 +214,9 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     />
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -348,7 +354,9 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
   >
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -415,7 +423,9 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     />
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -469,7 +479,9 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     />
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -607,7 +619,9 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
   >
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -674,7 +688,9 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
     />
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -728,7 +744,9 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
     />
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -866,7 +884,9 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
   >
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -933,7 +953,9 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     />
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -987,7 +1009,9 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     />
     <View
       accessible={true}
+      focusable={true}
       isTVSelectable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
