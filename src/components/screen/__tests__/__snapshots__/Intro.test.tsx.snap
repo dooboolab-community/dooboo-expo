@@ -87,22 +87,9 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       ]
     }
   >
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn1"
     >
       <View
@@ -123,7 +110,14 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         }
       >
         <Image
-          source={1}
+          source={
+            Object {
+              "canInstrument": true,
+              "createTransformer": [Function],
+              "getCacheKey": [Function],
+              "process": [Function],
+            }
+          }
           style={
             Array [
               Object {
@@ -148,7 +142,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           Login
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
     <View
       style={
         Object {
@@ -156,22 +150,9 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         }
       }
     />
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn2"
     >
       <View
@@ -204,7 +185,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           Navigate
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
     <View
       style={
         Object {
@@ -212,22 +193,9 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         }
       }
     />
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn3"
     >
       <View
@@ -260,7 +228,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           Change theme
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
   </View>
 </View>
 `;
@@ -352,22 +320,9 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       ]
     }
   >
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn1"
     >
       <View
@@ -388,7 +343,14 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         }
       >
         <Image
-          source={1}
+          source={
+            Object {
+              "canInstrument": true,
+              "createTransformer": [Function],
+              "getCacheKey": [Function],
+              "process": [Function],
+            }
+          }
           style={
             Array [
               Object {
@@ -413,7 +375,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           Login
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
     <View
       style={
         Object {
@@ -421,22 +383,9 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         }
       }
     />
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn2"
     >
       <View
@@ -469,7 +418,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           Navigate
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
     <View
       style={
         Object {
@@ -477,22 +426,9 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         }
       }
     />
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn3"
     >
       <View
@@ -525,7 +461,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           Change theme
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
   </View>
 </View>
 `;
@@ -617,22 +553,9 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       ]
     }
   >
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn1"
     >
       <View
@@ -653,7 +576,14 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         }
       >
         <Image
-          source={1}
+          source={
+            Object {
+              "canInstrument": true,
+              "createTransformer": [Function],
+              "getCacheKey": [Function],
+              "process": [Function],
+            }
+          }
           style={
             Array [
               Object {
@@ -678,7 +608,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           Login
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
     <View
       style={
         Object {
@@ -686,22 +616,9 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         }
       }
     />
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn2"
     >
       <View
@@ -734,7 +651,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           Navigate
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
     <View
       style={
         Object {
@@ -742,22 +659,9 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         }
       }
     />
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn3"
     >
       <View
@@ -790,7 +694,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           Change theme
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
   </View>
 </View>
 `;
@@ -882,22 +786,9 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       ]
     }
   >
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn1"
     >
       <View
@@ -918,7 +809,14 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         }
       >
         <Image
-          source={1}
+          source={
+            Object {
+              "canInstrument": true,
+              "createTransformer": [Function],
+              "getCacheKey": [Function],
+              "process": [Function],
+            }
+          }
           style={
             Array [
               Object {
@@ -943,7 +841,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           Login
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
     <View
       style={
         Object {
@@ -951,22 +849,9 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         }
       }
     />
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn2"
     >
       <View
@@ -999,7 +884,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           Navigate
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
     <View
       style={
         Object {
@@ -1007,22 +892,9 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         }
       }
     />
-    <View
-      accessible={true}
-      focusable={true}
-      isTVSelectable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+    <TouchableOpacity
+      activeOpacity={0.5}
+      onPress={[Function]}
       testID="btn3"
     >
       <View
@@ -1055,7 +927,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           Change theme
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
   </View>
 </View>
 `;

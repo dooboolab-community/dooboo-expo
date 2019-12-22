@@ -1,16 +1,19 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+const expoPreset = require('jest-expo/jest-preset');
+const jestPreset = require('@testing-library/react-native/jest-preset');
+/* eslint-enable @typescript-eslint/no-var-requires */
+
 module.exports = {
-  preset: 'jest-expo',
+  preset: '@testing-library/react-native',
   automock: false,
-  setupFiles: [
-    './test/jestSetup.ts',
-    './node_modules/react-native-gesture-handler/jestSetup.js',
-  ],
-  transformIgnorePatterns: [
-    /* eslint-disable */
-    'node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|sentry-expo|native-base|@dooboo-ui/native)',
-    /* eslint-enable */
-  ],
+  transform: {
+    '^.+\\.js$': 'babel-jest',
+    '^.+\\.tsx?$': 'ts-jest',
+  },
+  modulePaths: ['<rootDir>'],
+  moduleDirectories: ['node_modules'],
   testMatch: ['**/__tests__/**/*.ts?(x)', '**/?(*.)+(spec|test).ts?(x)'],
+  moduleFileExtensions: ['js', 'ts', 'tsx', 'svg', 'png'],
   globals: {
     'ts-jest': {
       tsConfig: {
@@ -19,28 +22,27 @@ module.exports = {
       diagnostics: false,
     },
   },
-  transform: {
-    '^.+\\.(js|jsx)$': 'babel-jest',
-    '\\.(ts|tsx)$': 'ts-jest',
-  },
-  // 'testRegex': '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$',
-  testPathIgnorePatterns: ['\\.snap$', '<rootDir>/node_modules/'],
-  cacheDirectory: '.jest/cache',
-  moduleFileExtensions: [
-    'ts',
-    'tsx',
-    'js',
-    'jsx',
-    'json',
-    'ios.ts',
-    'ios.tsx',
-    'android.ts',
-    'android.tsx',
+  modulePathIgnorePatterns: [
+    '<rootDir>/build/',
+    '<rootDir>/node_modules/',
+    '<rootDir>/.history/',
   ],
-  // moduleNameMapper: {
-  //   '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
-  //     '<rootDir>/test/assetsTransformer.js',
-  // },
+  moduleNameMapper: {
+    '\\.svg': '<rootDir>/__mocks__/svgMock.js',
+    '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'babel-jest',
+  },
+  setupFiles: [
+    ...expoPreset.setupFiles,
+    ...jestPreset.setupFiles,
+    '<rootDir>/test/jestSetup.ts',
+  ],
+  /* eslint-disable */
+  transformIgnorePatterns: [
+    'node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules-*|sentry-expo|native-base|@dooboo-ui)',
+  ],
+  cacheDirectory: '.jest/cache',
+  /* eslint-enable */
+  setupFilesAfterEnv: ['./test/setupTest.ts'],
   haste: {
     defaultPlatform: 'ios',
     platforms: ['android', 'ios', 'native'],
