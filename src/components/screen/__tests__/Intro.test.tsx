@@ -56,7 +56,7 @@ describe('[Intro] Interaction', () => {
   let rendered: renderer.ReactTestRenderer;
   let root: renderer.ReactTestInstance;
 
-  it('should simulate [onLogin] click', () => {
+  it('should simulate [onLogin] click', async () => {
     testingLib = render(component);
     rendered = renderer.create(component);
     root = rendered.root;
@@ -72,6 +72,10 @@ describe('[Intro] Interaction', () => {
     });
 
     expect(clearTimeout).toHaveBeenCalledTimes(1);
+
+    const { getByText } = testingLib;
+    const text = getByText('dooboolab');
+    expect(text).toBeTruthy();
     expect(buttons[0].props.isLoading).toEqual(false);
   });
 
