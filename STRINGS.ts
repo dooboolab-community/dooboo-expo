@@ -1,4 +1,5 @@
 import * as Localization from 'expo-localization';
+
 import i18n from 'i18n-js';
 
 const en = {
@@ -27,7 +28,7 @@ i18n.fallbacks = true;
 i18n.translations = { en, ko };
 i18n.locale = Localization.locale;
 
-export const getString = (param: string, mapObj?: object) => {
+export const getString = (param: string, mapObj?: object): string => {
   if (mapObj) {
     i18n.t(param, mapObj);
   }
