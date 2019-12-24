@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Stack] navigator should renders without crashing 1`] = `
+<RNCSafeAreaView
+  onInsetsChange={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+/>
+`;
