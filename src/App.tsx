@@ -5,7 +5,6 @@ import Icons from './utils/Icons';
 import { Image } from 'react-native';
 import RootNavigator from './components/navigation/RootStackNavigator';
 import RootProvider from './providers';
-import { useThemeContext } from '@dooboo-ui/native-theme';
 
 function cacheImages(images: Image[]): Image[] {
   return images.map((image: Image) => {
@@ -23,8 +22,7 @@ const loadAssetsAsync = async (): Promise<void> => {
 };
 
 function App(): React.ReactElement {
-  const { theme, changeThemeType } = useThemeContext();
-  return <RootNavigator screenProps={{ theme, changeThemeType }} />;
+  return <RootNavigator />;
 }
 
 function ProviderWrapper(): React.ReactElement {
