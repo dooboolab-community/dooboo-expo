@@ -39,10 +39,10 @@
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.5",
-    "@babel/core": "^7.7.5",
-    "@babel/preset-typescript": "^7.7.4",
-    "@dooboo/eslint-config": "^0.3.3",
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
+    "@dooboo/eslint-config": "^0.3.4",
     "@testing-library/jest-native": "^3.1.0",
     "@testing-library/react-native": "^5.0.3",
     "@types/expo": "^33.0.1",
