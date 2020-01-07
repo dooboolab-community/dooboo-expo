@@ -49,9 +49,9 @@
     "@types/i18n-js": "^3.0.1",
     "@types/jest": "^24.0.25",
     "@types/react": "^16.9",
-    "@types/react-native": "^0.60.27",
+    "@types/react-native": "^0.60.28",
     "@types/react-test-renderer": "^16.9",
-    "@types/styled-components": "^4.4.1",
+    "@types/styled-components": "^4.4.2",
     "abort-controller": "^3.0.0",
     "apsl-react-native-button": "^3.1.1",
     "babel-jest": "^24.9.0",
@@ -69,7 +69,7 @@
     "prettier": "^1.19.1",
     "react-native-typescript-transformer": "^1.2.13",
     "react-test-renderer": "16.9.0",
-    "ts-jest": "^24.2.0",
+    "ts-jest": "^24.3.0",
     "tslib": "^1.10.0",
     "typescript": "3.7.4"
   }
