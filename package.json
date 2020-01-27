@@ -42,7 +42,7 @@
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
-    "@dooboo/eslint-config": "^0.3.5",
+    "@dooboo/eslint-config": "^0.3.6",
     "@testing-library/jest-native": "^3.1.0",
     "@testing-library/react-native": "^5.0.3",
     "@types/expo": "^33.0.1",
