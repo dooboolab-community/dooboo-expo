@@ -8,12 +8,9 @@
     "react-native-screens",
     "react-native-safe-area-context",
     "react-native-gesture-handler",
-    "@react-navigation/material-top-tabs",
-    "@react-navigation/stack",
     "react-native-svg",
     "react-native-webview",
     "react-navigation-stack",
-    "react-native-svg",
     "@react-native-community/masked-view",
     "react-native-reanimated"
   ]
