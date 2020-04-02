@@ -17,19 +17,12 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
     }
   >
     <View
-      collapsable={true}
       onLayout={[Function]}
-      removeClippedSubviews={false}
       style={
-        Array [
-          Object {
-            "flex": 1,
-            "overflow": "hidden",
-          },
-          Object {
-            "overflow": "hidden",
-          },
-        ]
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
       }
     >
       <View
@@ -38,15 +31,9 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
           Object {
             "bottom": 0,
             "left": 0,
-            "overflow": "hidden",
             "position": "absolute",
             "right": 0,
             "top": 0,
-            "transform": Array [
-              Object {
-                "translateY": 0,
-              },
-            ],
           }
         }
       >
@@ -429,14 +416,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
         importantForAccessibility="auto"
         onLayout={[Function]}
         pointerEvents="box-none"
-        style={
-          Object {
-            "left": 0,
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          }
-        }
+        style={null}
       >
         <View
           pointerEvents="none"
@@ -455,9 +435,9 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
             style={
               Object {
                 "backgroundColor": "white",
-                "borderBottomColor": "rgb(199, 199, 204)",
+                "borderBottomColor": "rgb(224, 224, 224)",
                 "flex": 1,
-                "shadowColor": "rgb(199, 199, 204)",
+                "shadowColor": "rgb(224, 224, 224)",
                 "shadowOffset": Object {
                   "height": 0.5,
                   "width": 0,
