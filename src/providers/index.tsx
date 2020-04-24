@@ -1,5 +1,4 @@
-import { ThemeProvider, ThemeType } from '@dooboo-ui/native-theme';
-import { dark, light } from '../theme';
+import { ThemeProvider, ThemeType } from '../providers/ThemeProvider';
 
 import { AppProvider } from './AppProvider';
 import React from 'react';
@@ -17,7 +16,6 @@ const RootProvider = ({
   return (
     <ThemeProvider
       initialThemeType={initialThemeType}
-      customTheme={{ light, dark }}
     >
       <AppProvider>{children}</AppProvider>
     </ThemeProvider>
