@@ -1,7 +1,7 @@
 import {
   DefaultTheme,
   ThemeProvider as OriginalThemeProvider,
-} from 'styled-components';
+} from 'styled-components/native';
 import React, { useState } from 'react';
 import { dark, light } from '../theme';
 
