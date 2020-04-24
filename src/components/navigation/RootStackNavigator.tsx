@@ -1,5 +1,5 @@
 import { StackNavigationProp, createStackNavigator } from '@react-navigation/stack';
-import { ThemeType, useThemeContext } from '@dooboo-ui/native-theme';
+import { ThemeType, useThemeContext } from '../../providers/ThemeProvider';
 
 import Intro from '../screen/Intro';
 import { NavigationContainer } from '@react-navigation/native';
