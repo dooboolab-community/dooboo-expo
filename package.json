@@ -55,7 +55,6 @@
     "@types/react-test-renderer": "^16.9",
     "@types/styled-components": "^5.1.0",
     "abort-controller": "^3.0.0",
-    "apsl-react-native-button": "^3.1.1",
     "babel-jest": "^25.4.0",
     "babel-preset-expo": "^8.1.0",
     "babel-preset-react-native": "4.0.1",
