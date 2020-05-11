@@ -60,7 +60,7 @@
     "babel-preset-react-native": "4.0.1",
     "codecov": "^3.6.5",
     "eslint": "^7.0.0",
-    "jest": "^26.0.1",
+    "jest": "^25.5.4",
     "jest-expo": "^37.0.0",
     "jest-expo-ts": "^22.0.1",
     "jest-fetch-mock": "^3.0.3",

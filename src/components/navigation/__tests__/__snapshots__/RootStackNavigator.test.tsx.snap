@@ -21,7 +21,6 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
       style={
         Object {
           "flex": 1,
-          "overflow": "hidden",
         }
       }
     >
@@ -466,7 +465,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             pointerEvents="box-none"
                             style={
                               Object {
-                                "marginHorizontal": 18,
+                                "marginHorizontal": 16,
                               }
                             }
                           >
@@ -521,7 +520,6 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
       style={
         Object {
           "flex": 1,
-          "overflow": "hidden",
         }
       }
     >
@@ -983,7 +981,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
               pointerEvents="box-none"
               style={
                 Object {
-                  "marginHorizontal": 18,
+                  "marginHorizontal": 16,
                   "opacity": 1,
                 }
               }
