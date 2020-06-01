@@ -64,8 +64,8 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                   "damping": 500,
                   "mass": 3,
                   "overshootClamping": true,
-                  "restDisplacementThreshold": 0.01,
-                  "restSpeedThreshold": 0.01,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
                   "stiffness": 1000,
                 },
               },
@@ -75,8 +75,8 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                   "damping": 500,
                   "mass": 3,
                   "overshootClamping": true,
-                  "restDisplacementThreshold": 0.01,
-                  "restSpeedThreshold": 0.01,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
                   "stiffness": 1000,
                 },
               },
@@ -402,7 +402,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                       style={null}
                     >
                       <View
-                        pointerEvents="none"
+                        pointerEvents="box-none"
                         style={
                           Object {
                             "bottom": 0,
@@ -410,6 +410,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             "position": "absolute",
                             "right": 0,
                             "top": 0,
+                            "zIndex": 0,
                           }
                         }
                       >
@@ -563,8 +564,8 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                   "damping": 500,
                   "mass": 3,
                   "overshootClamping": true,
-                  "restDisplacementThreshold": 0.01,
-                  "restSpeedThreshold": 0.01,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
                   "stiffness": 1000,
                 },
               },
@@ -574,8 +575,8 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                   "damping": 500,
                   "mass": 3,
                   "overshootClamping": true,
-                  "restDisplacementThreshold": 0.01,
-                  "restSpeedThreshold": 0.01,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
                   "stiffness": 1000,
                 },
               },
@@ -917,7 +918,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
         style={null}
       >
         <View
-          pointerEvents="none"
+          pointerEvents="box-none"
           style={
             Object {
               "bottom": 0,
@@ -926,6 +927,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
               "position": "absolute",
               "right": 0,
               "top": 0,
+              "zIndex": 0,
             }
           }
         >
