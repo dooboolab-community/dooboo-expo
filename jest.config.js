@@ -46,6 +46,5 @@ module.exports = {
   haste: {
     defaultPlatform: 'ios',
     platforms: ['android', 'ios', 'native'],
-    providesModuleNodeModules: ['react', 'react-native'],
   },
 };
