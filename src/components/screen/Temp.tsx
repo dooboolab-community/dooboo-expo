@@ -7,7 +7,7 @@ import styled from 'styled-components/native';
 
 const Container = styled.View`
   flex: 1;
-  background-color: ${(props): string => props.theme.background};
+  background-color: ${({ theme }): string => theme.background};
   flex-direction: row;
   align-items: center;
   justify-content: center;
