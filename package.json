@@ -58,7 +58,7 @@
     "babel-jest": "^26.0.1",
     "babel-preset-expo": "^8.2.1",
     "babel-preset-react-native": "4.0.1",
-    "codecov": "^3.7.0",
+    "codecov": "^3.7.1",
     "eslint": "^7.2.0",
     "jest": "^25.5.4",
     "jest-expo": "^37.0.0",
