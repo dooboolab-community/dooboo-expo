@@ -2,10 +2,17 @@
 
 exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
 <View
+  style={
     Array [
       Object {
         "alignItems": "center",
         "alignSelf": "stretch",
+        "backgroundColor": "#323739",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "flex-start",
         "overflow": "hidden",
       },
     ]
@@ -18,22 +25,28 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           "alignItems": "center",
           "flexDirection": "column",
           "height": "100%",
+          "justifyContent": "flex-start",
           "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 18,
             "lineHeight": 27,
           },
           Object {
             "marginTop": 100,
           },
         ]
-    >
-      
-    </Text>
-    <Text
-          },
-        ]
       }
     >
       
+    </Text>
     <Text
       style={
         Array [
@@ -45,12 +58,63 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         ]
       }
     >
-      ,
-        },i I 
+      
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 18,
+            "lineHeight": 27,
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "bottom": 40,
+          "flexDirection": "column",
+          "position": "absolute",
+          "width": "85%",
+        },
+      ]
+    }
+  >
+    <View
+      activeOpacity={0.5}
+      onPress={[Function]}
+      testID="btn-login"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#069ccd",
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Image
           source={
             Object {
               "canInstrument": true,
               "createTransformer": [Function],
+              "getCacheKey": [Function],
               "process": [Function],
             }
           }
@@ -73,11 +137,14 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
                 "fontSize": 14,
               },
             ]
+          }
+        >
           Login
         </Text>
       </View>
     </View>
     <View
+      style={
         Object {
           "marginTop": 8,
         }
@@ -122,42 +189,33 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     <View
       style={
         Object {
-          "marginTop": 8, 
-               tion],
-   "g      e   "
-                Array [
-                  Object {
-                    "color": "white",
-                    "fontSize": 14,
-                  },
-              }
-            >
-              Login
-            </Text>
-          </View>
-        </View> 
-         activeOpacity={0.5} 
-                  "justifyContent": "center",
-                  "width": 320,
-                },
-              ]
-            }
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "white",
-                    "fontSize": 14,
-                  },
-                ]
-              }
-            >
-              Navigate to Temp
-            </Text>
-          </View>
-        </View>
-        <View
->>>>>>> 041f108... Upgrade expo to sdk 38 (#29)
+          "marginTop": 8,
+        }
+      }
+    />
+    <View
+      activeOpacity={0.5}
+      onPress={[Function]}
+      testID="btn-theme"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#069ccd",
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Text
           style={
             Array [
               Object {
@@ -269,14 +327,66 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     >
       <View
         style={
-          Arrt:4                "left": 16,
-,   Ot   
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#069ccd",
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "canInstrument": true,
+              "createTransformer": [Function],
+              "getCacheKey": [Function],
+              "process": [Function],
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 24,
+                "left": 16,
+                "position": "absolute",
+                "width": 24,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          Login
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 8,
         }
       }
     />
     <View
       activeOpacity={0.5}
       onPress={[Function]}
+      testID="btn-navigate"
     >
       <View
         style={
@@ -300,39 +410,56 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
             Array [
               Object {
                 "color": "white",
-          testID="btn-theme"
+                "fontSize": 14,
+              },
+            ]
+          }
         >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "alignSelf": "center",
-                  "backgroundColor": "#069ccd",
-                  "borderRadius": 4,
-                  "borderWidth": 2,
-                  "height": 52,
-                  "justifyContent": "center",
-                  "width": 320,
-                },
-              ]
-            }
-          >
-            <Text
-              style={
-                Array [
-                  Object {
-                    "color": "white",
-                    "fontSize": 14,
-                  },
-                ]
-              }
-            >
-              Change theme
-            </Text>
-          </View>
-        </View>
->>>>>>> 041f108... Upgrade expo to sdk 38 (#29)
+          Navigate to Temp
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 8,
+        }
+      }
+    />
+    <View
+      activeOpacity={0.5}
+      onPress={[Function]}
+      testID="btn-theme"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#069ccd",
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          Change theme
+        </Text>
       </View>
     </View>
   </View>
@@ -340,8 +467,19 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
 `;
 
 exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
-<View 
-a  li ,,uContent": "f
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "stretch",
+        "backgroundColor": "#323739",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "flex-start",
+        "overflow": "hidden",
       },
     ]
   }
@@ -351,6 +489,7 @@ a  li ,,uContent": "f
       Array [
         Object {
           "alignItems": "center",
+          "flexDirection": "column",
           "height": "100%",
           "justifyContent": "flex-start",
           "width": "100%",
@@ -362,9 +501,24 @@ a  li ,,uContent": "f
       style={
         Array [
           Object {
+            "color": "white",
+            "fontSize": 18,
+            "lineHeight": 27,
+          },
+          Object {
+            "marginTop": 100,
+          },
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
         Array [
           Object {
             "color": "white",
+            "fontSize": 18,
             "lineHeight": 27,
           },
         ]
@@ -410,17 +564,135 @@ a  li ,,uContent": "f
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069cT     T t 
-                  "backgroundColor": "#069ccd",
-                  "borderCol   "
-
-                ]
-              }
-            >
-              Change theme
-            </Text>
-          </View>
-        </View>
+              "backgroundColor": "#069ccd",
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "canInstrument": true,
+              "createTransformer": [Function],
+              "getCacheKey": [Function],
+              "process": [Function],
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 24,
+                "left": 16,
+                "position": "absolute",
+                "width": 24,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          Login
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 8,
+        }
+      }
+    />
+    <View
+      activeOpacity={0.5}
+      onPress={[Function]}
+      testID="btn-navigate"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#069ccd",
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          Navigate to Temp
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 8,
+        }
+      }
+    />
+    <View
+      activeOpacity={0.5}
+      onPress={[Function]}
+      testID="btn-theme"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#069ccd",
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          Change theme
+        </Text>
       </View>
     </View>
   </View>
@@ -433,7 +705,22 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     Array [
       Object {
         "alignItems": "center",
-        "alignSelf": "stretch",e
+        "alignSelf": "stretch",
+        "backgroundColor": "white",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "flex-start",
+        "overflow": "hidden",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
           "alignItems": "center",
           "flexDirection": "column",
           "height": "100%",
@@ -442,6 +729,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         },
       ]
     }
+  >
     <Text
       style={
         Array [
@@ -510,4 +798,136 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd", {  z "
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "canInstrument": true,
+              "createTransformer": [Function],
+              "getCacheKey": [Function],
+              "process": [Function],
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 24,
+                "left": 16,
+                "position": "absolute",
+                "width": 24,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          Login
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 8,
+        }
+      }
+    />
+    <View
+      activeOpacity={0.5}
+      onPress={[Function]}
+      testID="btn-navigate"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#069ccd",
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          Navigate to Temp
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 8,
+        }
+      }
+    />
+    <View
+      activeOpacity={0.5}
+      onPress={[Function]}
+      testID="btn-theme"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#069ccd",
+              "borderColor": "#069ccd",
+              "borderRadius": 4,
+              "borderWidth": 2,
+              "height": 52,
+              "justifyContent": "center",
+              "width": 320,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          Change theme
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
