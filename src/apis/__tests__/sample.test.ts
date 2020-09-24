@@ -1,11 +1,10 @@
 import { ROOT_URL, sample } from '../sample';
 
-import { FetchMock } from 'jest-fetch-mock';
-
-const fetchMock = fetch as FetchMock;
+import fetchMock from 'jest-fetch-mock';
 
 describe('testing sample api', () => {
   beforeEach(() => {
+    fetchMock.enableMocks();
     fetchMock.resetMocks();
   });
 

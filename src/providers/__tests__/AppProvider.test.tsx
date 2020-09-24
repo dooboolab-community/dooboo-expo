@@ -3,7 +3,7 @@ import * as React from 'react';
 import { AppProvider, useAppContext } from '../AppProvider';
 import { Button, Text, View } from 'react-native';
 import {
-  RenderResult,
+  RenderAPI,
   act,
   fireEvent,
   render,
@@ -12,7 +12,7 @@ import {
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-let testingLib: RenderResult;
+let testingLib: RenderAPI;
 
 const FakeChild = (): React.ReactElement => {
   const { state, resetUser, callDefault } = useAppContext();
@@ -48,7 +48,8 @@ describe('[AppProvider] rendering test', () => {
   );
 
   it('should match component and snapshot', () => {
-    json = renderer.create(component).toJSON();
+    testingLib = render(component);
+    json = testingLib.toJSON();
     expect(json).toMatchSnapshot();
     expect(json).toBeTruthy();
   });
