@@ -12,6 +12,7 @@ interface Context {
   themeType: ThemeType;
   changeThemeType: () => void;
 }
+
 const [useCtx, Provider] = createCtx<Context>();
 
 export enum ThemeType {
@@ -42,11 +43,14 @@ function ThemeProvider({
   initialThemeType = defaultThemeType,
 }: Props): React.ReactElement {
   const [themeType, setThemeType] = useState(initialThemeType);
+
   const changeThemeType = (): void => {
     const newThemeType =
       themeType === ThemeType.LIGHT ? ThemeType.DARK : ThemeType.LIGHT;
+
     setThemeType(newThemeType);
   };
+
   const theme = createTheme(themeType);
 
   return (

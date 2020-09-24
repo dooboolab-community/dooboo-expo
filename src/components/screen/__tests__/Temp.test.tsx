@@ -25,11 +25,14 @@ describe('[Temp] render', () => {
       },
     },
   });
+
   component = createTestElement(<Temp {...props} />);
 
   it('renders without crashing', () => {
     testingLib = render(component);
+
     const { baseElement } = testingLib;
+
     expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
@@ -42,9 +45,12 @@ describe('[Temp] render', () => {
         },
       },
     });
+
     component = createTestElement(<Temp {...props} />, ThemeType.DARK);
     testingLib = render(component);
+
     const { baseElement } = testingLib;
+
     expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
@@ -59,9 +65,11 @@ describe('[Temp] Interaction', () => {
 
   it('should simulate [onClick] when button has been clicked', () => {
     const btnInstance = renderResult.getByTestId('btn-back');
+
     act(() => {
       fireEvent.press(btnInstance);
     });
+
     expect(props.navigation.goBack).toHaveBeenCalled();
   });
 });
