@@ -13,7 +13,7 @@ describe('testing sample api', () => {
     const mockedResult = JSON.stringify({ data: '12345' });
     fetchMock.mockResponseOnce(mockedResult);
 
-    return sample({ zoyi: 'zoyi' }).then(async (res) => {
+    return sample({ dooboolab: 'dooboolab' }).then(async (res) => {
       const result = await res.text();
       expect(result).toEqual(mockedResult);
 

@@ -8,7 +8,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
     }
   }
 >
-  <RNCSafeAreaView
+  <RNCSafeAreaProvider
     onInsetsChange={[Function]}
     style={
       Object {
@@ -37,6 +37,14 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
         }
       >
         <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
           accessibilityElementsHidden={false}
           closing={false}
           gestureVelocityImpact={0.3}
@@ -44,6 +52,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
           onClose={[Function]}
           onGestureBegin={[Function]}
           onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
           onOpen={[Function]}
           onTransitionStart={[Function]}
           pointerEvents="box-none"
@@ -88,12 +97,12 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
             style={
               Object {
                 "flex": 1,
-                "opacity": 1,
               }
             }
           >
             <View
               collapsable={false}
+              forwardedRef={[Function]}
               onGestureHandlerEvent={[Function]}
               onGestureHandlerStateChange={[Function]}
               style={
@@ -247,7 +256,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           ]
                         }
                       >
-                        <TouchableOpacity
+                        <View
                           activeOpacity={0.5}
                           onPress={[Function]}
                           testID="btn-login"
@@ -302,7 +311,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               Login
                             </Text>
                           </View>
-                        </TouchableOpacity>
+                        </View>
                         <View
                           style={
                             Object {
@@ -310,7 +319,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             }
                           }
                         />
-                        <TouchableOpacity
+                        <View
                           activeOpacity={0.5}
                           onPress={[Function]}
                           testID="btn-navigate"
@@ -345,7 +354,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               Navigate to Temp
                             </Text>
                           </View>
-                        </TouchableOpacity>
+                        </View>
                         <View
                           style={
                             Object {
@@ -353,7 +362,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             }
                           }
                         />
-                        <TouchableOpacity
+                        <View
                           activeOpacity={0.5}
                           onPress={[Function]}
                           testID="btn-theme"
@@ -388,7 +397,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               Change theme
                             </Text>
                           </View>
-                        </TouchableOpacity>
+                        </View>
                       </View>
                     </View>
                   </View>
@@ -419,9 +428,9 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           style={
                             Object {
                               "backgroundColor": "#323739",
-                              "borderBottomColor": "rgb(224, 224, 224)",
+                              "borderBottomColor": "rgb(216, 216, 216)",
                               "flex": 1,
-                              "shadowColor": "rgb(224, 224, 224)",
+                              "shadowColor": "rgb(216, 216, 216)",
                               "shadowOffset": Object {
                                 "height": 0.5,
                                 "width": 0,
@@ -497,7 +506,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
         </View>
       </View>
     </View>
-  </RNCSafeAreaView>
+  </RNCSafeAreaProvider>
 </View>
 `;
 
@@ -509,7 +518,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
     }
   }
 >
-  <RNCSafeAreaView
+  <RNCSafeAreaProvider
     onInsetsChange={[Function]}
     style={
       Object {
@@ -553,9 +562,9 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
             style={
               Object {
                 "backgroundColor": "white",
-                "borderBottomColor": "rgb(224, 224, 224)",
+                "borderBottomColor": "rgb(216, 216, 216)",
                 "flex": 1,
-                "shadowColor": "rgb(224, 224, 224)",
+                "shadowColor": "rgb(216, 216, 216)",
                 "shadowOffset": Object {
                   "height": 0.5,
                   "width": 0,
@@ -646,6 +655,14 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
         }
       >
         <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
           accessibilityElementsHidden={false}
           closing={false}
           gestureVelocityImpact={0.3}
@@ -653,6 +670,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
           onClose={[Function]}
           onGestureBegin={[Function]}
           onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
           onOpen={[Function]}
           onTransitionStart={[Function]}
           pointerEvents="box-none"
@@ -697,12 +715,12 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
             style={
               Object {
                 "flex": 1,
-                "opacity": 1,
               }
             }
           >
             <View
               collapsable={false}
+              forwardedRef={[Function]}
               onGestureHandlerEvent={[Function]}
               onGestureHandlerStateChange={[Function]}
               style={
@@ -856,7 +874,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                           ]
                         }
                       >
-                        <TouchableOpacity
+                        <View
                           activeOpacity={0.5}
                           onPress={[Function]}
                           testID="btn-login"
@@ -911,7 +929,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               Login
                             </Text>
                           </View>
-                        </TouchableOpacity>
+                        </View>
                         <View
                           style={
                             Object {
@@ -919,7 +937,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             }
                           }
                         />
-                        <TouchableOpacity
+                        <View
                           activeOpacity={0.5}
                           onPress={[Function]}
                           testID="btn-navigate"
@@ -954,7 +972,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               Navigate to Temp
                             </Text>
                           </View>
-                        </TouchableOpacity>
+                        </View>
                         <View
                           style={
                             Object {
@@ -962,7 +980,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             }
                           }
                         />
-                        <TouchableOpacity
+                        <View
                           activeOpacity={0.5}
                           onPress={[Function]}
                           testID="btn-theme"
@@ -997,7 +1015,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               Change theme
                             </Text>
                           </View>
-                        </TouchableOpacity>
+                        </View>
                       </View>
                     </View>
                   </View>
@@ -1008,6 +1026,6 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
         </View>
       </View>
     </View>
-  </RNCSafeAreaView>
+  </RNCSafeAreaProvider>
 </View>
 `;
