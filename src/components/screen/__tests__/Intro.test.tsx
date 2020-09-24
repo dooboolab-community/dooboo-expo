@@ -21,6 +21,7 @@ describe('[Intro] screen rendering test', () => {
 
   it('should render outer component and snapshot matches', () => {
     const json = renderer.create(component).toJSON();
+
     expect(json).toMatchSnapshot();
     expect(json).toBeTruthy();
   });
@@ -28,7 +29,9 @@ describe('[Intro] screen rendering test', () => {
   it('should render [Dark] theme', () => {
     component = createTestElement(<Intro {...props} />, ThemeType.DARK);
     testingLib = render(component);
+
     const { baseElement } = testingLib;
+
     expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
@@ -37,9 +40,12 @@ describe('[Intro] screen rendering test', () => {
     props = createTestProps({
       isLoading: true,
     });
+
     component = createTestElement(<Intro {...props} />, ThemeType.DARK);
     testingLib = render(component);
+
     const { baseElement } = testingLib;
+
     expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
@@ -48,9 +54,12 @@ describe('[Intro] screen rendering test', () => {
     props = createTestProps({
       isDisabled: true,
     });
+
     component = createTestElement(<Intro {...props} />, ThemeType.DARK);
     testingLib = render(component);
+
     const { baseElement } = testingLib;
+
     expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
@@ -67,9 +76,11 @@ describe('[Intro] Interaction', () => {
     root = rendered.root;
 
     jest.useFakeTimers();
+
     const buttons = root.findAllByType(Button);
 
     const button = testingLib.getByTestId('btn-login');
+
     act(() => {
       fireEvent.press(button);
       expect(setTimeout).toHaveBeenCalledTimes(1);
@@ -86,6 +97,7 @@ describe('[Intro] Interaction', () => {
     act(() => {
       fireEvent.press(testingLib.getByTestId('btn-navigate'), 'click');
     });
+
     expect(props.navigation.navigate).toHaveBeenCalledWith('Temp', {
       param: 'GO BACK',
     });
