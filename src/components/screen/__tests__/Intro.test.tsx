@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { RenderResult, act, fireEvent, render } from '@testing-library/react-native';
+import { RenderAPI, act, fireEvent, render } from '@testing-library/react-native';
 import { createTestElement, createTestProps } from '../../../../test/testUtils';
 
 import Button from '../../shared/Button';
@@ -10,7 +10,7 @@ import renderer from 'react-test-renderer';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let props: any;
 let component: ReactElement;
-let testingLib: RenderResult;
+let testingLib: RenderAPI;
 
 describe('[Intro] screen rendering test', () => {
   beforeEach(() => {
@@ -30,7 +30,7 @@ describe('[Intro] screen rendering test', () => {
     component = createTestElement(<Intro {...props} />, ThemeType.DARK);
     testingLib = render(component);
 
-    const { baseElement } = testingLib;
+    const baseElement = testingLib.toJSON();
 
     expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
@@ -44,7 +44,7 @@ describe('[Intro] screen rendering test', () => {
     component = createTestElement(<Intro {...props} />, ThemeType.DARK);
     testingLib = render(component);
 
-    const { baseElement } = testingLib;
+    const baseElement = testingLib.toJSON();
 
     expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
@@ -58,7 +58,7 @@ describe('[Intro] screen rendering test', () => {
     component = createTestElement(<Intro {...props} />, ThemeType.DARK);
     testingLib = render(component);
 
-    const { baseElement } = testingLib;
+    const baseElement = testingLib.toJSON();
 
     expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
@@ -66,7 +66,7 @@ describe('[Intro] screen rendering test', () => {
 });
 
 describe('[Intro] Interaction', () => {
-  let testingLib: RenderResult;
+  let testingLib: RenderAPI;
   let rendered: renderer.ReactTestRenderer;
   let root: renderer.ReactTestInstance;
 
@@ -95,7 +95,7 @@ describe('[Intro] Interaction', () => {
     testingLib = render(component);
 
     act(() => {
-      fireEvent.press(testingLib.getByTestId('btn-navigate'), 'click');
+      fireEvent.press(testingLib.getByTestId('btn-navigate'));
     });
 
     expect(props.navigation.navigate).toHaveBeenCalledWith('Temp', {
@@ -107,7 +107,7 @@ describe('[Intro] Interaction', () => {
     testingLib = render(component);
 
     act(() => {
-      fireEvent.press(testingLib.getByTestId('btn-theme'), 'click');
+      fireEvent.press(testingLib.getByTestId('btn-theme'));
     });
   });
 });
