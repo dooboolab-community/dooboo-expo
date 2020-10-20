@@ -2,7 +2,7 @@ import 'react-native';
 
 import * as React from 'react';
 
-import { RenderResult, act, fireEvent, render } from '@testing-library/react-native';
+import { RenderAPI, act, fireEvent, render } from '@testing-library/react-native';
 
 import Button from '../Button';
 import { ThemeType } from '../../../providers/ThemeProvider';
@@ -13,7 +13,7 @@ import renderer from 'react-test-renderer';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let props: any;
 let component: React.ReactElement;
-let testingLib: RenderResult;
+let testingLib: RenderAPI;
 
 describe('[Button]', () => {
   let cnt = 1;
