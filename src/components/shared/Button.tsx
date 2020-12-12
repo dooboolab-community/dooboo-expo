@@ -86,9 +86,10 @@ function Button(props: Props): React.ReactElement {
       onPress={props.onClick}
     >
       <StyledButton style={props.style}>
-        {props.imgLeftSrc ? (
-          <StyledImage style={props.imgLeftStyle} source={props.imgLeftSrc} />
-        ) : null}
+        {
+          props.imgLeftSrc
+            ? <StyledImage style={props.imgLeftStyle} source={props.imgLeftSrc} />
+            : null}
         <StyledText style={props.textStyle}>{props.text}</StyledText>
       </StyledButton>
     </TouchableOpacity>
