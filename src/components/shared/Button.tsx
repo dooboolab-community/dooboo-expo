@@ -2,6 +2,7 @@ import {
   ActivityIndicator,
   ImageSourcePropType,
   ImageStyle,
+  StyleProp,
   TextStyle,
   TouchableOpacity,
   ViewStyle,
@@ -53,7 +54,7 @@ interface Props {
   disabledStyle?: ViewStyle;
   textStyle?: TextStyle;
   imgLeftSrc?: ImageSourcePropType;
-  imgLeftStyle?: ImageStyle;
+  imgLeftStyle?: StyleProp<ImageStyle>;
   indicatorColor?: string;
   activeOpacity?: number;
   text?: string;
@@ -69,6 +70,7 @@ function Button(props: Props): React.ReactElement {
       </StyledButtonDisabled>
     );
   }
+
   if (props.isLoading) {
     return (
       <StyledButton style={props.style}>
@@ -76,6 +78,7 @@ function Button(props: Props): React.ReactElement {
       </StyledButton>
     );
   }
+
   return (
     <TouchableOpacity
       testID={props.testID}
@@ -83,9 +86,10 @@ function Button(props: Props): React.ReactElement {
       onPress={props.onClick}
     >
       <StyledButton style={props.style}>
-        {props.imgLeftSrc ? (
-          <StyledImage style={props.imgLeftStyle} source={props.imgLeftSrc} />
-        ) : null}
+        {
+          props.imgLeftSrc
+            ? <StyledImage style={props.imgLeftStyle} source={props.imgLeftSrc} />
+            : null}
         <StyledText style={props.textStyle}>{props.text}</StyledText>
       </StyledButton>
     </TouchableOpacity>

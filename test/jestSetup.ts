@@ -10,6 +10,6 @@ jest.mock('react-native-reanimated', () =>
   require('react-native-reanimated/mock'),
 );
 
-const customGlobal: GlobalWithFetchMock = global as GlobalWithFetchMock;
-customGlobal.fetch = require('jest-fetch-mock');
-customGlobal.fetchMock = customGlobal.fetch;
+// const customGlobal: GlobalWithFetchMock = global as ;
+// customGlobal.fetch = require('jest-fetch-mock');
+// customGlobal.fetchMock = customGlobal.fetch;

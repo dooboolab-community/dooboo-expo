@@ -2,7 +2,7 @@ import 'react-native';
 
 import * as React from 'react';
 
-import { RenderResult, act, fireEvent, render } from '@testing-library/react-native';
+import { RenderAPI, act, fireEvent, render } from '@testing-library/react-native';
 
 import Button from '../Button';
 import { ThemeType } from '../../../providers/ThemeProvider';
@@ -13,7 +13,7 @@ import renderer from 'react-test-renderer';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let props: any;
 let component: React.ReactElement;
-let testingLib: RenderResult;
+let testingLib: RenderAPI;
 
 describe('[Button]', () => {
   let cnt = 1;
@@ -23,11 +23,13 @@ describe('[Button]', () => {
       onClick: (): number => cnt++,
       testID: 'btn',
     };
+
     component = createTestElement(<Button {...props} />);
   });
 
   it('[ThemeType.Light] renders without crashing', () => {
     const rendered = renderer.create(component).toJSON();
+
     expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
@@ -36,6 +38,7 @@ describe('[Button]', () => {
     component = createTestElement(<Button {...props} />, ThemeType.DARK);
 
     const rendered = renderer.create(component).toJSON();
+
     expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
@@ -45,6 +48,7 @@ describe('[Button]', () => {
     component = createTestElement(<Button {...props} />);
 
     const rendered = renderer.create(component).toJSON();
+
     expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
@@ -54,6 +58,7 @@ describe('[Button]', () => {
     component = createTestElement(<Button {...props} />);
 
     const rendered = renderer.create(component).toJSON();
+
     expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
@@ -65,10 +70,12 @@ describe('[Button]', () => {
 
     it('should simulate onClick', () => {
       const btn = testingLib.queryByTestId('btn');
+
       act(() => {
         fireEvent.press(btn);
         fireEvent.press(btn);
       });
+
       expect(cnt).toBe(3);
     });
   });

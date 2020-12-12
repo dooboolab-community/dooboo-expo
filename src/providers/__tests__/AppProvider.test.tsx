@@ -3,7 +3,7 @@ import * as React from 'react';
 import { AppProvider, useAppContext } from '../AppProvider';
 import { Button, Text, View } from 'react-native';
 import {
-  RenderResult,
+  RenderAPI,
   act,
   fireEvent,
   render,
@@ -12,7 +12,7 @@ import {
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-let testingLib: RenderResult;
+let testingLib: RenderAPI;
 
 const FakeChild = (): React.ReactElement => {
   const { state, resetUser, callDefault } = useAppContext();
@@ -40,6 +40,7 @@ const FakeChild = (): React.ReactElement => {
 
 describe('[AppProvider] rendering test', () => {
   let json: renderer.ReactTestRendererJSON;
+
   const component = (
     <AppProvider>
       <FakeChild />
@@ -47,14 +48,17 @@ describe('[AppProvider] rendering test', () => {
   );
 
   it('should match component and snapshot', () => {
-    json = renderer.create(component).toJSON();
+    testingLib = render(component);
+    json = testingLib.toJSON();
     expect(json).toMatchSnapshot();
     expect(json).toBeTruthy();
   });
 
   it('should call [resetUser] when button pressed', () => {
     testingLib = render(component);
+
     const btn = testingLib.queryByTestId('BUTTON');
+
     act(() => {
       fireEvent.press(btn);
     });
@@ -62,7 +66,9 @@ describe('[AppProvider] rendering test', () => {
 
   it('should call [default] when button pressed', () => {
     testingLib = render(component);
+
     const btn = testingLib.queryByTestId('BUTTON_NOT_VALID');
+
     act(() => {
       fireEvent.press(btn);
     });
@@ -79,6 +85,7 @@ describe('[AppProvider] error rendering test', () => {
     } catch (e) {
       error = e;
     }
+
     expect(error).toBeInstanceOf(Error);
   });
 });

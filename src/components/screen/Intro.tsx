@@ -55,12 +55,14 @@ function Intro(props: Props): React.ReactElement {
 
   const onLogin = (): void => {
     setIsLoggingIn(true);
+
     timer = setTimeout(() => {
       const user: User = {
         displayName: 'dooboolab',
         age: 30,
         job: 'developer',
       };
+
       setUser(user);
       setIsLoggingIn(false);
       clearTimeout(timer);
