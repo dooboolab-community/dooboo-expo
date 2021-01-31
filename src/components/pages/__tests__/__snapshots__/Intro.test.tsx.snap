@@ -88,7 +88,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     }
   >
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-login"
     >
@@ -133,7 +133,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -151,7 +151,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-navigate"
     >
@@ -176,7 +176,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -194,7 +194,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-theme"
     >
@@ -219,7 +219,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -321,7 +321,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     }
   >
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-login"
     >
@@ -366,7 +366,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -384,7 +384,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-navigate"
     >
@@ -409,7 +409,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -427,7 +427,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-theme"
     >
@@ -452,7 +452,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -554,7 +554,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
     }
   >
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-login"
     >
@@ -599,7 +599,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -617,7 +617,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-navigate"
     >
@@ -642,7 +642,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -660,7 +660,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-theme"
     >
@@ -685,7 +685,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -787,7 +787,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     }
   >
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-login"
     >
@@ -832,7 +832,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             Array [
               Object {
-                "color": "#D3D8E8",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -850,7 +850,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-navigate"
     >
@@ -875,7 +875,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             Array [
               Object {
-                "color": "#D3D8E8",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -893,7 +893,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-theme"
     >
@@ -918,7 +918,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             Array [
               Object {
-                "color": "#D3D8E8",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]

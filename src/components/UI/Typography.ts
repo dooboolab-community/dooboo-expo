@@ -27,3 +27,8 @@ export const Body1 = styled.Text`
       font-size: 28px;
     `}
 `;
+
+export const Body3 = styled.Text`
+  font-size: 14px;
+  color: ${({theme}) => theme.text};
+`;

@@ -3,7 +3,7 @@ import {
   RootStackParamList,
 } from '../../components/navigations/RootStackNavigator';
 
-import Button from '../templates/Button';
+import ActionButton from '../UI/molecules/ActionButton';
 import React from 'react';
 import {RouteProp} from '@react-navigation/core';
 import styled from 'styled-components/native';
@@ -34,9 +34,9 @@ function Page(props: Props): React.ReactElement {
 
   return (
     <Container>
-      <Button
+      <ActionButton
         testID="btn-back"
-        onClick={(): void => navigation.goBack()}
+        onPress={(): void => navigation.goBack()}
         text={param}
         style={{
           backgroundColor: theme.text,

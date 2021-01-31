@@ -2,7 +2,7 @@
 
 exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
 <View
-  activeOpacity={0.5}
+  activeOpacity={0.7}
   onPress={[Function]}
   testID="btn"
 >
@@ -27,19 +27,21 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
       style={
         Array [
           Object {
-            "color": "#D3D8E8",
+            "color": "#000000",
             "fontSize": 14,
           },
         ]
       }
-    />
+    >
+      
+    </Text>
   </View>
 </View>
 `;
 
 exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
 <View
-  activeOpacity={0.5}
+  activeOpacity={0.7}
   onPress={[Function]}
   testID="btn"
 >
@@ -64,12 +66,14 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
       style={
         Array [
           Object {
-            "color": "#000000",
+            "color": "#D3D8E8",
             "fontSize": 14,
           },
         ]
       }
-    />
+    >
+      
+    </Text>
   </View>
 </View>
 `;
@@ -125,7 +129,7 @@ exports[`[Button] should render [isLoading] status without crashing 1`] = `
 >
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#999999"
     hidesWhenStopped={true}
     size="small"
   />

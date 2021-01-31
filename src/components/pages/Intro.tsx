@@ -1,4 +1,4 @@
-import Button from '../templates/Button';
+import ActionButton from '../UI/molecules/ActionButton';
 import {IC_MASK} from '../../utils/Icons';
 import IntroView from '../templates/IntroView';
 import React from 'react';
@@ -62,17 +62,17 @@ function Intro(props: Props): React.ReactElement {
     <Container>
       <IntroView />
       <ButtonWrapper>
-        <Button
+        <ActionButton
           testID="btn-login"
           imgLeftSrc={IC_MASK}
           isLoading={isLoggingIn}
-          onClick={(): void => onLogin()}
+          onPress={(): void => onLogin()}
           text={getString('LOGIN')}
         />
         <View style={{marginTop: 8}} />
-        <Button
+        <ActionButton
           testID="btn-navigate"
-          onClick={(): void =>
+          onPress={(): void =>
             props.navigation.navigate('Temp', {
               param: 'GO BACK',
             })
@@ -80,9 +80,9 @@ function Intro(props: Props): React.ReactElement {
           text={getString('NAVIGATE', {name: 'Temp'})}
         />
         <View style={{marginTop: 8}} />
-        <Button
+        <ActionButton
           testID="btn-theme"
-          onClick={(): void => changeThemeType()}
+          onPress={(): void => changeThemeType()}
           text={getString('CHANGE_THEME')}
         />
       </ButtonWrapper>
