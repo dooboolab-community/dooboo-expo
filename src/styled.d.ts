@@ -1,9 +1,10 @@
 import 'styled-components';
-import { Theme } from './theme';
+import type {Theme} from './utils/theme';
 
 declare module 'styled-components' {
   export interface DefaultTheme extends Theme {
-    // hyochan - no empty extends
-    background: string;
+    isMobile?: boolean;
+    isTablet?: boolean;
+    isDesktop?: boolean;
   }
 }

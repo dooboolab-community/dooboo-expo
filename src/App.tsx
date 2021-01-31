@@ -1,9 +1,9 @@
-import { AppLoading, Asset } from 'expo';
-import React, { useState } from 'react';
+import {AppLoading, Asset} from 'expo';
+import React, {useState} from 'react';
 
 import Icons from './utils/Icons';
-import { Image } from 'react-native';
-import RootNavigator from './components/navigation/RootStackNavigator';
+import {Image} from 'react-native';
+import RootNavigator from './components/navigations/RootStackNavigator';
 import RootProvider from './providers';
 
 function cacheImages(images: Image[]): Image[] {

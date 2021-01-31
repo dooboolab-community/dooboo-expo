@@ -38,6 +38,7 @@
     "react-native-web": "~0.14.10",
     "react-native-webview": "11.0.0",
     "react-navigation-stack": "^2.3.10",
+    "react-responsive": "^8.2.0",
     "sentry-expo": "^3.0.4",
     "styled-components": "^5.2.1"
   },
@@ -55,6 +56,7 @@
     "@types/react-native": "~0.63.43",
     "@types/react-test-renderer": "^17.0",
     "@types/styled-components": "^5.1.7",
+    "@types/styled-components-react-native": "^5.1.1",
     "babel-jest": "^26.6.3",
     "babel-preset-expo": "8.3.0",
     "babel-preset-react-native": "4.0.1",

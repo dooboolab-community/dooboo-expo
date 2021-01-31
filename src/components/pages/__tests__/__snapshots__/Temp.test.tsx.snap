@@ -6,7 +6,7 @@ exports[`[Temp] render renders without crashing 1`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "white",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexDirection": "row",
         "flexGrow": 1,
@@ -27,8 +27,8 @@ exports[`[Temp] render renders without crashing 1`] = `
           Object {
             "alignItems": "center",
             "alignSelf": "center",
-            "backgroundColor": "#069ccd",
-            "borderColor": "#069ccd",
+            "backgroundColor": "#393D7A",
+            "borderColor": "#393D7A",
             "borderRadius": 4,
             "borderWidth": 2,
             "height": 52,
@@ -36,7 +36,7 @@ exports[`[Temp] render renders without crashing 1`] = `
             "width": 320,
           },
           Object {
-            "backgroundColor": "#333333",
+            "backgroundColor": "#000000",
           },
         ]
       }
@@ -45,7 +45,7 @@ exports[`[Temp] render renders without crashing 1`] = `
         style={
           Array [
             Object {
-              "color": "white",
+              "color": "#D3D8E8",
               "fontSize": 14,
             },
           ]
@@ -64,7 +64,7 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "#323739",
+        "backgroundColor": "#232323",
         "flexBasis": 0,
         "flexDirection": "row",
         "flexGrow": 1,
@@ -85,8 +85,8 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
           Object {
             "alignItems": "center",
             "alignSelf": "center",
-            "backgroundColor": "#069ccd",
-            "borderColor": "#069ccd",
+            "backgroundColor": "#8A96DC",
+            "borderColor": "#8A96DC",
             "borderRadius": 4,
             "borderWidth": 2,
             "height": 52,
@@ -94,7 +94,7 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
             "width": 320,
           },
           Object {
-            "backgroundColor": "#333333",
+            "backgroundColor": "#D3D8E8",
           },
         ]
       }
@@ -103,7 +103,7 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
         style={
           Array [
             Object {
-              "color": "white",
+              "color": "#000000",
               "fontSize": 14,
             },
           ]

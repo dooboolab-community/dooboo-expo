@@ -2,17 +2,17 @@ import {
   StackNavigationProp,
   createStackNavigator,
 } from '@react-navigation/stack';
-import { ThemeType, useThemeContext } from '../../providers/ThemeProvider';
+import {ThemeType, useTheme} from '../../providers/ThemeProvider';
 
-import Intro from '../screen/Intro';
-import { NavigationContainer } from '@react-navigation/native';
+import Intro from '../pages/Intro';
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import Temp from '../screen/Temp';
+import Temp from '../pages/Temp';
 
 export type RootStackParamList = {
   default: undefined;
   Intro: undefined;
-  Temp: { param: string };
+  Temp: {param: string};
 };
 
 export type RootStackNavigationProps<
@@ -22,7 +22,7 @@ export type RootStackNavigationProps<
 const Stack = createStackNavigator<RootStackParamList>();
 
 function RootNavigator(): React.ReactElement {
-  const { theme, themeType } = useThemeContext();
+  const {theme, themeType} = useTheme();
 
   return (
     <NavigationContainer>
@@ -32,11 +32,10 @@ function RootNavigator(): React.ReactElement {
           headerStyle: {
             backgroundColor: theme.background,
           },
-          headerTitleStyle: { color: theme.fontColor },
-          headerTintColor: theme.tintColor,
+          headerTitleStyle: {color: theme.text},
+          headerTintColor: theme.primary,
         }}
-        headerMode={themeType === ThemeType.DARK ? 'screen' : 'float'}
-      >
+        headerMode={themeType === ThemeType.DARK ? 'screen' : 'float'}>
         <Stack.Screen name="Intro" component={Intro} />
         <Stack.Screen name="Temp" component={Temp} />
       </Stack.Navigator>

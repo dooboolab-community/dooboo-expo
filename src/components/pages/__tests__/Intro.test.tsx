@@ -1,15 +1,10 @@
-import React, { ReactElement } from 'react';
-import {
-  RenderAPI,
-  act,
-  fireEvent,
-  render,
-} from '@testing-library/react-native';
-import { createTestElement, createTestProps } from '../../../../test/testUtils';
+import React, {ReactElement} from 'react';
+import {RenderAPI, act, fireEvent, render} from '@testing-library/react-native';
+import {createTestElement, createTestProps} from '../../../../test/testUtils';
 
-import Button from '../../shared/Button';
+import Button from '../../templates/Button';
 import Intro from '../Intro';
-import { ThemeType } from '../../../providers/ThemeProvider';
+import {ThemeType} from '../../../providers/ThemeProvider';
 import renderer from 'react-test-renderer';
 
 let props: any;
