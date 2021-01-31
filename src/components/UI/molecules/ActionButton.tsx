@@ -55,6 +55,7 @@ const ActionButton: FC<Props> = ({
       imgLeftStyle={imgLeftStyle}
       activeOpacity={activeOpacity}
       text={text}
+      textStyle={textStyle}
     />
   );
 };

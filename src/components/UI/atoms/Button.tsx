@@ -21,6 +21,10 @@ const StyledImage = styled.Image`
   left: 16px;
 `;
 
+const StyledText = styled(Body3)`
+  color: ${({ theme }) => theme.textContrast};
+`;
+
 type Props = {
   testID?: TouchableOpacityProps['testID'];
   activeOpacity?: TouchableOpacityProps['activeOpacity'];
@@ -51,7 +55,7 @@ const Button: FC<Props> = ({
         {imgLeftSrc ? (
           <StyledImage style={imgLeftStyle} source={imgLeftSrc} />
         ) : null}
-        <Body3 style={textStyle}>{text}</Body3>
+        <StyledText style={textStyle}>{text}</StyledText>
       </StyledButton>
     </TouchableOpacity>
   );
