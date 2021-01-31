@@ -311,7 +311,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               style={
                                 Array [
                                   Object {
-                                    "color": "#D3D8E8",
+                                    "color": "#000000",
                                     "fontSize": 14,
                                   },
                                 ]
@@ -354,7 +354,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               style={
                                 Array [
                                   Object {
-                                    "color": "#D3D8E8",
+                                    "color": "#000000",
                                     "fontSize": 14,
                                   },
                                 ]
@@ -397,7 +397,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               style={
                                 Array [
                                   Object {
-                                    "color": "#D3D8E8",
+                                    "color": "#000000",
                                     "fontSize": 14,
                                   },
                                 ]
@@ -937,7 +937,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               style={
                                 Array [
                                   Object {
-                                    "color": "#000000",
+                                    "color": "#D3D8E8",
                                     "fontSize": 14,
                                   },
                                 ]
@@ -980,7 +980,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               style={
                                 Array [
                                   Object {
-                                    "color": "#000000",
+                                    "color": "#D3D8E8",
                                     "fontSize": 14,
                                   },
                                 ]
@@ -1023,7 +1023,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               style={
                                 Array [
                                   Object {
-                                    "color": "#000000",
+                                    "color": "#D3D8E8",
                                     "fontSize": 14,
                                   },
                                 ]

@@ -22,7 +22,7 @@ const StyledImage = styled.Image`
 `;
 
 const StyledText = styled(Body3)`
-  color: ${({ theme }) => theme.textContrast};
+  color: ${({theme}) => theme.textContrast};
 `;
 
 type Props = {
