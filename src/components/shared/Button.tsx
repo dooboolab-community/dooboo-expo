@@ -61,7 +61,7 @@ interface Props {
 }
 
 function Button(props: Props): React.ReactElement {
-  if (props.isDisabled) {
+  if (props.isDisabled)
     return (
       <StyledButtonDisabled style={props.disabledStyle}>
         <StyledTextDisabled style={props.textStyle}>
@@ -69,15 +69,13 @@ function Button(props: Props): React.ReactElement {
         </StyledTextDisabled>
       </StyledButtonDisabled>
     );
-  }
 
-  if (props.isLoading) {
+  if (props.isLoading)
     return (
       <StyledButton style={props.style}>
         <ActivityIndicator size="small" color={props.indicatorColor} />
       </StyledButton>
     );
-  }
 
   return (
     <TouchableOpacity
@@ -86,10 +84,9 @@ function Button(props: Props): React.ReactElement {
       onPress={props.onClick}
     >
       <StyledButton style={props.style}>
-        {
-          props.imgLeftSrc
-            ? <StyledImage style={props.imgLeftStyle} source={props.imgLeftSrc} />
-            : null}
+        {props.imgLeftSrc ? (
+          <StyledImage style={props.imgLeftStyle} source={props.imgLeftSrc} />
+        ) : null}
         <StyledText style={props.textStyle}>{props.text}</StyledText>
       </StyledButton>
     </TouchableOpacity>

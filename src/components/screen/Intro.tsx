@@ -49,7 +49,12 @@ interface Props {
 
 function Intro(props: Props): React.ReactElement {
   let timer: number;
-  const { state: { user }, setUser } = useAppContext();
+
+  const {
+    state: { user },
+    setUser,
+  } = useAppContext();
+
   const { changeThemeType } = useThemeContext();
   const [isLoggingIn, setIsLoggingIn] = React.useState<boolean>(false);
 
@@ -57,13 +62,13 @@ function Intro(props: Props): React.ReactElement {
     setIsLoggingIn(true);
 
     timer = setTimeout(() => {
-      const user: User = {
+      const tempUser: User = {
         displayName: 'dooboolab',
         age: 30,
         job: 'developer',
       };
 
-      setUser(user);
+      setUser(tempUser);
       setIsLoggingIn(false);
       clearTimeout(timer);
     }, 1000);
@@ -93,9 +98,11 @@ function Intro(props: Props): React.ReactElement {
         <View style={{ marginTop: 8 }} />
         <Button
           testID="btn-navigate"
-          onClick={(): void => props.navigation.navigate('Temp', {
-            param: 'GO BACK',
-          })}
+          onClick={(): void =>
+            props.navigation.navigate('Temp', {
+              param: 'GO BACK',
+            })
+          }
           text={getString('NAVIGATE', { name: 'Temp' })}
         />
         <View style={{ marginTop: 8 }} />

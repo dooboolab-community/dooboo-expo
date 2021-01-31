@@ -68,6 +68,7 @@ const resetUser = (dispatch: React.Dispatch<ResetUserAction>) => (): void => {
   });
 };
 
+// eslint-disable-next-line default-param-last
 const reducer: Reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'reset-user':

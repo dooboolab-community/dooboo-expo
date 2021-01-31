@@ -8,11 +8,8 @@ import RootProvider from './providers';
 
 function cacheImages(images: Image[]): Image[] {
   return images.map((image: Image) => {
-    if (typeof image === 'string') {
-      return Image.prefetch(image);
-    } else {
-      return Asset.fromModule(image).downloadAsync();
-    }
+    if (typeof image === 'string') return Image.prefetch(image);
+    else return Asset.fromModule(image).downloadAsync();
   });
 }
 
@@ -29,7 +26,7 @@ function App(): React.ReactElement {
 function ProviderWrapper(): React.ReactElement {
   const [loading, setLoading] = useState(false);
 
-  if (loading) {
+  if (loading)
     return (
       <AppLoading
         startAsync={loadAssetsAsync}
@@ -37,7 +34,6 @@ function ProviderWrapper(): React.ReactElement {
         // onError={console.warn}
       />
     );
-  }
 
   return (
     <RootProvider>

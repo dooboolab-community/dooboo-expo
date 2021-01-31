@@ -1,4 +1,7 @@
-import { RootStackNavigationProps, RootStackParamList } from '../../components/navigation/RootStackNavigator';
+import {
+  RootStackNavigationProps,
+  RootStackParamList,
+} from '../../components/navigation/RootStackNavigator';
 
 import Button from '../shared/Button';
 import React from 'react';
@@ -19,7 +22,12 @@ interface Props {
 }
 
 function Page(props: Props): React.ReactElement {
-  const { route: { params: { param } }, navigation } = props;
+  const {
+    route: {
+      params: { param },
+    },
+    navigation,
+  } = props;
 
   return (
     <Container>

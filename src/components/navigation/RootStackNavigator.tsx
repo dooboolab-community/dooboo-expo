@@ -1,4 +1,7 @@
-import { StackNavigationProp, createStackNavigator } from '@react-navigation/stack';
+import {
+  StackNavigationProp,
+  createStackNavigator,
+} from '@react-navigation/stack';
 import { ThemeType, useThemeContext } from '../../providers/ThemeProvider';
 
 import Intro from '../screen/Intro';
@@ -10,7 +13,7 @@ export type RootStackParamList = {
   default: undefined;
   Intro: undefined;
   Temp: { param: string };
-}
+};
 
 export type RootStackNavigationProps<
   T extends keyof RootStackParamList = 'default'
@@ -32,9 +35,7 @@ function RootNavigator(): React.ReactElement {
           headerTitleStyle: { color: theme.fontColor },
           headerTintColor: theme.tintColor,
         }}
-        headerMode={
-          themeType === ThemeType.DARK ? 'screen' : 'float'
-        }
+        headerMode={themeType === ThemeType.DARK ? 'screen' : 'float'}
       >
         <Stack.Screen name="Intro" component={Intro} />
         <Stack.Screen name="Temp" component={Temp} />
