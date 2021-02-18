@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[IntroView] render renders without crashing 1`] = `
+exports[`[IntroTemp] render renders without crashing 1`] = `
 <View
   style={
     Array [
