@@ -15,6 +15,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         "justifyContent": "flex-start",
         "overflow": "hidden",
       },
+      undefined,
     ]
   }
 >
@@ -28,6 +29,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           "justifyContent": "flex-start",
           "width": "100%",
         },
+        undefined,
       ]
     }
   >
@@ -55,6 +57,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
             "fontSize": 18,
             "lineHeight": 27,
           },
+          undefined,
         ]
       }
     >
@@ -68,6 +71,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
             "fontSize": 18,
             "lineHeight": 27,
           },
+          undefined,
         ]
       }
     >
@@ -84,6 +88,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           "position": "absolute",
           "width": "85%",
         },
+        undefined,
       ]
     }
   >
@@ -99,13 +104,23 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#8A96DC",
-              "borderColor": "#8A96DC",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#8A96DC",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#8A96DC",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#8A96DC",
+              "borderRightWidth": 2,
+              "borderTopColor": "#8A96DC",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -126,6 +141,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
                 "position": "absolute",
                 "width": 24,
               },
+              undefined,
             ]
           }
         />
@@ -133,9 +149,15 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -162,13 +184,23 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#8A96DC",
-              "borderColor": "#8A96DC",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#8A96DC",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#8A96DC",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#8A96DC",
+              "borderRightWidth": 2,
+              "borderTopColor": "#8A96DC",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -176,9 +208,15 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -205,13 +243,23 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#8A96DC",
-              "borderColor": "#8A96DC",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#8A96DC",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#8A96DC",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#8A96DC",
+              "borderRightWidth": 2,
+              "borderTopColor": "#8A96DC",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -219,9 +267,15 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -248,6 +302,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         "justifyContent": "flex-start",
         "overflow": "hidden",
       },
+      undefined,
     ]
   }
 >
@@ -261,6 +316,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           "justifyContent": "flex-start",
           "width": "100%",
         },
+        undefined,
       ]
     }
   >
@@ -288,6 +344,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
             "fontSize": 18,
             "lineHeight": 27,
           },
+          undefined,
         ]
       }
     >
@@ -301,6 +358,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
             "fontSize": 18,
             "lineHeight": 27,
           },
+          undefined,
         ]
       }
     >
@@ -317,6 +375,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           "position": "absolute",
           "width": "85%",
         },
+        undefined,
       ]
     }
   >
@@ -332,13 +391,23 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#8A96DC",
-              "borderColor": "#8A96DC",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#8A96DC",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#8A96DC",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#8A96DC",
+              "borderRightWidth": 2,
+              "borderTopColor": "#8A96DC",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -359,6 +428,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
                 "position": "absolute",
                 "width": 24,
               },
+              undefined,
             ]
           }
         />
@@ -366,9 +436,15 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -395,13 +471,23 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#8A96DC",
-              "borderColor": "#8A96DC",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#8A96DC",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#8A96DC",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#8A96DC",
+              "borderRightWidth": 2,
+              "borderTopColor": "#8A96DC",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -409,9 +495,15 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -438,13 +530,23 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#8A96DC",
-              "borderColor": "#8A96DC",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#8A96DC",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#8A96DC",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#8A96DC",
+              "borderRightWidth": 2,
+              "borderTopColor": "#8A96DC",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -452,9 +554,15 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -481,6 +589,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         "justifyContent": "flex-start",
         "overflow": "hidden",
       },
+      undefined,
     ]
   }
 >
@@ -494,6 +603,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           "justifyContent": "flex-start",
           "width": "100%",
         },
+        undefined,
       ]
     }
   >
@@ -521,6 +631,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
             "fontSize": 18,
             "lineHeight": 27,
           },
+          undefined,
         ]
       }
     >
@@ -534,6 +645,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
             "fontSize": 18,
             "lineHeight": 27,
           },
+          undefined,
         ]
       }
     >
@@ -550,6 +662,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           "position": "absolute",
           "width": "85%",
         },
+        undefined,
       ]
     }
   >
@@ -565,13 +678,23 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#8A96DC",
-              "borderColor": "#8A96DC",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#8A96DC",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#8A96DC",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#8A96DC",
+              "borderRightWidth": 2,
+              "borderTopColor": "#8A96DC",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -592,6 +715,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
                 "position": "absolute",
                 "width": 24,
               },
+              undefined,
             ]
           }
         />
@@ -599,9 +723,15 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -628,13 +758,23 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#8A96DC",
-              "borderColor": "#8A96DC",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#8A96DC",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#8A96DC",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#8A96DC",
+              "borderRightWidth": 2,
+              "borderTopColor": "#8A96DC",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -642,9 +782,15 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -671,13 +817,23 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#8A96DC",
-              "borderColor": "#8A96DC",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#8A96DC",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#8A96DC",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#8A96DC",
+              "borderRightWidth": 2,
+              "borderTopColor": "#8A96DC",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -685,9 +841,15 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -714,6 +876,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         "justifyContent": "flex-start",
         "overflow": "hidden",
       },
+      undefined,
     ]
   }
 >
@@ -727,6 +890,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           "justifyContent": "flex-start",
           "width": "100%",
         },
+        undefined,
       ]
     }
   >
@@ -754,6 +918,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
             "fontSize": 18,
             "lineHeight": 27,
           },
+          undefined,
         ]
       }
     >
@@ -767,6 +932,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
             "fontSize": 18,
             "lineHeight": 27,
           },
+          undefined,
         ]
       }
     >
@@ -783,6 +949,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           "position": "absolute",
           "width": "85%",
         },
+        undefined,
       ]
     }
   >
@@ -798,13 +965,23 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#393D7A",
-              "borderColor": "#393D7A",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#393D7A",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#393D7A",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#393D7A",
+              "borderRightWidth": 2,
+              "borderTopColor": "#393D7A",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -825,6 +1002,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
                 "position": "absolute",
                 "width": 24,
               },
+              undefined,
             ]
           }
         />
@@ -832,9 +1010,15 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             Array [
               Object {
-                "color": "#D3D8E8",
+                "color": "#000000",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#D3D8E8",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -861,13 +1045,23 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#393D7A",
-              "borderColor": "#393D7A",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#393D7A",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#393D7A",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#393D7A",
+              "borderRightWidth": 2,
+              "borderTopColor": "#393D7A",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -875,9 +1069,15 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             Array [
               Object {
-                "color": "#D3D8E8",
+                "color": "#000000",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#D3D8E8",
+                },
+                undefined,
+              ],
             ]
           }
         >
@@ -904,13 +1104,23 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
               "alignItems": "center",
               "alignSelf": "center",
               "backgroundColor": "#393D7A",
-              "borderColor": "#393D7A",
-              "borderRadius": 4,
-              "borderWidth": 2,
+              "borderBottomColor": "#393D7A",
+              "borderBottomLeftRadius": 4,
+              "borderBottomRightRadius": 4,
+              "borderBottomWidth": 2,
+              "borderLeftColor": "#393D7A",
+              "borderLeftWidth": 2,
+              "borderRightColor": "#393D7A",
+              "borderRightWidth": 2,
+              "borderTopColor": "#393D7A",
+              "borderTopLeftRadius": 4,
+              "borderTopRightRadius": 4,
+              "borderTopWidth": 2,
               "height": 52,
               "justifyContent": "center",
               "width": 320,
             },
+            undefined,
           ]
         }
       >
@@ -918,9 +1128,15 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             Array [
               Object {
-                "color": "#D3D8E8",
+                "color": "#000000",
                 "fontSize": 14,
               },
+              Array [
+                Object {
+                  "color": "#D3D8E8",
+                },
+                undefined,
+              ],
             ]
           }
         >

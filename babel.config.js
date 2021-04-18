@@ -1,18 +1,14 @@
-module.exports = function(api) {
+module.exports = (api) => {
   api.cache(true);
+
   return {
-    presets: ['babel-preset-expo', '@babel/preset-typescript'],
-    // sourceMaps: "inline",
-    // plugins: [
-    //   '@babel/transform-react-jsx-source',
-    //   [
-    //     "@babel/plugin-transform-runtime",
-    //     {
-    //       "helpers": true,
-    //       "regenerator": false
-    //     }
-    //   ],
-    //   "@babel/proposal-object-rest-spread"
-    // ],
+    presets: [
+      [
+        '@babel/preset-react',
+        {runtime: 'automatic', importSource: '@emotion/react'},
+      ],
+      'babel-preset-expo',
+      '@babel/preset-typescript',
+    ],
   };
 };
