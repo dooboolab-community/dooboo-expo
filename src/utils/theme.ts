@@ -3,19 +3,14 @@ export enum ThemeType {
   DARK = 'DARK',
 }
 
-export type Colors = {
-  success: string;
-  darkGray: string;
-  mediumGray: string;
-  lightGray: string;
-};
-
-export const colors: Colors = {
+export const colors = {
   success: '#00BA90',
   darkGray: '#00000070',
   mediumGray: '#00000030',
   lightGray: '#CFCED0',
 };
+
+export type Colors = typeof colors;
 
 export const light = {
   background: '#FFFFFF',

@@ -7,7 +7,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       Object {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "#323739",
+        "backgroundColor": "#232323",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -35,7 +35,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       style={
         Array [
           Object {
-            "color": "white",
+            "color": "#D3D8E8",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -51,7 +51,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       style={
         Array [
           Object {
-            "color": "white",
+            "color": "#D3D8E8",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -64,7 +64,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       style={
         Array [
           Object {
-            "color": "white",
+            "color": "#D3D8E8",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -88,7 +88,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     }
   >
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-login"
     >
@@ -98,8 +98,8 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#8A96DC",
+              "borderColor": "#8A96DC",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -133,7 +133,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -151,7 +151,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-navigate"
     >
@@ -161,8 +161,8 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#8A96DC",
+              "borderColor": "#8A96DC",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -176,7 +176,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -194,7 +194,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-theme"
     >
@@ -204,8 +204,8 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#8A96DC",
+              "borderColor": "#8A96DC",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -219,7 +219,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -240,7 +240,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       Object {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "#323739",
+        "backgroundColor": "#232323",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -268,7 +268,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       style={
         Array [
           Object {
-            "color": "white",
+            "color": "#D3D8E8",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -284,7 +284,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       style={
         Array [
           Object {
-            "color": "white",
+            "color": "#D3D8E8",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -297,7 +297,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       style={
         Array [
           Object {
-            "color": "white",
+            "color": "#D3D8E8",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -321,7 +321,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     }
   >
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-login"
     >
@@ -331,8 +331,8 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#8A96DC",
+              "borderColor": "#8A96DC",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -366,7 +366,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -384,7 +384,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-navigate"
     >
@@ -394,8 +394,8 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#8A96DC",
+              "borderColor": "#8A96DC",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -409,7 +409,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -427,7 +427,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-theme"
     >
@@ -437,8 +437,8 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#8A96DC",
+              "borderColor": "#8A96DC",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -452,7 +452,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -473,7 +473,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       Object {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "#323739",
+        "backgroundColor": "#232323",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -501,7 +501,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       style={
         Array [
           Object {
-            "color": "white",
+            "color": "#D3D8E8",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -517,7 +517,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       style={
         Array [
           Object {
-            "color": "white",
+            "color": "#D3D8E8",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -530,7 +530,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       style={
         Array [
           Object {
-            "color": "white",
+            "color": "#D3D8E8",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -554,7 +554,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
     }
   >
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-login"
     >
@@ -564,8 +564,8 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#8A96DC",
+              "borderColor": "#8A96DC",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -599,7 +599,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -617,7 +617,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-navigate"
     >
@@ -627,8 +627,8 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#8A96DC",
+              "borderColor": "#8A96DC",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -642,7 +642,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -660,7 +660,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-theme"
     >
@@ -670,8 +670,8 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#8A96DC",
+              "borderColor": "#8A96DC",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -685,7 +685,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#000000",
                 "fontSize": 14,
               },
             ]
@@ -706,7 +706,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       Object {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "white",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -734,7 +734,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       style={
         Array [
           Object {
-            "color": "black",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -750,7 +750,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       style={
         Array [
           Object {
-            "color": "black",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -763,7 +763,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       style={
         Array [
           Object {
-            "color": "black",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -787,7 +787,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     }
   >
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-login"
     >
@@ -797,8 +797,8 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#393D7A",
+              "borderColor": "#393D7A",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -832,7 +832,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -850,7 +850,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-navigate"
     >
@@ -860,8 +860,8 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#393D7A",
+              "borderColor": "#393D7A",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -875,7 +875,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]
@@ -893,7 +893,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       }
     />
     <View
-      activeOpacity={0.5}
+      activeOpacity={0.7}
       onPress={[Function]}
       testID="btn-theme"
     >
@@ -903,8 +903,8 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
             Object {
               "alignItems": "center",
               "alignSelf": "center",
-              "backgroundColor": "#069ccd",
-              "borderColor": "#069ccd",
+              "backgroundColor": "#393D7A",
+              "borderColor": "#393D7A",
               "borderRadius": 4,
               "borderWidth": 2,
               "height": 52,
@@ -918,7 +918,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             Array [
               Object {
-                "color": "white",
+                "color": "#D3D8E8",
                 "fontSize": 14,
               },
             ]

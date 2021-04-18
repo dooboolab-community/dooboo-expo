@@ -1,6 +1,6 @@
-import { ThemeProvider, ThemeType } from '../providers/ThemeProvider';
+import {ThemeProvider, ThemeType} from '../providers/ThemeProvider';
 
-import { AppProvider } from './AppProvider';
+import {AppProvider} from './AppProvider';
 import React from 'react';
 
 interface Props {
@@ -10,7 +10,7 @@ interface Props {
 
 // Add providers here
 const RootProvider = ({
-  initialThemeType = ThemeType.LIGHT,
+  initialThemeType,
   children,
 }: Props): React.ReactElement => {
   return (

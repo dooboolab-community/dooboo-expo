@@ -1,15 +1,10 @@
-import React, { ReactElement } from 'react';
-import {
-  RenderAPI,
-  act,
-  fireEvent,
-  render,
-} from '@testing-library/react-native';
-import { createTestElement, createTestProps } from '../../../../test/testUtils';
+import React, {ReactElement} from 'react';
+import {RenderAPI, act, fireEvent, render} from '@testing-library/react-native';
+import {createTestElement, createTestProps} from '../../../../test/testUtils';
 
-import Button from '../../shared/Button';
+import ActionButton from '../../uis/Button';
 import Intro from '../Intro';
-import { ThemeType } from '../../../providers/ThemeProvider';
+import {ThemeType} from '../../../providers/ThemeProvider';
 import renderer from 'react-test-renderer';
 
 let props: any;
@@ -80,7 +75,7 @@ describe('[Intro] Interaction', () => {
 
     jest.useFakeTimers();
 
-    const buttons = root.findAllByType(Button);
+    const buttons = root.findAllByType(ActionButton);
 
     const button = testingLib.getByTestId('btn-login');
 

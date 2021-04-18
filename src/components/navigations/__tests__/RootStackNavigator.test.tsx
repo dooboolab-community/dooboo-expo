@@ -1,10 +1,10 @@
 import 'react-native';
 
-import React, { ReactElement } from 'react';
-import { createTestElement, createTestProps } from '../../../../test/testUtils';
+import React, {ReactElement} from 'react';
+import {createTestElement, createTestProps} from '../../../../test/testUtils';
 
 import StackNavigator from '../RootStackNavigator';
-import { ThemeType } from '../../../providers/ThemeProvider';
+import {ThemeType} from '../../../providers/ThemeProvider';
 import renderer from 'react-test-renderer';
 
 let props: any;
