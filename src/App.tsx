@@ -1,10 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import {Asset, useAssets} from 'expo-asset';
+import React, {useEffect} from 'react';
 
+import AppLoading from 'expo-app-loading';
 import Icons from './utils/Icons';
-import {Image, View} from 'react-native';
+import {Image} from 'react-native';
 import RootNavigator from './components/navigations/RootStackNavigator';
 import RootProvider from './providers';
-import {Asset} from 'expo-asset';
 
 function cacheImages(images: (number | string)[]): any[] {
   return images.map((image) => {
@@ -14,25 +15,19 @@ function cacheImages(images: (number | string)[]): any[] {
 }
 
 function App(): React.ReactElement {
-  const [loading, setLoading] = useState(false);
+  const [assets] = useAssets(Icons);
 
   const loadAssetsAsync = async (): Promise<void> => {
     const imageAssets = cacheImages(Icons);
 
     await Promise.all([...imageAssets]);
-
-    setLoading(false);
   };
 
   useEffect(() => {
-    if (!loading) loadAssetsAsync();
-  }, [loading]);
+    loadAssetsAsync();
+  });
 
-  if (loading)
-    return (
-      // Loading View
-      <View />
-    );
+  if (!assets) return <AppLoading />;
 
   return <RootNavigator />;
 }

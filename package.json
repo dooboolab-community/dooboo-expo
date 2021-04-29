@@ -30,6 +30,7 @@
     "@react-navigation/native": "^5.9.4",
     "@react-navigation/stack": "^5.14.4",
     "expo": "^41.0.1",
+    "expo-app-loading": "^1.0.3",
     "expo-localization": "~10.1.0",
     "expo-splash-screen": "~0.10.2",
     "i18n-js": "^3.8.0",
