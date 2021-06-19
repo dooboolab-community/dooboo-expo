@@ -4,7 +4,7 @@ import {Body3} from '../Typography';
 import type {FC} from 'react';
 import React from 'react';
 import {StyledButton} from '../Styles';
-import styled from 'styled-components/native';
+import styled from '@emotion/native';
 
 const StyledButtonDisabled = styled(StyledButton)`
   background-color: ${({theme}) => theme.disabled};

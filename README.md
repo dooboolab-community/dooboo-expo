@@ -14,7 +14,7 @@ DO NOT MODIFY OR CHANGE THE CODE BEFORE CONFIRMED BY `DOOBOOLAB`. THIS REPOSITOR
 - [react-navigation](https://github.com/react-navigation/react-navigation)
 - [typescript](https://github.com/Microsoft/TypeScript)
 - [localization](https://github.com/stefalda/ReactNativeLocalization)
-- [styled-components](https://github.com/styled-components/styled-components)
+- [emotion](https://emotion.sh)
 - [ts-jest](https://github.com/kulshekhar/ts-jest)
 - [@testing-library/react-native](https://github.com/testing-library/native-testing-library)
 - [@testing-library/react-hooks](https://github.com/testing-library/react-hooks-testing-library)
