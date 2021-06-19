@@ -15,6 +15,7 @@ DO NOT MODIFY OR CHANGE THE CODE BEFORE CONFIRMED BY `DOOBOOLAB`. THIS REPOSITOR
 - [typescript](https://github.com/Microsoft/TypeScript)
 - [localization](https://github.com/stefalda/ReactNativeLocalization)
 - [emotion](https://emotion.sh)
+- [dooboo-ui](https://github.com/dooboolab/dooboo-ui)
 - [ts-jest](https://github.com/kulshekhar/ts-jest)
 - [@testing-library/react-native](https://github.com/testing-library/native-testing-library)
 - [@testing-library/react-hooks](https://github.com/testing-library/react-hooks-testing-library)
