@@ -4,8 +4,7 @@ import * as React from 'react';
 
 import {RenderAPI, act, fireEvent, render} from '@testing-library/react-native';
 
-import Button from '../Button';
-import {ThemeType} from '../../../providers/ThemeProvider';
+import {Button} from 'dooboo-ui';
 import {createTestElement} from '../../../../test/testUtils';
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
@@ -34,7 +33,7 @@ describe('[Button]', () => {
   });
 
   it('should render [ThemeType.Dark] without crashing', () => {
-    component = createTestElement(<Button {...props} />, ThemeType.DARK);
+    component = createTestElement(<Button {...props} />, 'dark');
 
     const rendered = renderer.create(component).toJSON();
 

@@ -2,9 +2,8 @@ import React, {ReactElement} from 'react';
 import {RenderAPI, act, fireEvent, render} from '@testing-library/react-native';
 import {createTestElement, createTestProps} from '../../../../test/testUtils';
 
-import ActionButton from '../../uis/Button';
+import {Button} from 'dooboo-ui';
 import Intro from '../Intro';
-import {ThemeType} from '../../../providers/ThemeProvider';
 import renderer from 'react-test-renderer';
 
 let props: any;
@@ -26,7 +25,7 @@ describe('[Intro] screen rendering test', () => {
   });
 
   it('should render [Dark] theme', () => {
-    component = createTestElement(<Intro {...props} />, ThemeType.DARK);
+    component = createTestElement(<Intro {...props} />, 'dark');
     testingLib = render(component);
 
     const baseElement = testingLib.toJSON();
@@ -40,7 +39,7 @@ describe('[Intro] screen rendering test', () => {
       isLoading: true,
     });
 
-    component = createTestElement(<Intro {...props} />, ThemeType.DARK);
+    component = createTestElement(<Intro {...props} />, 'dark');
     testingLib = render(component);
 
     const baseElement = testingLib.toJSON();
@@ -54,7 +53,7 @@ describe('[Intro] screen rendering test', () => {
       isDisabled: true,
     });
 
-    component = createTestElement(<Intro {...props} />, ThemeType.DARK);
+    component = createTestElement(<Intro {...props} />, 'dark');
     testingLib = render(component);
 
     const baseElement = testingLib.toJSON();
@@ -75,7 +74,7 @@ describe('[Intro] Interaction', () => {
 
     jest.useFakeTimers();
 
-    const buttons = root.findAllByType(ActionButton);
+    const buttons = root.findAllByType(Button);
 
     const button = testingLib.getByTestId('btn-login');
 
@@ -86,7 +85,7 @@ describe('[Intro] Interaction', () => {
     });
 
     expect(clearTimeout).toHaveBeenCalledTimes(1);
-    expect(buttons[0].props.isLoading).toEqual(false);
+    expect(buttons[0].props.loading).toEqual(false);
   });
 
   it('should navigate when button has clicked', () => {
