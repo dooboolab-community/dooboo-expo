@@ -1,13 +1,12 @@
 import {
   RootStackNavigationProps,
   RootStackParamList,
-} from '../../components/navigations/RootStackNavigator';
+} from '../navigations/RootStack';
 
-import Button from '../uis/Button';
+import {Button} from 'dooboo-ui';
 import React from 'react';
 import {RouteProp} from '@react-navigation/core';
 import styled from '@emotion/native';
-import {useTheme} from '../../providers/ThemeProvider';
 
 const Container = styled.View`
   flex: 1;
@@ -23,8 +22,6 @@ interface Props {
 }
 
 function Page(props: Props): React.ReactElement {
-  const {theme} = useTheme();
-
   const {
     route: {
       params: {param},
@@ -38,9 +35,6 @@ function Page(props: Props): React.ReactElement {
         testID="btn-back"
         onPress={(): void => navigation.goBack()}
         text={param}
-        style={{
-          backgroundColor: theme.text,
-        }}
       />
     </Container>
   );
