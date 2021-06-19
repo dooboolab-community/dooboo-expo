@@ -24,15 +24,15 @@ module.exports = {
   ],
   moduleNameMapper: {
     '\\.svg': '<rootDir>/__mocks__/svgMock.js',
-    '.+\\.(css|style|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'babel-jest',
+    '.+\\.(css|style|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'ts-jest',
   },
   setupFiles: [...expoPreset.setupFiles, '<rootDir>/test/jestSetup.js'],
+  setupFilesAfterEnv: ['./test/setupTest.ts'],
   transformIgnorePatterns: [
     // eslint-disable-next-line max-len
     'node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|dooboo-ui|@dooboo-ui|sentry-expo|native-base|@sentry/.*)',
   ],
   cacheDirectory: '.jest/cache',
-  setupFilesAfterEnv: ['./test/setupTest.ts'],
   haste: {
     defaultPlatform: 'ios',
     platforms: ['android', 'ios', 'native'],

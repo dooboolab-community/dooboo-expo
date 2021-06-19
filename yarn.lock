@@ -3549,20 +3549,6 @@ babel-helper-replace-supers@^6.24.1:
     babel-traverse "^6.24.1"
     babel-types "^6.24.1"
 
-babel-jest@27.0.2, babel-jest@^27.0.2:
-  version "27.0.2"
-  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-27.0.2.tgz#7dc18adb01322acce62c2af76ea2c7cd186ade37"
-  integrity sha512-9OThPl3/IQbo4Yul2vMz4FYwILPQak8XelX4YGowygfHaOl5R5gfjm4iVx4d8aUugkW683t8aq0A74E7b5DU1Q==
-  dependencies:
-    "@jest/transform" "^27.0.2"
-    "@jest/types" "^27.0.2"
-    "@types/babel__core" "^7.1.14"
-    babel-plugin-istanbul "^6.0.0"
-    babel-preset-jest "^27.0.1"
-    chalk "^4.0.0"
-    graceful-fs "^4.2.4"
-    slash "^3.0.0"
-
 babel-jest@^25.2.0, babel-jest@^25.5.1:
   version "25.5.1"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-25.5.1.tgz#bc2e6101f849d6f6aec09720ffc7bc5332e62853"
@@ -3574,6 +3560,20 @@ babel-jest@^25.2.0, babel-jest@^25.5.1:
     babel-plugin-istanbul "^6.0.0"
     babel-preset-jest "^25.5.0"
     chalk "^3.0.0"
+    graceful-fs "^4.2.4"
+    slash "^3.0.0"
+
+babel-jest@^27.0.2:
+  version "27.0.2"
+  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-27.0.2.tgz#7dc18adb01322acce62c2af76ea2c7cd186ade37"
+  integrity sha512-9OThPl3/IQbo4Yul2vMz4FYwILPQak8XelX4YGowygfHaOl5R5gfjm4iVx4d8aUugkW683t8aq0A74E7b5DU1Q==
+  dependencies:
+    "@jest/transform" "^27.0.2"
+    "@jest/types" "^27.0.2"
+    "@types/babel__core" "^7.1.14"
+    babel-plugin-istanbul "^6.0.0"
+    babel-preset-jest "^27.0.1"
+    chalk "^4.0.0"
     graceful-fs "^4.2.4"
     slash "^3.0.0"
 
@@ -5164,10 +5164,10 @@ domutils@^1.7.0:
     dom-serializer "0"
     domelementtype "1"
 
-dooboo-ui@^0.1.11:
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/dooboo-ui/-/dooboo-ui-0.1.11.tgz#faf0bf126f6b770a37493109d0d7cb668d0512fe"
-  integrity sha512-+e1UC8tJl3klibgtijqJ6sF2R2H1qv0sHfU/kT7mZ+HVUcS7KjOVy0mUM2ttxK90iIBDknVXF7w12z9bCmNxQQ==
+dooboo-ui@^0.1.12-rc.5:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/dooboo-ui/-/dooboo-ui-0.1.12.tgz#d8f85b2cee5f9352e9a6665f36285ad49918445d"
+  integrity sha512-AgzvkDNOVcVdgFWMpth0XGO4FaHTgja3KrKZYuzc8Adkb3k3XrPKVogbNfg5+/Loi6XEeUoOaLHJifOCQooPfQ==
   dependencies:
     dooboolab-welcome "^1.2.0"
     react-native-web-hooks "^3.0.1"

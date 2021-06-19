@@ -61,6 +61,7 @@ exports[`[Temp] render renders without crashing 1`] = `
       testID="button-container"
       type="primary"
     >
+      <Text />
       <Text
         outlined={false}
         style={
@@ -144,6 +145,33 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
       testID="button-container"
       type="primary"
     >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "black",
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "color": "black",
+              },
+              Object {
+                "marginRight": 12,
+              },
+            ],
+            Object {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
       <Text
         outlined={false}
         style={

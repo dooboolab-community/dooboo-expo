@@ -140,12 +140,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         <Image
           source={
             Object {
-              "canInstrument": true,
               "createTransformer": [Function],
-              "getCacheKey": [Function],
-              "getCacheKeyAsync": [Function],
-              "process": [Function],
-              "processAsync": [Function],
             }
           }
           style={
@@ -460,12 +455,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         <Image
           source={
             Object {
-              "canInstrument": true,
               "createTransformer": [Function],
-              "getCacheKey": [Function],
-              "getCacheKeyAsync": [Function],
-              "process": [Function],
-              "processAsync": [Function],
             }
           }
           style={
@@ -780,12 +770,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         <Image
           source={
             Object {
-              "canInstrument": true,
               "createTransformer": [Function],
-              "getCacheKey": [Function],
-              "getCacheKeyAsync": [Function],
-              "process": [Function],
-              "processAsync": [Function],
             }
           }
           style={
@@ -1100,12 +1085,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         <Image
           source={
             Object {
-              "canInstrument": true,
               "createTransformer": [Function],
-              "getCacheKey": [Function],
-              "getCacheKeyAsync": [Function],
-              "process": [Function],
-              "processAsync": [Function],
             }
           }
           style={

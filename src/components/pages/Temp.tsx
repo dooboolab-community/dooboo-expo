@@ -1,9 +1,9 @@
+import {Button, Icon, useTheme} from 'dooboo-ui';
 import {
   RootStackNavigationProps,
   RootStackParamList,
 } from '../navigations/RootStack';
 
-import {Button} from 'dooboo-ui';
 import React from 'react';
 import {RouteProp} from '@react-navigation/core';
 import styled from '@emotion/native';
@@ -22,6 +22,8 @@ interface Props {
 }
 
 function Page(props: Props): React.ReactElement {
+  const {theme} = useTheme();
+
   const {
     route: {
       params: {param},
@@ -34,6 +36,16 @@ function Page(props: Props): React.ReactElement {
       <Button
         testID="btn-back"
         onPress={(): void => navigation.goBack()}
+        leftElement={
+          <Icon
+            name="chevron-left-light"
+            size={16}
+            color={theme.textContrast}
+            style={{
+              marginRight: 12,
+            }}
+          />
+        }
         text={param}
       />
     </Container>
