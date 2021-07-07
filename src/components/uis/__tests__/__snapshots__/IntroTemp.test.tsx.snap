@@ -19,7 +19,7 @@ exports[`[IntroTemp] render renders without crashing 1`] = `
     style={
       Array [
         Object {
-          "color": "#000000",
+          "color": "black",
           "fontSize": 18,
           "lineHeight": 27,
         },
@@ -35,7 +35,7 @@ exports[`[IntroTemp] render renders without crashing 1`] = `
     style={
       Array [
         Object {
-          "color": "#000000",
+          "color": "black",
           "fontSize": 18,
           "lineHeight": 27,
         },
@@ -49,7 +49,7 @@ exports[`[IntroTemp] render renders without crashing 1`] = `
     style={
       Array [
         Object {
-          "color": "#000000",
+          "color": "black",
           "fontSize": 18,
           "lineHeight": 27,
         },

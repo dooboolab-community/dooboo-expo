@@ -1,14 +1,14 @@
-import Button from '../uis/Button';
+import {Button, useTheme} from 'dooboo-ui';
+import {Image, View} from 'react-native';
+
 import {IC_MASK} from '../../utils/Icons';
 import IntroView from '../uis/IntroTemp';
 import React from 'react';
-import {RootStackNavigationProps} from '../navigations/RootStackNavigator';
+import {RootStackNavigationProps} from '../navigations/RootStack';
 import {User} from '../../types';
-import {View} from 'react-native';
 import {getString} from '../../../STRINGS';
 import styled from '@emotion/native';
 import {useAppContext} from '../../providers/AppProvider';
-import {useTheme} from '../../providers/ThemeProvider';
 
 const Container = styled.View`
   flex: 1;
@@ -26,7 +26,7 @@ const ButtonWrapper = styled.View`
   position: absolute;
   flex-direction: column;
   bottom: 40px;
-  width: 85%;
+  width: 72%;
   align-self: center;
 `;
 
@@ -35,7 +35,7 @@ interface Props {
 }
 
 function Intro(props: Props): React.ReactElement {
-  let timer: number;
+  let timer: any;
 
   const {setUser} = useAppContext();
 
@@ -64,12 +64,22 @@ function Intro(props: Props): React.ReactElement {
       <ButtonWrapper>
         <Button
           testID="btn-login"
-          imgLeftSrc={IC_MASK}
-          isLoading={isLoggingIn}
+          leftElement={
+            <Image
+              source={IC_MASK}
+              style={{
+                position: 'absolute',
+                left: 12,
+                width: 24,
+                height: 24,
+              }}
+            />
+          }
+          loading={isLoggingIn}
           onPress={(): void => onLogin()}
           text={getString('LOGIN')}
         />
-        <View style={{marginTop: 8}} />
+        <View style={{marginTop: 12}} />
         <Button
           testID="btn-navigate"
           onPress={(): void =>
@@ -79,7 +89,7 @@ function Intro(props: Props): React.ReactElement {
           }
           text={getString('NAVIGATE', {name: 'Temp'})}
         />
-        <View style={{marginTop: 8}} />
+        <View style={{marginTop: 12}} />
         <Button
           testID="btn-theme"
           onPress={(): void => changeThemeType()}

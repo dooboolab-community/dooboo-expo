@@ -2,10 +2,9 @@ import 'react-native';
 
 import React, {ReactElement} from 'react';
 import {createTestElement, createTestProps} from '../../../../test/testUtils';
+import renderer, {act} from 'react-test-renderer';
 
-import StackNavigator from '../RootStackNavigator';
-import {ThemeType} from '../../../providers/ThemeProvider';
-import renderer from 'react-test-renderer';
+import StackNavigator from '../RootStack';
 
 let props: any;
 let component: ReactElement;
@@ -17,28 +16,29 @@ describe('[Stack] navigator', () => {
     component = createTestElement(<StackNavigator {...props} />);
   });
 
-  it('should renders without crashing', () => {
+  it('should renders without crashing', async () => {
     jest.useFakeTimers();
 
     const rendered = renderer.create(component).toJSON();
 
-    jest.runAllTimers();
-    expect(rendered).toMatchSnapshot();
+    await act(async () => {
+      expect(rendered).toMatchSnapshot();
+    });
+
     expect(rendered).toBeTruthy();
   });
 
-  it('should renders [Dark] mode', () => {
+  it('should renders [Dark] mode', async () => {
     jest.useFakeTimers();
 
-    component = createTestElement(
-      <StackNavigator {...props} />,
-      ThemeType.DARK,
-    );
+    component = createTestElement(<StackNavigator {...props} />, 'dark');
 
     const rendered = renderer.create(component).toJSON();
 
-    jest.runAllTimers();
-    expect(rendered).toMatchSnapshot();
+    await act(async () => {
+      expect(rendered).toMatchSnapshot();
+    });
+
     expect(rendered).toBeTruthy();
   });
 });

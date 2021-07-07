@@ -3,7 +3,7 @@ import 'react-native';
 import React, {ReactElement} from 'react';
 
 import RootProvider from '../src/providers';
-import {ThemeType} from '../src/providers/ThemeProvider';
+import {ThemeType} from 'dooboo-ui';
 
 export const createTestElement = (
   child: ReactElement,

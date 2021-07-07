@@ -5,7 +5,6 @@ import {RenderAPI, act, fireEvent, render} from '@testing-library/react-native';
 import {createTestElement, createTestProps} from '../../../../test/testUtils';
 
 import Temp from '../Temp';
-import {ThemeType} from '../../../providers/ThemeProvider';
 
 let props: any;
 let component: ReactElement;
@@ -40,7 +39,7 @@ describe('[Temp] render', () => {
       },
     });
 
-    component = createTestElement(<Temp {...props} />, ThemeType.DARK);
+    component = createTestElement(<Temp {...props} />, 'dark');
     testingLib = render(component);
 
     const baseElement = testingLib.toJSON();

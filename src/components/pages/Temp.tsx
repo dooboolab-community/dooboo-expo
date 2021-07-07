@@ -1,13 +1,12 @@
+import {Button, Icon, useTheme} from 'dooboo-ui';
 import {
   RootStackNavigationProps,
   RootStackParamList,
-} from '../../components/navigations/RootStackNavigator';
+} from '../navigations/RootStack';
 
-import Button from '../uis/Button';
 import React from 'react';
 import {RouteProp} from '@react-navigation/core';
 import styled from '@emotion/native';
-import {useTheme} from '../../providers/ThemeProvider';
 
 const Container = styled.View`
   flex: 1;
@@ -37,10 +36,17 @@ function Page(props: Props): React.ReactElement {
       <Button
         testID="btn-back"
         onPress={(): void => navigation.goBack()}
+        leftElement={
+          <Icon
+            name="chevron-left-light"
+            size={16}
+            color={theme.textContrast}
+            style={{
+              marginRight: 12,
+            }}
+          />
+        }
         text={param}
-        style={{
-          backgroundColor: theme.text,
-        }}
       />
     </Container>
   );
