@@ -23,7 +23,6 @@ export default ({config}: ConfigContext): ExpoConfig => ({
     supportsTablet: true,
   },
   android: {
-    userInterfaceStyle: 'dark',
     useNextNotificationsApi: true,
   },
   description: 'Starter project from dooboo-cli.',
