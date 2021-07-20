@@ -24,6 +24,7 @@ export default ({config}: ConfigContext): ExpoConfig => ({
   },
   android: {
     useNextNotificationsApi: true,
+    userInterfaceStyle: 'automatic',
   },
   description: 'Starter project from dooboo-cli.',
 });
