@@ -4,7 +4,6 @@ module.exports = async (env, argv) => {
   const config = await createExpoWebpackConfigAsync(
     {
       ...env,
-      offline: true,
       babel: {
         dangerouslyAddModulePathsToTranspile: ['dooboo-ui', '@dooboo-ui'],
       },
