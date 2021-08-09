@@ -1,5 +1,4 @@
 {
-  "upgrade": false,
   "reject": [
     "react",
     "react-native",

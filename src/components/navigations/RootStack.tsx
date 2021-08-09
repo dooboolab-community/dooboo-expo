@@ -16,7 +16,7 @@ export type RootStackParamList = {
 };
 
 export type RootStackNavigationProps<
-  T extends keyof RootStackParamList = 'default',
+  T extends keyof RootStackParamList = 'default'
 > = StackNavigationProp<RootStackParamList, T>;
 
 const Stack = createStackNavigator<RootStackParamList>();
@@ -29,13 +29,13 @@ function RootStack(): React.ReactElement {
       <Stack.Navigator
         initialRouteName="Intro"
         screenOptions={{
+          headerMode: themeType === 'dark' ? 'screen' : 'float',
           headerStyle: {
             backgroundColor: theme.background,
           },
           headerTitleStyle: {color: theme.text},
           headerTintColor: theme.primary,
-        }}
-        headerMode={themeType === 'dark' ? 'screen' : 'float'}>
+        }}>
         <Stack.Screen name="Intro" component={Intro} />
         <Stack.Screen name="Temp" component={Temp} />
       </Stack.Navigator>
