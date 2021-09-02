@@ -5,12 +5,8 @@
     "react-dom",
     "react-test-renderer",
     "react-native-screens",
-    "react-native-safe-area-context",
     "react-native-gesture-handler",
     "react-native-svg",
-    "react-native-webview",
-    "react-navigation-stack",
-    "@react-native-masked-view/masked-view",
     "react-native-reanimated"
   ]
 }

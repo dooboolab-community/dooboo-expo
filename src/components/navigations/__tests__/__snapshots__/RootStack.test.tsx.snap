@@ -550,10 +550,9 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             pointerEvents="box-none"
                             style={
                               Object {
-                                "alignItems": "center",
+                                "alignItems": "stretch",
                                 "flex": 1,
                                 "flexDirection": "row",
-                                "justifyContent": "center",
                               }
                             }
                           >
@@ -573,7 +572,9 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               pointerEvents="box-none"
                               style={
                                 Object {
+                                  "justifyContent": "center",
                                   "marginHorizontal": 16,
+                                  "maxWidth": 718,
                                 }
                               }
                             >
@@ -734,10 +735,9 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
               pointerEvents="box-none"
               style={
                 Object {
-                  "alignItems": "center",
+                  "alignItems": "stretch",
                   "flex": 1,
                   "flexDirection": "row",
-                  "justifyContent": "center",
                 }
               }
             >
@@ -758,7 +758,9 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                 pointerEvents="box-none"
                 style={
                   Object {
+                    "justifyContent": "center",
                     "marginHorizontal": 16,
+                    "maxWidth": 718,
                     "opacity": 1,
                   }
                 }
