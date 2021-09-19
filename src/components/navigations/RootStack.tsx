@@ -35,7 +35,8 @@ function RootStack(): React.ReactElement {
           },
           headerTitleStyle: {color: theme.text},
           headerTintColor: theme.primary,
-        }}>
+        }}
+      >
         <Stack.Screen name="Intro" component={Intro} />
         <Stack.Screen name="Temp" component={Temp} />
       </Stack.Navigator>
