@@ -21,6 +21,6 @@ export const sample = async (
 
     return res;
   } catch (err) {
-    throw new Error(err);
+    throw new Error(err as string);
   }
 };

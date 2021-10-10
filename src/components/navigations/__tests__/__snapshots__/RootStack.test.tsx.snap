@@ -19,184 +19,158 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
       ]
     }
   >
-    <RNSScreenContainer
-      onLayout={[Function]}
+    <View
       style={
-        Object {
-          "flex": 1,
-        }
+        Array [
+          Object {
+            "backgroundColor": "rgb(242, 242, 242)",
+            "flex": 1,
+          },
+          undefined,
+        ]
       }
     >
-      <RNSScreen
-        activityState={2}
-        forwardedRef={[Function]}
-        pointerEvents="box-none"
+      <RNSScreenContainer
+        onLayout={[Function]}
         style={
           Object {
-            "bottom": 0,
-            "left": 0,
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
+            "flex": 1,
           }
         }
       >
-        <View
-          collapsable={false}
-          style={
-            Object {
-              "opacity": 1,
-            }
-          }
-        />
-        <View
-          accessibilityElementsHidden={false}
-          closing={false}
-          gestureVelocityImpact={0.3}
-          importantForAccessibility="auto"
-          onClose={[Function]}
-          onGestureBegin={[Function]}
-          onGestureCanceled={[Function]}
-          onGestureEnd={[Function]}
-          onOpen={[Function]}
-          onTransition={[Function]}
+        <RNSScreen
+          activityState={2}
+          forwardedRef={[Function]}
           pointerEvents="box-none"
           style={
-            Array [
-              Object {
-                "overflow": undefined,
-              },
-              Object {
-                "bottom": 0,
-                "left": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-            ]
-          }
-          transitionSpec={
             Object {
-              "close": Object {
-                "animation": "spring",
-                "config": Object {
-                  "damping": 500,
-                  "mass": 3,
-                  "overshootClamping": true,
-                  "restDisplacementThreshold": 10,
-                  "restSpeedThreshold": 10,
-                  "stiffness": 1000,
-                },
-              },
-              "open": Object {
-                "animation": "spring",
-                "config": Object {
-                  "damping": 500,
-                  "mass": 3,
-                  "overshootClamping": true,
-                  "restDisplacementThreshold": 10,
-                  "restSpeedThreshold": 10,
-                  "stiffness": 1000,
-                },
-              },
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
             }
           }
         >
           <View
-            needsOffscreenAlphaCompositing={false}
-            pointerEvents="box-none"
+            collapsable={false}
             style={
               Object {
-                "flex": 1,
+                "opacity": 1,
+              }
+            }
+          />
+          <View
+            accessibilityElementsHidden={false}
+            closing={false}
+            gestureVelocityImpact={0.3}
+            importantForAccessibility="auto"
+            onClose={[Function]}
+            onGestureBegin={[Function]}
+            onGestureCanceled={[Function]}
+            onGestureEnd={[Function]}
+            onOpen={[Function]}
+            onTransition={[Function]}
+            pointerEvents="box-none"
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                  "overflow": undefined,
+                },
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+              ]
+            }
+            transitionSpec={
+              Object {
+                "close": Object {
+                  "animation": "spring",
+                  "config": Object {
+                    "damping": 500,
+                    "mass": 3,
+                    "overshootClamping": true,
+                    "restDisplacementThreshold": 10,
+                    "restSpeedThreshold": 10,
+                    "stiffness": 1000,
+                  },
+                },
+                "open": Object {
+                  "animation": "spring",
+                  "config": Object {
+                    "damping": 500,
+                    "mass": 3,
+                    "overshootClamping": true,
+                    "restDisplacementThreshold": 10,
+                    "restSpeedThreshold": 10,
+                    "stiffness": 1000,
+                  },
+                },
               }
             }
           >
             <View
-              collapsable={false}
-              forwardedRef={[Function]}
-              onGestureHandlerEvent={[Function]}
-              onGestureHandlerStateChange={[Function]}
+              pointerEvents="box-none"
               style={
                 Object {
                   "flex": 1,
-                  "transform": Array [
-                    Object {
-                      "translateX": 0,
-                    },
-                    Object {
-                      "translateX": 0,
-                    },
-                  ],
                 }
               }
             >
               <View
-                pointerEvents="none"
+                collapsable={false}
+                forwardedRef={[Function]}
+                needsOffscreenAlphaCompositing={false}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
                 style={
                   Object {
-                    "backgroundColor": "rgb(242, 242, 242)",
-                    "bottom": 0,
-                    "left": 0,
-                    "position": "absolute",
-                    "shadowColor": "#000",
-                    "shadowOffset": Object {
-                      "height": 1,
-                      "width": -1,
-                    },
-                    "shadowOpacity": 0.3,
-                    "shadowRadius": 5,
-                    "top": 0,
-                    "width": 3,
-                  }
-                }
-              />
-              <View
-                style={
-                  Array [
-                    Object {
-                      "flex": 1,
-                      "overflow": "hidden",
-                    },
-                    Array [
+                    "flex": 1,
+                    "transform": Array [
                       Object {
-                        "backgroundColor": "rgb(242, 242, 242)",
+                        "translateX": 0,
                       },
-                      undefined,
+                      Object {
+                        "translateX": 0,
+                      },
                     ],
-                  ]
+                  }
                 }
               >
                 <View
                   style={
-                    Object {
-                      "flex": 1,
-                      "flexDirection": "column-reverse",
-                    }
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
                   }
                 >
                   <View
                     style={
                       Object {
                         "flex": 1,
+                        "flexDirection": "column-reverse",
                       }
                     }
                   >
                     <View
                       style={
-                        Array [
-                          Object {
-                            "alignItems": "center",
-                            "alignSelf": "stretch",
-                            "backgroundColor": "black",
-                            "flexBasis": 0,
-                            "flexDirection": "column",
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "justifyContent": "flex-start",
-                            "overflow": "hidden",
-                          },
-                          undefined,
-                        ]
+                        Object {
+                          "flex": 1,
+                        }
                       }
                     >
                       <View
@@ -204,390 +178,434 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           Array [
                             Object {
                               "alignItems": "center",
+                              "alignSelf": "stretch",
+                              "backgroundColor": "black",
+                              "flexBasis": 0,
                               "flexDirection": "column",
-                              "height": "100%",
+                              "flexGrow": 1,
+                              "flexShrink": 1,
                               "justifyContent": "flex-start",
-                              "width": "100%",
-                            },
-                            undefined,
-                          ]
-                        }
-                      >
-                        <Text
-                          style={
-                            Array [
-                              Object {
-                                "color": "white",
-                                "fontSize": 18,
-                                "lineHeight": 27,
-                              },
-                              Object {
-                                "marginTop": 100,
-                              },
-                            ]
-                          }
-                        >
-                          
-                        </Text>
-                        <Text
-                          style={
-                            Array [
-                              Object {
-                                "color": "white",
-                                "fontSize": 18,
-                                "lineHeight": 27,
-                              },
-                              undefined,
-                            ]
-                          }
-                        >
-                          
-                        </Text>
-                        <Text
-                          style={
-                            Array [
-                              Object {
-                                "color": "white",
-                                "fontSize": 18,
-                                "lineHeight": 27,
-                              },
-                              undefined,
-                            ]
-                          }
-                        >
-                          
-                        </Text>
-                      </View>
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "alignSelf": "center",
-                              "bottom": 40,
-                              "flexDirection": "column",
-                              "position": "absolute",
-                              "width": "72%",
+                              "overflow": "hidden",
                             },
                             undefined,
                           ]
                         }
                       >
                         <View
-                          activeOpacity={0.6}
-                          delayPressIn={50}
-                          disabled={false}
-                          onPress={[Function]}
-                          testID="btn-login"
+                          style={
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "column",
+                                "height": "100%",
+                                "justifyContent": "flex-start",
+                                "width": "100%",
+                              },
+                              undefined,
+                            ]
+                          }
                         >
-                          <View
-                            onLayout={[Function]}
-                            outlined={false}
+                          <Text
                             style={
                               Array [
                                 Object {
-                                  "backgroundColor": "white",
-                                  "borderBottomColor": "white",
-                                  "borderLeftColor": "white",
-                                  "borderRightColor": "white",
-                                  "borderTopColor": "white",
+                                  "color": "white",
+                                  "fontSize": 18,
+                                  "lineHeight": 27,
                                 },
-                                Array [
-                                  Object {
-                                    "alignItems": "center",
-                                    "alignSelf": "stretch",
-                                    "borderBottomLeftRadius": 20,
-                                    "borderBottomRightRadius": 20,
-                                    "borderTopLeftRadius": 20,
-                                    "borderTopRightRadius": 20,
-                                    "flexDirection": "row",
-                                    "justifyContent": "center",
-                                    "paddingBottom": 10,
-                                    "paddingLeft": 20,
-                                    "paddingRight": 20,
-                                    "paddingTop": 10,
-                                  },
-                                  Array [
-                                    undefined,
-                                    false,
-                                    undefined,
-                                  ],
-                                ],
+                                Object {
+                                  "marginTop": 100,
+                                },
                               ]
                             }
-                            testID="button-container"
-                            type="primary"
                           >
-                            <Image
-                              source={
+                            
+                          </Text>
+                          <Text
+                            style={
+                              Array [
                                 Object {
-                                  "createTransformer": [Function],
-                                }
-                              }
-                              style={
+                                  "color": "white",
+                                  "fontSize": 18,
+                                  "lineHeight": 27,
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            
+                          </Text>
+                          <Text
+                            style={
+                              Array [
                                 Object {
-                                  "height": 24,
-                                  "left": 12,
-                                  "position": "absolute",
-                                  "width": 24,
-                                }
-                              }
-                            />
-                            <Text
-                              outlined={false}
-                              style={
-                                Array [
-                                  Object {
-                                    "color": "black",
-                                  },
-                                  Array [
-                                    undefined,
-                                    undefined,
-                                  ],
-                                ]
-                              }
-                              type="primary"
-                            >
-                              Login
-                            </Text>
-                          </View>
+                                  "color": "white",
+                                  "fontSize": 18,
+                                  "lineHeight": 27,
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            
+                          </Text>
                         </View>
                         <View
                           style={
-                            Object {
-                              "marginTop": 12,
-                            }
+                            Array [
+                              Object {
+                                "alignSelf": "center",
+                                "bottom": 40,
+                                "flexDirection": "column",
+                                "position": "absolute",
+                                "width": "72%",
+                              },
+                              undefined,
+                            ]
                           }
-                        />
-                        <View
-                          activeOpacity={0.6}
-                          delayPressIn={50}
-                          onPress={[Function]}
-                          testID="btn-navigate"
                         >
                           <View
-                            onLayout={[Function]}
-                            outlined={false}
-                            style={
-                              Array [
-                                Object {
-                                  "backgroundColor": "white",
-                                  "borderBottomColor": "white",
-                                  "borderLeftColor": "white",
-                                  "borderRightColor": "white",
-                                  "borderTopColor": "white",
-                                },
-                                Array [
-                                  Object {
-                                    "alignItems": "center",
-                                    "alignSelf": "stretch",
-                                    "borderBottomLeftRadius": 20,
-                                    "borderBottomRightRadius": 20,
-                                    "borderTopLeftRadius": 20,
-                                    "borderTopRightRadius": 20,
-                                    "flexDirection": "row",
-                                    "justifyContent": "center",
-                                    "paddingBottom": 10,
-                                    "paddingLeft": 20,
-                                    "paddingRight": 20,
-                                    "paddingTop": 10,
-                                  },
-                                  Array [
-                                    undefined,
-                                    false,
-                                    undefined,
-                                  ],
-                                ],
-                              ]
-                            }
-                            testID="button-container"
-                            type="primary"
+                            activeOpacity={0.6}
+                            delayPressIn={50}
+                            disabled={false}
+                            onPress={[Function]}
+                            testID="btn-login"
                           >
-                            <Text
+                            <View
+                              onLayout={[Function]}
                               outlined={false}
                               style={
                                 Array [
                                   Object {
-                                    "color": "black",
+                                    "backgroundColor": "white",
+                                    "borderBottomColor": "white",
+                                    "borderLeftColor": "white",
+                                    "borderRightColor": "white",
+                                    "borderTopColor": "white",
                                   },
                                   Array [
-                                    undefined,
-                                    undefined,
+                                    Object {
+                                      "alignItems": "center",
+                                      "alignSelf": "stretch",
+                                      "borderBottomLeftRadius": 20,
+                                      "borderBottomRightRadius": 20,
+                                      "borderTopLeftRadius": 20,
+                                      "borderTopRightRadius": 20,
+                                      "flexDirection": "row",
+                                      "justifyContent": "center",
+                                      "paddingBottom": 10,
+                                      "paddingLeft": 20,
+                                      "paddingRight": 20,
+                                      "paddingTop": 10,
+                                    },
+                                    Array [
+                                      undefined,
+                                      false,
+                                      undefined,
+                                    ],
                                   ],
                                 ]
                               }
+                              testID="button-container"
                               type="primary"
                             >
-                              Navigate to Temp
-                            </Text>
+                              <Image
+                                source={
+                                  Object {
+                                    "createTransformer": [Function],
+                                  }
+                                }
+                                style={
+                                  Object {
+                                    "height": 24,
+                                    "left": 12,
+                                    "position": "absolute",
+                                    "width": 24,
+                                  }
+                                }
+                              />
+                              <Text
+                                outlined={false}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "black",
+                                    },
+                                    Array [
+                                      undefined,
+                                      undefined,
+                                    ],
+                                  ]
+                                }
+                                type="primary"
+                              >
+                                Login
+                              </Text>
+                            </View>
                           </View>
-                        </View>
-                        <View
-                          style={
-                            Object {
-                              "marginTop": 12,
-                            }
-                          }
-                        />
-                        <View
-                          activeOpacity={0.6}
-                          delayPressIn={50}
-                          onPress={[Function]}
-                          testID="btn-theme"
-                        >
                           <View
-                            onLayout={[Function]}
-                            outlined={false}
                             style={
-                              Array [
-                                Object {
-                                  "backgroundColor": "white",
-                                  "borderBottomColor": "white",
-                                  "borderLeftColor": "white",
-                                  "borderRightColor": "white",
-                                  "borderTopColor": "white",
-                                },
-                                Array [
-                                  Object {
-                                    "alignItems": "center",
-                                    "alignSelf": "stretch",
-                                    "borderBottomLeftRadius": 20,
-                                    "borderBottomRightRadius": 20,
-                                    "borderTopLeftRadius": 20,
-                                    "borderTopRightRadius": 20,
-                                    "flexDirection": "row",
-                                    "justifyContent": "center",
-                                    "paddingBottom": 10,
-                                    "paddingLeft": 20,
-                                    "paddingRight": 20,
-                                    "paddingTop": 10,
-                                  },
-                                  Array [
-                                    undefined,
-                                    false,
-                                    undefined,
-                                  ],
-                                ],
-                              ]
+                              Object {
+                                "marginTop": 12,
+                              }
                             }
-                            testID="button-container"
-                            type="primary"
+                          />
+                          <View
+                            activeOpacity={0.6}
+                            delayPressIn={50}
+                            onPress={[Function]}
+                            testID="btn-navigate"
                           >
-                            <Text
+                            <View
+                              onLayout={[Function]}
                               outlined={false}
                               style={
                                 Array [
                                   Object {
-                                    "color": "black",
+                                    "backgroundColor": "white",
+                                    "borderBottomColor": "white",
+                                    "borderLeftColor": "white",
+                                    "borderRightColor": "white",
+                                    "borderTopColor": "white",
                                   },
                                   Array [
-                                    undefined,
-                                    undefined,
+                                    Object {
+                                      "alignItems": "center",
+                                      "alignSelf": "stretch",
+                                      "borderBottomLeftRadius": 20,
+                                      "borderBottomRightRadius": 20,
+                                      "borderTopLeftRadius": 20,
+                                      "borderTopRightRadius": 20,
+                                      "flexDirection": "row",
+                                      "justifyContent": "center",
+                                      "paddingBottom": 10,
+                                      "paddingLeft": 20,
+                                      "paddingRight": 20,
+                                      "paddingTop": 10,
+                                    },
+                                    Array [
+                                      undefined,
+                                      false,
+                                      undefined,
+                                    ],
                                   ],
                                 ]
                               }
+                              testID="button-container"
                               type="primary"
                             >
-                              Change theme
-                            </Text>
+                              <Text
+                                outlined={false}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "black",
+                                    },
+                                    Array [
+                                      undefined,
+                                      undefined,
+                                    ],
+                                  ]
+                                }
+                                type="primary"
+                              >
+                                Navigate to Temp
+                              </Text>
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "marginTop": 12,
+                              }
+                            }
+                          />
+                          <View
+                            activeOpacity={0.6}
+                            delayPressIn={50}
+                            onPress={[Function]}
+                            testID="btn-theme"
+                          >
+                            <View
+                              onLayout={[Function]}
+                              outlined={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "backgroundColor": "white",
+                                    "borderBottomColor": "white",
+                                    "borderLeftColor": "white",
+                                    "borderRightColor": "white",
+                                    "borderTopColor": "white",
+                                  },
+                                  Array [
+                                    Object {
+                                      "alignItems": "center",
+                                      "alignSelf": "stretch",
+                                      "borderBottomLeftRadius": 20,
+                                      "borderBottomRightRadius": 20,
+                                      "borderTopLeftRadius": 20,
+                                      "borderTopRightRadius": 20,
+                                      "flexDirection": "row",
+                                      "justifyContent": "center",
+                                      "paddingBottom": 10,
+                                      "paddingLeft": 20,
+                                      "paddingRight": 20,
+                                      "paddingTop": 10,
+                                    },
+                                    Array [
+                                      undefined,
+                                      false,
+                                      undefined,
+                                    ],
+                                  ],
+                                ]
+                              }
+                              testID="button-container"
+                              type="primary"
+                            >
+                              <Text
+                                outlined={false}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "black",
+                                    },
+                                    Array [
+                                      undefined,
+                                      undefined,
+                                    ],
+                                  ]
+                                }
+                                type="primary"
+                              >
+                                Change theme
+                              </Text>
+                            </View>
                           </View>
                         </View>
                       </View>
                     </View>
-                  </View>
-                  <View
-                    pointerEvents="box-none"
-                  >
                     <View
-                      accessibilityElementsHidden={false}
-                      importantForAccessibility="auto"
-                      onLayout={[Function]}
                       pointerEvents="box-none"
-                      style={null}
                     >
                       <View
+                        accessibilityElementsHidden={false}
+                        importantForAccessibility="auto"
+                        onLayout={[Function]}
                         pointerEvents="box-none"
-                        style={
-                          Object {
-                            "bottom": 0,
-                            "left": 0,
-                            "position": "absolute",
-                            "right": 0,
-                            "top": 0,
-                            "zIndex": 0,
-                          }
-                        }
+                        style={null}
                       >
-                        <View
-                          style={
-                            Object {
-                              "backgroundColor": "black",
-                              "borderBottomColor": "rgb(216, 216, 216)",
-                              "flex": 1,
-                              "shadowColor": "rgb(216, 216, 216)",
-                              "shadowOffset": Object {
-                                "height": 0.5,
-                                "width": 0,
-                              },
-                              "shadowOpacity": 0.85,
-                              "shadowRadius": 0,
-                            }
-                          }
-                        />
-                      </View>
-                      <View
-                        pointerEvents="box-none"
-                        style={
-                          Object {
-                            "height": 64,
-                            "maxHeight": undefined,
-                            "minHeight": undefined,
-                            "opacity": undefined,
-                            "transform": undefined,
-                          }
-                        }
-                      >
-                        <View
-                          pointerEvents="none"
-                          style={
-                            Object {
-                              "height": 20,
-                            }
-                          }
-                        />
                         <View
                           pointerEvents="box-none"
                           style={
                             Object {
-                              "alignItems": "center",
-                              "flex": 1,
-                              "flexDirection": "row",
-                              "justifyContent": "center",
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                              "zIndex": 0,
                             }
                           }
                         >
                           <View
+                            style={
+                              Object {
+                                "backgroundColor": "black",
+                                "borderBottomColor": "rgb(216, 216, 216)",
+                                "flex": 1,
+                                "shadowColor": "rgb(216, 216, 216)",
+                                "shadowOffset": Object {
+                                  "height": 0.5,
+                                  "width": 0,
+                                },
+                                "shadowOpacity": 0.85,
+                                "shadowRadius": 0,
+                              }
+                            }
+                          />
+                        </View>
+                        <View
+                          pointerEvents="box-none"
+                          style={
+                            Object {
+                              "height": 44,
+                              "maxHeight": undefined,
+                              "minHeight": undefined,
+                              "opacity": undefined,
+                              "transform": undefined,
+                            }
+                          }
+                        >
+                          <View
+                            pointerEvents="none"
+                            style={
+                              Object {
+                                "height": 0,
+                              }
+                            }
+                          />
+                          <View
                             pointerEvents="box-none"
                             style={
                               Object {
-                                "marginHorizontal": 16,
+                                "alignItems": "stretch",
+                                "flex": 1,
+                                "flexDirection": "row",
                               }
                             }
                           >
-                            <Text
-                              accessibilityRole="header"
-                              aria-level="1"
-                              numberOfLines={1}
-                              onLayout={[Function]}
+                            <View
+                              pointerEvents="box-none"
                               style={
                                 Object {
-                                  "color": "white",
-                                  "fontSize": 17,
-                                  "fontWeight": "600",
+                                  "alignItems": "flex-start",
+                                  "flexBasis": 0,
+                                  "flexGrow": 1,
+                                  "justifyContent": "center",
+                                  "marginStart": 0,
+                                }
+                              }
+                            />
+                            <View
+                              pointerEvents="box-none"
+                              style={
+                                Object {
+                                  "justifyContent": "center",
+                                  "marginHorizontal": 16,
+                                  "maxWidth": 718,
                                 }
                               }
                             >
-                              Intro
-                            </Text>
+                              <Text
+                                accessibilityRole="header"
+                                aria-level="1"
+                                numberOfLines={1}
+                                onLayout={[Function]}
+                                style={
+                                  Object {
+                                    "color": "white",
+                                    "fontSize": 17,
+                                    "fontWeight": "600",
+                                  }
+                                }
+                              >
+                                Intro
+                              </Text>
+                            </View>
+                            <View
+                              pointerEvents="box-none"
+                              style={
+                                Object {
+                                  "alignItems": "flex-end",
+                                  "flexBasis": 0,
+                                  "flexGrow": 1,
+                                  "justifyContent": "center",
+                                  "marginEnd": 0,
+                                }
+                              }
+                            />
                           </View>
                         </View>
                       </View>
@@ -597,9 +615,22 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
               </View>
             </View>
           </View>
-        </View>
-      </RNSScreen>
-    </RNSScreenContainer>
+        </RNSScreen>
+      </RNSScreenContainer>
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "height": 44,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "zIndex": 1,
+          }
+        }
+      />
+    </View>
   </RNCSafeAreaProvider>
 </View>
 `;
@@ -624,79 +655,230 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
     }
   >
     <View
-      pointerEvents="box-none"
       style={
-        Object {
-          "zIndex": 1,
-        }
+        Array [
+          Object {
+            "backgroundColor": "rgb(242, 242, 242)",
+            "flex": 1,
+          },
+          undefined,
+        ]
       }
     >
       <View
-        accessibilityElementsHidden={false}
-        importantForAccessibility="auto"
-        onLayout={[Function]}
         pointerEvents="box-none"
-        style={null}
+        style={
+          Object {
+            "zIndex": 1,
+          }
+        }
       >
         <View
+          accessibilityElementsHidden={false}
+          importantForAccessibility="auto"
+          onLayout={[Function]}
+          pointerEvents="box-none"
+          style={null}
+        >
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "zIndex": 0,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderBottomColor": "rgb(216, 216, 216)",
+                  "flex": 1,
+                  "shadowColor": "rgb(216, 216, 216)",
+                  "shadowOffset": Object {
+                    "height": 0.5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.85,
+                  "shadowRadius": 0,
+                }
+              }
+            />
+          </View>
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "height": 44,
+                "maxHeight": undefined,
+                "minHeight": undefined,
+                "opacity": undefined,
+                "transform": undefined,
+              }
+            }
+          >
+            <View
+              pointerEvents="none"
+              style={
+                Object {
+                  "height": 0,
+                }
+              }
+            />
+            <View
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "alignItems": "stretch",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                pointerEvents="box-none"
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "justifyContent": "center",
+                    "marginStart": 0,
+                    "opacity": 1,
+                  }
+                }
+              />
+              <View
+                pointerEvents="box-none"
+                style={
+                  Object {
+                    "justifyContent": "center",
+                    "marginHorizontal": 16,
+                    "maxWidth": 718,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  accessibilityRole="header"
+                  aria-level="1"
+                  numberOfLines={1}
+                  onLayout={[Function]}
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                    }
+                  }
+                >
+                  Intro
+                </Text>
+              </View>
+              <View
+                pointerEvents="box-none"
+                style={
+                  Object {
+                    "alignItems": "flex-end",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "justifyContent": "center",
+                    "marginEnd": 0,
+                    "opacity": 1,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNSScreenContainer
+        onLayout={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <RNSScreen
+          activityState={2}
+          forwardedRef={[Function]}
           pointerEvents="box-none"
           style={
             Object {
               "bottom": 0,
               "left": 0,
-              "opacity": 1,
               "position": "absolute",
               "right": 0,
               "top": 0,
-              "zIndex": 0,
             }
           }
         >
           <View
+            collapsable={false}
             style={
               Object {
-                "backgroundColor": "white",
-                "borderBottomColor": "rgb(216, 216, 216)",
-                "flex": 1,
-                "shadowColor": "rgb(216, 216, 216)",
-                "shadowOffset": Object {
-                  "height": 0.5,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.85,
-                "shadowRadius": 0,
-              }
-            }
-          />
-        </View>
-        <View
-          pointerEvents="box-none"
-          style={
-            Object {
-              "height": 64,
-              "maxHeight": undefined,
-              "minHeight": undefined,
-              "opacity": undefined,
-              "transform": undefined,
-            }
-          }
-        >
-          <View
-            pointerEvents="none"
-            style={
-              Object {
-                "height": 20,
+                "opacity": 1,
               }
             }
           />
           <View
+            accessibilityElementsHidden={false}
+            closing={false}
+            gestureVelocityImpact={0.3}
+            importantForAccessibility="auto"
+            onClose={[Function]}
+            onGestureBegin={[Function]}
+            onGestureCanceled={[Function]}
+            onGestureEnd={[Function]}
+            onOpen={[Function]}
+            onTransition={[Function]}
             pointerEvents="box-none"
             style={
+              Array [
+                Object {
+                  "display": "flex",
+                  "overflow": undefined,
+                },
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+              ]
+            }
+            transitionSpec={
               Object {
-                "alignItems": "center",
-                "flex": 1,
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "close": Object {
+                  "animation": "spring",
+                  "config": Object {
+                    "damping": 500,
+                    "mass": 3,
+                    "overshootClamping": true,
+                    "restDisplacementThreshold": 10,
+                    "restSpeedThreshold": 10,
+                    "stiffness": 1000,
+                  },
+                },
+                "open": Object {
+                  "animation": "spring",
+                  "config": Object {
+                    "damping": 500,
+                    "mass": 3,
+                    "overshootClamping": true,
+                    "restDisplacementThreshold": 10,
+                    "restSpeedThreshold": 10,
+                    "stiffness": 1000,
+                  },
+                },
               }
             }
           >
@@ -704,209 +886,59 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
               pointerEvents="box-none"
               style={
                 Object {
-                  "marginHorizontal": 16,
-                  "opacity": 1,
-                }
-              }
-            >
-              <Text
-                accessibilityRole="header"
-                aria-level="1"
-                numberOfLines={1}
-                onLayout={[Function]}
-                style={
-                  Object {
-                    "color": "black",
-                    "fontSize": 17,
-                    "fontWeight": "600",
-                  }
-                }
-              >
-                Intro
-              </Text>
-            </View>
-          </View>
-        </View>
-      </View>
-    </View>
-    <RNSScreenContainer
-      onLayout={[Function]}
-      style={
-        Object {
-          "flex": 1,
-        }
-      }
-    >
-      <RNSScreen
-        activityState={2}
-        forwardedRef={[Function]}
-        pointerEvents="box-none"
-        style={
-          Object {
-            "bottom": 0,
-            "left": 0,
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          }
-        }
-      >
-        <View
-          collapsable={false}
-          style={
-            Object {
-              "opacity": 1,
-            }
-          }
-        />
-        <View
-          accessibilityElementsHidden={false}
-          closing={false}
-          gestureVelocityImpact={0.3}
-          importantForAccessibility="auto"
-          onClose={[Function]}
-          onGestureBegin={[Function]}
-          onGestureCanceled={[Function]}
-          onGestureEnd={[Function]}
-          onOpen={[Function]}
-          onTransition={[Function]}
-          pointerEvents="box-none"
-          style={
-            Array [
-              Object {
-                "overflow": undefined,
-              },
-              Object {
-                "bottom": 0,
-                "left": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-            ]
-          }
-          transitionSpec={
-            Object {
-              "close": Object {
-                "animation": "spring",
-                "config": Object {
-                  "damping": 500,
-                  "mass": 3,
-                  "overshootClamping": true,
-                  "restDisplacementThreshold": 10,
-                  "restSpeedThreshold": 10,
-                  "stiffness": 1000,
-                },
-              },
-              "open": Object {
-                "animation": "spring",
-                "config": Object {
-                  "damping": 500,
-                  "mass": 3,
-                  "overshootClamping": true,
-                  "restDisplacementThreshold": 10,
-                  "restSpeedThreshold": 10,
-                  "stiffness": 1000,
-                },
-              },
-            }
-          }
-        >
-          <View
-            needsOffscreenAlphaCompositing={false}
-            pointerEvents="box-none"
-            style={
-              Object {
-                "flex": 1,
-              }
-            }
-          >
-            <View
-              collapsable={false}
-              forwardedRef={[Function]}
-              onGestureHandlerEvent={[Function]}
-              onGestureHandlerStateChange={[Function]}
-              style={
-                Object {
                   "flex": 1,
-                  "transform": Array [
-                    Object {
-                      "translateX": 0,
-                    },
-                    Object {
-                      "translateX": 0,
-                    },
-                  ],
                 }
               }
             >
               <View
-                pointerEvents="none"
+                collapsable={false}
+                forwardedRef={[Function]}
+                needsOffscreenAlphaCompositing={false}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
                 style={
                   Object {
-                    "backgroundColor": "rgb(242, 242, 242)",
-                    "bottom": 0,
-                    "left": 0,
-                    "position": "absolute",
-                    "shadowColor": "#000",
-                    "shadowOffset": Object {
-                      "height": 1,
-                      "width": -1,
-                    },
-                    "shadowOpacity": 0.3,
-                    "shadowRadius": 5,
-                    "top": 0,
-                    "width": 3,
-                  }
-                }
-              />
-              <View
-                style={
-                  Array [
-                    Object {
-                      "flex": 1,
-                      "overflow": "hidden",
-                    },
-                    Array [
+                    "flex": 1,
+                    "transform": Array [
                       Object {
-                        "backgroundColor": "rgb(242, 242, 242)",
+                        "translateX": 0,
                       },
-                      undefined,
+                      Object {
+                        "translateX": 0,
+                      },
                     ],
-                  ]
+                  }
                 }
               >
                 <View
                   style={
-                    Object {
-                      "flex": 1,
-                      "flexDirection": "column-reverse",
-                    }
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
                   }
                 >
                   <View
                     style={
                       Object {
                         "flex": 1,
+                        "flexDirection": "column-reverse",
                       }
                     }
                   >
                     <View
                       style={
-                        Array [
-                          Object {
-                            "alignItems": "center",
-                            "alignSelf": "stretch",
-                            "backgroundColor": "white",
-                            "flexBasis": 0,
-                            "flexDirection": "column",
-                            "flexGrow": 1,
-                            "flexShrink": 1,
-                            "justifyContent": "flex-start",
-                            "overflow": "hidden",
-                          },
-                          undefined,
-                        ]
+                        Object {
+                          "flex": 1,
+                        }
                       }
                     >
                       <View
@@ -914,291 +946,310 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                           Array [
                             Object {
                               "alignItems": "center",
+                              "alignSelf": "stretch",
+                              "backgroundColor": "white",
+                              "flexBasis": 0,
                               "flexDirection": "column",
-                              "height": "100%",
+                              "flexGrow": 1,
+                              "flexShrink": 1,
                               "justifyContent": "flex-start",
-                              "width": "100%",
-                            },
-                            undefined,
-                          ]
-                        }
-                      >
-                        <Text
-                          style={
-                            Array [
-                              Object {
-                                "color": "black",
-                                "fontSize": 18,
-                                "lineHeight": 27,
-                              },
-                              Object {
-                                "marginTop": 100,
-                              },
-                            ]
-                          }
-                        >
-                          
-                        </Text>
-                        <Text
-                          style={
-                            Array [
-                              Object {
-                                "color": "black",
-                                "fontSize": 18,
-                                "lineHeight": 27,
-                              },
-                              undefined,
-                            ]
-                          }
-                        >
-                          
-                        </Text>
-                        <Text
-                          style={
-                            Array [
-                              Object {
-                                "color": "black",
-                                "fontSize": 18,
-                                "lineHeight": 27,
-                              },
-                              undefined,
-                            ]
-                          }
-                        >
-                          
-                        </Text>
-                      </View>
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "alignSelf": "center",
-                              "bottom": 40,
-                              "flexDirection": "column",
-                              "position": "absolute",
-                              "width": "72%",
+                              "overflow": "hidden",
                             },
                             undefined,
                           ]
                         }
                       >
                         <View
-                          activeOpacity={0.6}
-                          delayPressIn={50}
-                          disabled={false}
-                          onPress={[Function]}
-                          testID="btn-login"
+                          style={
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "column",
+                                "height": "100%",
+                                "justifyContent": "flex-start",
+                                "width": "100%",
+                              },
+                              undefined,
+                            ]
+                          }
                         >
-                          <View
-                            onLayout={[Function]}
-                            outlined={false}
+                          <Text
                             style={
                               Array [
                                 Object {
-                                  "backgroundColor": "black",
-                                  "borderBottomColor": "black",
-                                  "borderLeftColor": "black",
-                                  "borderRightColor": "black",
-                                  "borderTopColor": "black",
+                                  "color": "black",
+                                  "fontSize": 18,
+                                  "lineHeight": 27,
                                 },
-                                Array [
-                                  Object {
-                                    "alignItems": "center",
-                                    "alignSelf": "stretch",
-                                    "borderBottomLeftRadius": 20,
-                                    "borderBottomRightRadius": 20,
-                                    "borderTopLeftRadius": 20,
-                                    "borderTopRightRadius": 20,
-                                    "flexDirection": "row",
-                                    "justifyContent": "center",
-                                    "paddingBottom": 10,
-                                    "paddingLeft": 20,
-                                    "paddingRight": 20,
-                                    "paddingTop": 10,
-                                  },
-                                  Array [
-                                    undefined,
-                                    false,
-                                    undefined,
-                                  ],
-                                ],
+                                Object {
+                                  "marginTop": 100,
+                                },
                               ]
                             }
-                            testID="button-container"
-                            type="primary"
                           >
-                            <Image
-                              source={
+                            
+                          </Text>
+                          <Text
+                            style={
+                              Array [
                                 Object {
-                                  "createTransformer": [Function],
-                                }
-                              }
-                              style={
+                                  "color": "black",
+                                  "fontSize": 18,
+                                  "lineHeight": 27,
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            
+                          </Text>
+                          <Text
+                            style={
+                              Array [
                                 Object {
-                                  "height": 24,
-                                  "left": 12,
-                                  "position": "absolute",
-                                  "width": 24,
-                                }
-                              }
-                            />
-                            <Text
-                              outlined={false}
-                              style={
-                                Array [
-                                  Object {
-                                    "color": "white",
-                                  },
-                                  Array [
-                                    undefined,
-                                    undefined,
-                                  ],
-                                ]
-                              }
-                              type="primary"
-                            >
-                              Login
-                            </Text>
-                          </View>
+                                  "color": "black",
+                                  "fontSize": 18,
+                                  "lineHeight": 27,
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            
+                          </Text>
                         </View>
                         <View
                           style={
-                            Object {
-                              "marginTop": 12,
-                            }
+                            Array [
+                              Object {
+                                "alignSelf": "center",
+                                "bottom": 40,
+                                "flexDirection": "column",
+                                "position": "absolute",
+                                "width": "72%",
+                              },
+                              undefined,
+                            ]
                           }
-                        />
-                        <View
-                          activeOpacity={0.6}
-                          delayPressIn={50}
-                          onPress={[Function]}
-                          testID="btn-navigate"
                         >
                           <View
-                            onLayout={[Function]}
-                            outlined={false}
-                            style={
-                              Array [
-                                Object {
-                                  "backgroundColor": "black",
-                                  "borderBottomColor": "black",
-                                  "borderLeftColor": "black",
-                                  "borderRightColor": "black",
-                                  "borderTopColor": "black",
-                                },
-                                Array [
-                                  Object {
-                                    "alignItems": "center",
-                                    "alignSelf": "stretch",
-                                    "borderBottomLeftRadius": 20,
-                                    "borderBottomRightRadius": 20,
-                                    "borderTopLeftRadius": 20,
-                                    "borderTopRightRadius": 20,
-                                    "flexDirection": "row",
-                                    "justifyContent": "center",
-                                    "paddingBottom": 10,
-                                    "paddingLeft": 20,
-                                    "paddingRight": 20,
-                                    "paddingTop": 10,
-                                  },
-                                  Array [
-                                    undefined,
-                                    false,
-                                    undefined,
-                                  ],
-                                ],
-                              ]
-                            }
-                            testID="button-container"
-                            type="primary"
+                            activeOpacity={0.6}
+                            delayPressIn={50}
+                            disabled={false}
+                            onPress={[Function]}
+                            testID="btn-login"
                           >
-                            <Text
+                            <View
+                              onLayout={[Function]}
                               outlined={false}
                               style={
                                 Array [
                                   Object {
-                                    "color": "white",
+                                    "backgroundColor": "black",
+                                    "borderBottomColor": "black",
+                                    "borderLeftColor": "black",
+                                    "borderRightColor": "black",
+                                    "borderTopColor": "black",
                                   },
                                   Array [
-                                    undefined,
-                                    undefined,
+                                    Object {
+                                      "alignItems": "center",
+                                      "alignSelf": "stretch",
+                                      "borderBottomLeftRadius": 20,
+                                      "borderBottomRightRadius": 20,
+                                      "borderTopLeftRadius": 20,
+                                      "borderTopRightRadius": 20,
+                                      "flexDirection": "row",
+                                      "justifyContent": "center",
+                                      "paddingBottom": 10,
+                                      "paddingLeft": 20,
+                                      "paddingRight": 20,
+                                      "paddingTop": 10,
+                                    },
+                                    Array [
+                                      undefined,
+                                      false,
+                                      undefined,
+                                    ],
                                   ],
                                 ]
                               }
+                              testID="button-container"
                               type="primary"
                             >
-                              Navigate to Temp
-                            </Text>
+                              <Image
+                                source={
+                                  Object {
+                                    "createTransformer": [Function],
+                                  }
+                                }
+                                style={
+                                  Object {
+                                    "height": 24,
+                                    "left": 12,
+                                    "position": "absolute",
+                                    "width": 24,
+                                  }
+                                }
+                              />
+                              <Text
+                                outlined={false}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "white",
+                                    },
+                                    Array [
+                                      undefined,
+                                      undefined,
+                                    ],
+                                  ]
+                                }
+                                type="primary"
+                              >
+                                Login
+                              </Text>
+                            </View>
                           </View>
-                        </View>
-                        <View
-                          style={
-                            Object {
-                              "marginTop": 12,
-                            }
-                          }
-                        />
-                        <View
-                          activeOpacity={0.6}
-                          delayPressIn={50}
-                          onPress={[Function]}
-                          testID="btn-theme"
-                        >
                           <View
-                            onLayout={[Function]}
-                            outlined={false}
                             style={
-                              Array [
-                                Object {
-                                  "backgroundColor": "black",
-                                  "borderBottomColor": "black",
-                                  "borderLeftColor": "black",
-                                  "borderRightColor": "black",
-                                  "borderTopColor": "black",
-                                },
-                                Array [
-                                  Object {
-                                    "alignItems": "center",
-                                    "alignSelf": "stretch",
-                                    "borderBottomLeftRadius": 20,
-                                    "borderBottomRightRadius": 20,
-                                    "borderTopLeftRadius": 20,
-                                    "borderTopRightRadius": 20,
-                                    "flexDirection": "row",
-                                    "justifyContent": "center",
-                                    "paddingBottom": 10,
-                                    "paddingLeft": 20,
-                                    "paddingRight": 20,
-                                    "paddingTop": 10,
-                                  },
-                                  Array [
-                                    undefined,
-                                    false,
-                                    undefined,
-                                  ],
-                                ],
-                              ]
+                              Object {
+                                "marginTop": 12,
+                              }
                             }
-                            testID="button-container"
-                            type="primary"
+                          />
+                          <View
+                            activeOpacity={0.6}
+                            delayPressIn={50}
+                            onPress={[Function]}
+                            testID="btn-navigate"
                           >
-                            <Text
+                            <View
+                              onLayout={[Function]}
                               outlined={false}
                               style={
                                 Array [
                                   Object {
-                                    "color": "white",
+                                    "backgroundColor": "black",
+                                    "borderBottomColor": "black",
+                                    "borderLeftColor": "black",
+                                    "borderRightColor": "black",
+                                    "borderTopColor": "black",
                                   },
                                   Array [
-                                    undefined,
-                                    undefined,
+                                    Object {
+                                      "alignItems": "center",
+                                      "alignSelf": "stretch",
+                                      "borderBottomLeftRadius": 20,
+                                      "borderBottomRightRadius": 20,
+                                      "borderTopLeftRadius": 20,
+                                      "borderTopRightRadius": 20,
+                                      "flexDirection": "row",
+                                      "justifyContent": "center",
+                                      "paddingBottom": 10,
+                                      "paddingLeft": 20,
+                                      "paddingRight": 20,
+                                      "paddingTop": 10,
+                                    },
+                                    Array [
+                                      undefined,
+                                      false,
+                                      undefined,
+                                    ],
                                   ],
                                 ]
                               }
+                              testID="button-container"
                               type="primary"
                             >
-                              Change theme
-                            </Text>
+                              <Text
+                                outlined={false}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "white",
+                                    },
+                                    Array [
+                                      undefined,
+                                      undefined,
+                                    ],
+                                  ]
+                                }
+                                type="primary"
+                              >
+                                Navigate to Temp
+                              </Text>
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "marginTop": 12,
+                              }
+                            }
+                          />
+                          <View
+                            activeOpacity={0.6}
+                            delayPressIn={50}
+                            onPress={[Function]}
+                            testID="btn-theme"
+                          >
+                            <View
+                              onLayout={[Function]}
+                              outlined={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "backgroundColor": "black",
+                                    "borderBottomColor": "black",
+                                    "borderLeftColor": "black",
+                                    "borderRightColor": "black",
+                                    "borderTopColor": "black",
+                                  },
+                                  Array [
+                                    Object {
+                                      "alignItems": "center",
+                                      "alignSelf": "stretch",
+                                      "borderBottomLeftRadius": 20,
+                                      "borderBottomRightRadius": 20,
+                                      "borderTopLeftRadius": 20,
+                                      "borderTopRightRadius": 20,
+                                      "flexDirection": "row",
+                                      "justifyContent": "center",
+                                      "paddingBottom": 10,
+                                      "paddingLeft": 20,
+                                      "paddingRight": 20,
+                                      "paddingTop": 10,
+                                    },
+                                    Array [
+                                      undefined,
+                                      false,
+                                      undefined,
+                                    ],
+                                  ],
+                                ]
+                              }
+                              testID="button-container"
+                              type="primary"
+                            >
+                              <Text
+                                outlined={false}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "white",
+                                    },
+                                    Array [
+                                      undefined,
+                                      undefined,
+                                    ],
+                                  ]
+                                }
+                                type="primary"
+                              >
+                                Change theme
+                              </Text>
+                            </View>
                           </View>
                         </View>
                       </View>
@@ -1208,9 +1259,9 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
               </View>
             </View>
           </View>
-        </View>
-      </RNSScreen>
-    </RNSScreenContainer>
+        </RNSScreen>
+      </RNSScreenContainer>
+    </View>
   </RNCSafeAreaProvider>
 </View>
 `;
