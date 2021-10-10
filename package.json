@@ -25,11 +25,11 @@
     "@expo/vector-icons": "^12.0.5",
     "@react-native-async-storage/async-storage": "~1.15.0",
     "@react-native-masked-view/masked-view": "0.2.4",
-    "@react-navigation/bottom-tabs": "^6.0.5",
-    "@react-navigation/core": "^6.0.1",
-    "@react-navigation/material-top-tabs": "^6.0.2",
-    "@react-navigation/native": "~6.0.2",
-    "@react-navigation/stack": "^6.0.7",
+    "@react-navigation/bottom-tabs": "^6.0.8",
+    "@react-navigation/core": "^6.0.3",
+    "@react-navigation/material-top-tabs": "^6.0.5",
+    "@react-navigation/native": "^6.0.5",
+    "@react-navigation/stack": "^6.0.10",
     "dooboo-ui": "^0.1.25",
     "expo": "^42.0.3",
     "expo-app-loading": "^1.1.2",
@@ -49,19 +49,19 @@
     "react-native-reanimated": "~2.2.0",
     "react-native-screens": "~3.4.0",
     "react-native-svg": "12.1.1",
-    "react-native-web": "~0.17.1",
+    "react-native-web": "^0.17.5",
     "react-responsive": "^8.2.0",
-    "sentry-expo": "^4.0.1"
+    "sentry-expo": "^4.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
     "@babel/core": "~7.15.0",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
-    "@dooboo/eslint-config": "^0.8.4",
+    "@dooboo/eslint-config": "^0.9.0",
     "@emotion/babel-plugin": "^11.3.0",
-    "@expo/metro-config": "^0.1.84",
-    "@expo/webpack-config": "^0.15.0",
+    "@expo/metro-config": "^0.2.2",
+    "@expo/webpack-config": "^0.16.2",
     "@testing-library/jest-native": "^4.0.2",
     "@testing-library/react-native": "^7.2.0",
     "@types/expo": "^33.0.1",
@@ -82,6 +82,6 @@
     "prettier": "^2.3.2",
     "react-test-renderer": "^16.14",
     "ts-jest": "^27.0.5",
-    "typescript": "~4.4.2"
+    "typescript": "^4.4.3"
   }
 }
