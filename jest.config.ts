@@ -28,7 +28,7 @@ export default async (): Promise<Config.InitialOptions> => {
     setupFilesAfterEnv: ['./test/setupTest.ts'],
     transformIgnorePatterns: [
       // eslint-disable-next-line max-len
-      'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|dooboo-ui|@dooboo-ui|dooboo-ui/.*)',
+      'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|dooboo-ui|@dooboo-ui)',
     ],
     cacheDirectory: '.jest/cache',
     haste: {
