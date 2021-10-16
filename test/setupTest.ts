@@ -1,8 +1,9 @@
 import {cleanup} from '@testing-library/react-native';
 
+jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
+
 // Cleanup after each case.
 afterEach(cleanup);
-
 // Use fake system time.
 // Required for consistent snapshot testing.
 /**

@@ -2,9 +2,20 @@
 
 exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
 <View
-  activeOpacity={0.6}
-  delayPressIn={50}
-  onPress={[Function]}
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
   testID="btn"
 >
   <View
@@ -66,9 +77,20 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
 
 exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
 <View
-  activeOpacity={0.6}
-  delayPressIn={50}
-  onPress={[Function]}
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
   testID="btn"
 >
   <View
@@ -130,9 +152,20 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
 
 exports[`[Button] should render [isDisabled] status without crashing 1`] = `
 <View
-  activeOpacity={0.6}
-  delayPressIn={50}
-  onPress={[Function]}
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
   testID="btn"
 >
   <View
@@ -194,9 +227,20 @@ exports[`[Button] should render [isDisabled] status without crashing 1`] = `
 
 exports[`[Button] should render [isLoading] status without crashing 1`] = `
 <View
-  activeOpacity={0.6}
-  delayPressIn={50}
-  onPress={[Function]}
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
   testID="btn"
 >
   <View

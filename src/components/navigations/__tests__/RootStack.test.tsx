@@ -17,8 +17,6 @@ describe('[Stack] navigator', () => {
   });
 
   it('should renders without crashing', async () => {
-    jest.useFakeTimers();
-
     const rendered = renderer.create(component).toJSON();
 
     await act(async () => {
@@ -29,8 +27,6 @@ describe('[Stack] navigator', () => {
   });
 
   it('should renders [Dark] mode', async () => {
-    jest.useFakeTimers();
-
     component = createTestElement(<StackNavigator {...props} />, 'dark');
 
     const rendered = renderer.create(component).toJSON();

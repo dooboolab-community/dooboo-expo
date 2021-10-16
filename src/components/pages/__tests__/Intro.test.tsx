@@ -72,19 +72,12 @@ describe('[Intro] Interaction', () => {
     rendered = renderer.create(component);
     root = rendered.root;
 
-    jest.useFakeTimers();
-
     const buttons = root.findAllByType(Button);
 
     const button = testingLib.getByTestId('btn-login');
 
-    act(() => {
-      fireEvent.press(button);
-      expect(setTimeout).toHaveBeenCalledTimes(1);
-      jest.runAllTimers();
-    });
+    fireEvent.press(button);
 
-    expect(clearTimeout).toHaveBeenCalledTimes(1);
     expect(buttons[0].props.loading).toEqual(false);
   });
 

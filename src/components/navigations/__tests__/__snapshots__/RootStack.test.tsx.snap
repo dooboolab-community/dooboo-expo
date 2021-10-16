@@ -265,10 +265,20 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           }
                         >
                           <View
-                            activeOpacity={0.6}
-                            delayPressIn={50}
-                            disabled={false}
-                            onPress={[Function]}
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
                             testID="btn-login"
                           >
                             <View
@@ -351,9 +361,20 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             }
                           />
                           <View
-                            activeOpacity={0.6}
-                            delayPressIn={50}
-                            onPress={[Function]}
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
                             testID="btn-navigate"
                           >
                             <View
@@ -421,9 +442,20 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             }
                           />
                           <View
-                            activeOpacity={0.6}
-                            delayPressIn={50}
-                            onPress={[Function]}
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
                             testID="btn-theme"
                           >
                             <View
@@ -488,6 +520,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                     </View>
                     <View
                       pointerEvents="box-none"
+                      style={Object {}}
                     >
                       <View
                         accessibilityElementsHidden={false}
@@ -1033,10 +1066,20 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                           }
                         >
                           <View
-                            activeOpacity={0.6}
-                            delayPressIn={50}
-                            disabled={false}
-                            onPress={[Function]}
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
                             testID="btn-login"
                           >
                             <View
@@ -1119,9 +1162,20 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             }
                           />
                           <View
-                            activeOpacity={0.6}
-                            delayPressIn={50}
-                            onPress={[Function]}
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
                             testID="btn-navigate"
                           >
                             <View
@@ -1189,9 +1243,20 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             }
                           />
                           <View
-                            activeOpacity={0.6}
-                            delayPressIn={50}
-                            onPress={[Function]}
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
                             testID="btn-theme"
                           >
                             <View
