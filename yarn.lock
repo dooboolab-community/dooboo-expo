@@ -1608,7 +1608,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dooboo/eslint-config@npm:^1.2.2":
+"@dooboo/eslint-config@npm:^1.2.1":
   version: 1.2.2
   resolution: "@dooboo/eslint-config@npm:1.2.2"
   dependencies:
@@ -1986,7 +1986,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/metro-config@npm:^0.3.3":
+"@expo/metro-config@npm:^0.3.2":
   version: 0.3.3
   resolution: "@expo/metro-config@npm:0.3.3"
   dependencies:
@@ -2087,7 +2087,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/webpack-config@npm:^0.16.10":
+"@expo/webpack-config@npm:^0.16.9":
   version: 0.16.10
   resolution: "@expo/webpack-config@npm:0.16.10"
   dependencies:
@@ -2655,7 +2655,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-async-storage/async-storage@npm:~1.15.0":
+"@react-native-async-storage/async-storage@npm:~1.15.13":
   version: 1.15.14
   resolution: "@react-native-async-storage/async-storage@npm:1.15.14"
   dependencies:
@@ -2841,13 +2841,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-masked-view/masked-view@npm:0.2.5":
-  version: 0.2.5
-  resolution: "@react-native-masked-view/masked-view@npm:0.2.5"
+"@react-native-masked-view/masked-view@npm:~0.2.5":
+  version: 0.2.6
+  resolution: "@react-native-masked-view/masked-view@npm:0.2.6"
   peerDependencies:
     react: 16 || 17
     react-native: ">=0.57"
-  checksum: 9dbda50a4235f6f8d2b7446873bb0912f92552f4801ed8a0c3a76576adc8f8a499a59970a8ac58113026ef6715ee2ace807db08723f5638c9c24863ec357acb3
+  checksum: 1f8f51ced0396b4d57e3b8c8f5324dfe936e39cef6fd93ab6a0b557e27cccf262502035bedd0c88038414fd8eae4b96bfa36ea38166538e640ed4038370b5574
   languageName: node
   linkType: hard
 
@@ -7421,15 +7421,15 @@ __metadata:
     "@babel/core": ^7.16.0
     "@babel/preset-react": ^7.16.0
     "@babel/preset-typescript": ^7.16.0
-    "@dooboo/eslint-config": ^1.2.2
+    "@dooboo/eslint-config": ^1.2.1
     "@emotion/babel-plugin": ^11.3.0
     "@emotion/native": ^11.0.0
     "@emotion/react": ^11.7.0
-    "@expo/metro-config": ^0.3.3
+    "@expo/metro-config": ^0.3.2
     "@expo/vector-icons": ^12.0.5
-    "@expo/webpack-config": ^0.16.10
-    "@react-native-async-storage/async-storage": ~1.15.0
-    "@react-native-masked-view/masked-view": 0.2.5
+    "@expo/webpack-config": ^0.16.9
+    "@react-native-async-storage/async-storage": ~1.15.13
+    "@react-native-masked-view/masked-view": ~0.2.5
     "@react-navigation/bottom-tabs": ^6.0.9
     "@react-navigation/core": ^6.1.0
     "@react-navigation/material-top-tabs": ^6.0.6
@@ -7457,11 +7457,11 @@ __metadata:
     expo-font: ~10.0.3
     expo-linking: ~2.4.2
     expo-localization: ~11.0.0
-    expo-splash-screen: ~0.13.5
+    expo-splash-screen: ~0.13.4
     expo-status-bar: ~1.1.0
     expo-web-browser: ~10.0.3
     i18n-js: ^3.8.0
-    jest: ^27.4.3
+    jest: ^27.3.1
     jest-expo: ^43.0.1
     jest-fetch-mock: ^3.0.3
     jetifier: ^2.0.0
@@ -7480,7 +7480,7 @@ __metadata:
     sentry-expo: ^4.0.3
     ts-jest: ^27.0.7
     ts-node: ^10.4.0
-    typescript: ~4.5.2
+    typescript: ~4.4.4
   languageName: unknown
   linkType: soft
 
@@ -8403,7 +8403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-splash-screen@npm:~0.13.3, expo-splash-screen@npm:~0.13.5":
+"expo-splash-screen@npm:~0.13.3, expo-splash-screen@npm:~0.13.4":
   version: 0.13.5
   resolution: "expo-splash-screen@npm:0.13.5"
   dependencies:
@@ -11507,7 +11507,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^27.4.3":
+"jest@npm:^27.3.1":
   version: 27.4.3
   resolution: "jest@npm:27.4.3"
   dependencies:
@@ -17331,23 +17331,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~4.5.2":
-  version: 4.5.2
-  resolution: "typescript@npm:4.5.2"
+"typescript@npm:~4.4.4":
+  version: 4.4.4
+  resolution: "typescript@npm:4.4.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 74f9ce65d532bdf5d0214b3f60cf37992180023388c87a11ee6f838a803067ef0b63c600fa501b0deb07f989257dce1e244c9635ed79feca40bbccf6e0aa1ebc
+  checksum: 89ecb8436bb48ef5594d49289f5f89103071716b6e4844278f4fb3362856e31203e187a9c76d205c3f0b674d221a058fd28310dbcbcf5d95e9a57229bb5203f1
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@~4.5.2#~builtin<compat/typescript>":
-  version: 4.5.2
-  resolution: "typescript@patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"
+"typescript@patch:typescript@~4.4.4#~builtin<compat/typescript>":
+  version: 4.4.4
+  resolution: "typescript@patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=493e53"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 53838d56aba6fcc947d63aa0771e5d966b1b648fddafed6e221d7f38c71219c4e036ece8cfe9e35ed80cf5a35ff4eb958934c993f99c3233773ec4f9ccd53f69
+  checksum: bd629ad0da4a15d79aaad56baf3ee7d96f6a181760d430ae77f8c5325df7bffd9edee57544a3970e3651e8b796fe03a5838a7eb39c6d46cc3866c0b23d36a0dd
   languageName: node
   linkType: hard
 
