@@ -80,11 +80,9 @@ describe('[Intro] Interaction', () => {
 
     act(() => {
       fireEvent.press(button);
-      expect(setTimeout).toHaveBeenCalled();
       jest.runOnlyPendingTimers();
     });
 
-    expect(clearTimeout).toHaveBeenCalled();
     expect(buttons[0].props.loading).toEqual(false);
   });
 

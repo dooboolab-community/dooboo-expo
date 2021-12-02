@@ -1,5 +1,6 @@
 {
-  "name": "dooboo-starter",
+  "name": "dooboo-expo",
+  "packageManager": "yarn@3.1.1",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "build": "rm -rf ./dist && tsc",
@@ -72,6 +73,7 @@
     "@types/react-native": "~0.66.6",
     "@types/react-test-renderer": "^17.0.1",
     "@types/relay-test-utils": "^6.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
     "babel-preset-expo": "8.5.1",
     "babel-preset-react-native": "4.0.1",
     "codecov": "^3.8.3",
