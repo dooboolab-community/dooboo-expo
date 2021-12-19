@@ -13,8 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install Expo CLI
-        run: yarn dlx expo-cli
+      - uses: expo/expo-github-action@v6
+        with:
+          expo-version: 4.x
+          # token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Install modules
         run: yarn install --immutable
