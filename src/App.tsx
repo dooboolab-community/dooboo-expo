@@ -19,10 +19,14 @@ function App(): React.ReactElement {
   const [assets] = useAssets(Icons);
 
   useEffect(() => {
-    if (assets && fontsLoaded) SplashScreen.hideAsync();
+    if (assets && fontsLoaded) {
+      SplashScreen.hideAsync();
+    }
   }, [assets, fontsLoaded]);
 
-  if (!assets) return <AppLoading />;
+  if (!assets) {
+    return <AppLoading />;
+  }
 
   return <RootNavigator />;
 }
