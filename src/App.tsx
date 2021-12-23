@@ -6,6 +6,7 @@ import AppLoading from 'expo-app-loading';
 import Icons from './utils/Icons';
 import RootNavigator from './components/navigations/RootStack';
 import RootProvider from './providers';
+import {gestureHandlerRootHOC} from 'react-native-gesture-handler';
 import {useAssets} from 'expo-asset';
 import {useFonts} from 'expo-font';
 
@@ -39,4 +40,4 @@ function ProviderWrapper(): React.ReactElement {
   );
 }
 
-export default ProviderWrapper;
+export default gestureHandlerRootHOC(ProviderWrapper);
