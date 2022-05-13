@@ -1,3 +1,5 @@
+const expoPreset = require('jest-expo/jest-preset');
+
 import type {Config} from '@jest/types';
 
 process.env.TZ = 'Asia/Seoul';
@@ -25,6 +27,11 @@ export default async (): Promise<Config.InitialOptions> => {
       '\\.svg': '<rootDir>/__mocks__/svgMock.js',
       '.+\\.(css|style|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'ts-jest',
     },
+    setupFiles: [
+      ...expoPreset.setupFiles,
+      '<rootDir>/test/jestSetup.js',
+      './node_modules/react-native-gesture-handler/jestSetup.js',
+    ],
     setupFilesAfterEnv: ['./test/setupTest.ts'],
     transformIgnorePatterns: [
       // eslint-disable-next-line max-len

@@ -1,5 +1,7 @@
 import {cleanup} from '@testing-library/react-native';
 
+global.__reanimatedWorkletInit = jest.fn();
+
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
 
 // Cleanup after each case.
