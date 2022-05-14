@@ -93,7 +93,13 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -189,7 +195,13 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       }
     />
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -270,7 +282,13 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       }
     />
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -440,7 +458,13 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -536,7 +560,13 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       }
     />
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -617,7 +647,13 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       }
     />
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -787,7 +823,13 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -883,7 +925,13 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       }
     />
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -964,7 +1012,13 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       }
     />
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -1134,7 +1188,13 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -1230,7 +1290,13 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       }
     />
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -1311,7 +1377,13 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       }
     />
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}

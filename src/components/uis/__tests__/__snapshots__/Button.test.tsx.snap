@@ -2,7 +2,13 @@
 
 exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -77,7 +83,13 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
 
 exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -152,7 +164,13 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
 
 exports[`[Button] should render [isDisabled] status without crashing 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -227,7 +245,13 @@ exports[`[Button] should render [isDisabled] status without crashing 1`] = `
 
 exports[`[Button] should render [isLoading] status without crashing 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

@@ -29,7 +29,6 @@ export default async (): Promise<Config.InitialOptions> => {
     },
     setupFiles: [
       ...expoPreset.setupFiles,
-      '<rootDir>/test/jestSetup.js',
       './node_modules/react-native-gesture-handler/jestSetup.js',
     ],
     setupFilesAfterEnv: ['./test/setupTest.ts'],
