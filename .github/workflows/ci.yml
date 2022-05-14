@@ -28,7 +28,7 @@ jobs:
         run: yarn tsc
 
       - name: Test
-        run: yarn test --coverage
+        run: yarn test --coverage --detectOpenHandles
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2

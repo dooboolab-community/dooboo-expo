@@ -330,7 +330,10 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               <Image
                                 source={
                                   Object {
+                                    "canInstrument": true,
                                     "createTransformer": [Function],
+                                    "getCacheKey": [Function],
+                                    "process": [Function],
                                   }
                                 }
                                 style={
@@ -1168,7 +1171,10 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               <Image
                                 source={
                                   Object {
+                                    "canInstrument": true,
                                     "createTransformer": [Function],
+                                    "getCacheKey": [Function],
+                                    "process": [Function],
                                   }
                                 }
                                 style={
