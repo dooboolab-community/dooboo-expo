@@ -5,7 +5,7 @@ DO NOT MODIFY OR CHANGE THE CODE BEFORE CONFIRMED BY `DOOBOOLAB`. THIS REPOSITOR
 # Expo TS Boilerplate
 
 [![CI](https://github.com/dooboolab/dooboo-expo/actions/workflows/ci.yml/badge.svg)](https://github.com/dooboolab/dooboo-expo/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/dooboolab/dooboo-expo/branch/master/graph/badge.svg)](https://codecov.io/gh/dooboolab/dooboo-expo)
+[![codecov](https://codecov.io/gh/dooboolab/dooboo-expo/branch/main/graph/badge.svg)](https://codecov.io/gh/dooboolab/dooboo-expo)
 
 > Specification
 
