@@ -1924,33 +1924,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/config-plugins@npm:^2.0.2":
-  version: 2.0.4
-  resolution: "@expo/config-plugins@npm:2.0.4"
-  dependencies:
-    "@expo/config-types": ^41.0.0
-    "@expo/json-file": 8.2.30
-    "@expo/plist": 0.0.13
-    debug: ^4.3.1
-    find-up: ~5.0.0
-    fs-extra: 9.0.0
-    getenv: ^1.0.0
-    glob: 7.1.6
-    resolve-from: ^5.0.0
-    slash: ^3.0.0
-    xcode: ^3.0.1
-    xml2js: ^0.4.23
-  checksum: 8e31c9a1492bc2a6ee68e881d70f0b164432ae72d6dbe951846ab4a8671ee57615b4d5596e165c5dca912f086b5296c35e0e4586a04c393ed7a95b2c5ec3b273
-  languageName: node
-  linkType: hard
-
-"@expo/config-types@npm:^41.0.0":
-  version: 41.0.0
-  resolution: "@expo/config-types@npm:41.0.0"
-  checksum: 7a98505755108477fb2e0abdd339ffdc3886abeef7c045b22cc96a5fc10b149efc94656ecec6ff4ec543e4be961698bbc991242cd2585313b50a3320e7a30d1c
-  languageName: node
-  linkType: hard
-
 "@expo/config-types@npm:^45.0.0":
   version: 45.0.0
   resolution: "@expo/config-types@npm:45.0.0"
@@ -2057,18 +2030,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/json-file@npm:8.2.30":
-  version: 8.2.30
-  resolution: "@expo/json-file@npm:8.2.30"
-  dependencies:
-    "@babel/code-frame": ~7.10.4
-    fs-extra: 9.0.0
-    json5: ^1.0.1
-    write-file-atomic: ^2.3.0
-  checksum: 57100d44be192a1d6280489634245a70295123324089d2e5f2d48acd6ade2c3d9f8110e2a8e185fcef2eaedb333aae2bde7eaee11e3cf741e0c9a986531e71b4
-  languageName: node
-  linkType: hard
-
 "@expo/json-file@npm:8.2.36, @expo/json-file@npm:^8.2.35":
   version: 8.2.36
   resolution: "@expo/json-file@npm:8.2.36"
@@ -2121,17 +2082,6 @@ __metadata:
     split: ^1.0.1
     sudo-prompt: 9.1.1
   checksum: 2615a66bbbe1f08057c123cf486fbc89aaf124fcd0daae6aa9078da580a2a063fe227cb547e0e66ae3a0c0dfe188105123d5bcbaa4fe61325f37c58e4ad5cf6e
-  languageName: node
-  linkType: hard
-
-"@expo/plist@npm:0.0.13":
-  version: 0.0.13
-  resolution: "@expo/plist@npm:0.0.13"
-  dependencies:
-    base64-js: ^1.2.3
-    xmlbuilder: ^14.0.0
-    xmldom: ~0.5.0
-  checksum: 02f6ab2f8abee70ac62761773f15b3dacc6a4ca230374bc889472fded54ed37c9de54d17fddbedb8834589fb0f5d8834110f617829e926360f6ca2833b617445
   languageName: node
   linkType: hard
 
@@ -7982,7 +7932,7 @@ __metadata:
     expo-localization: ~13.0.0
     expo-splash-screen: ~0.15.1
     expo-status-bar: ~1.3.0
-    expo-web-browser: ~10.2.0
+    expo-web-browser: ~10.2.1
     i18n-js: ^3.9.2
     jest: ^28.1.0
     jest-expo: ^45.0.1
@@ -8000,7 +7950,7 @@ __metadata:
     react-native-web: 0.17.7
     react-responsive: ^8.2.0
     react-test-renderer: ^17.0.2
-    sentry-expo: ^4.1.1
+    sentry-expo: ^4.2.0
     ts-jest: ^28.0.2
     ts-node: ^10.7.0
     typescript: ~4.6.4
@@ -8924,14 +8874,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-web-browser@npm:~10.2.0":
-  version: 10.2.0
-  resolution: "expo-web-browser@npm:10.2.0"
+"expo-web-browser@npm:~10.2.1":
+  version: 10.2.1
+  resolution: "expo-web-browser@npm:10.2.1"
   dependencies:
     compare-urls: ^2.0.0
   peerDependencies:
     expo: "*"
-  checksum: 60b6aceed8e1b9eefdf67dbf436768b446072210df0ef75d9c79831de248ff4054162c5df8613bb46f242a15be912f77006717a487f5eb0ecf64b150363cc35d
+  checksum: 6097bb5ed3ef45947f782262240774fc29e683548fc934fae11194e596ac560242c225dcc8fd601aae808248dddf07e6647625553203f5cc10d5918c1208b19b
   languageName: node
   linkType: hard
 
@@ -16701,12 +16651,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sentry-expo@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "sentry-expo@npm:4.1.1"
+"sentry-expo@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "sentry-expo@npm:4.2.0"
   dependencies:
-    "@expo/config-plugins": ^2.0.2
-    "@expo/config-types": ^41.0.0
+    "@expo/config-plugins": ~4.1.4
+    "@expo/config-types": ^45.0.0
     "@expo/spawn-async": ^1.2.8
     "@sentry/browser": ^6.12.0
     "@sentry/integrations": ^6.12.0
@@ -16719,7 +16669,7 @@ __metadata:
     expo-constants: "*"
     expo-device: "*"
     expo-updates: "*"
-  checksum: 44569c3b81ad4c9b347b1029667c3375aefc68dea75757ddf8d2189bf7e3d452b3c35685e273559e0590eaac198be543071208e66efd12aa5ef6af3cc52fd98b
+  checksum: f5dded394734244be794e981398c364e76fc1b3816e36bb43aa04264d3f6209f657bea5f471d3fc44640d4997e311f55b1475ee9617b4bde822710328b47e13e
   languageName: node
   linkType: hard
 
@@ -19181,7 +19131,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xml2js@npm:0.4.23, xml2js@npm:^0.4.23":
+"xml2js@npm:0.4.23":
   version: 0.4.23
   resolution: "xml2js@npm:0.4.23"
   dependencies:
@@ -19218,13 +19168,6 @@ __metadata:
   dependencies:
     sax: ^1.2.1
   checksum: ada5101e8221e87e3cf0f339a1bec213a7c91ad56fe453c27fc0f5b88feee67437a5604a08484f72041cd6104e23cf86c5000bc9bf658a01176b01b6daded429
-  languageName: node
-  linkType: hard
-
-"xmldom@npm:~0.5.0":
-  version: 0.5.0
-  resolution: "xmldom@npm:0.5.0"
-  checksum: 6afbfc9f4de847d1e12a3a95e393750a55f6b074881cd3c6192c99421a8548b0687b7851113d6318ff0121615674d3b064924f1c478da1c840757626bdfe4c18
   languageName: node
   linkType: hard
 
