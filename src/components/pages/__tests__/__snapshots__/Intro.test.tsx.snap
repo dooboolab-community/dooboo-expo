@@ -46,9 +46,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           },
         ]
       }
-    >
-      
-    </Text>
+    />
     <Text
       style={
         Array [
@@ -60,9 +58,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           undefined,
         ]
       }
-    >
-      
-    </Text>
+    />
     <Text
       style={
         Array [
@@ -74,9 +70,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           undefined,
         ]
       }
-    >
-      
-    </Text>
+    />
   </View>
   <View
     style={
@@ -414,9 +408,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           },
         ]
       }
-    >
-      
-    </Text>
+    />
     <Text
       style={
         Array [
@@ -428,9 +420,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           undefined,
         ]
       }
-    >
-      
-    </Text>
+    />
     <Text
       style={
         Array [
@@ -442,9 +432,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           undefined,
         ]
       }
-    >
-      
-    </Text>
+    />
   </View>
   <View
     style={
@@ -782,9 +770,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           },
         ]
       }
-    >
-      
-    </Text>
+    />
     <Text
       style={
         Array [
@@ -796,9 +782,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           undefined,
         ]
       }
-    >
-      
-    </Text>
+    />
     <Text
       style={
         Array [
@@ -810,9 +794,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           undefined,
         ]
       }
-    >
-      
-    </Text>
+    />
   </View>
   <View
     style={
@@ -1150,9 +1132,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           },
         ]
       }
-    >
-      
-    </Text>
+    />
     <Text
       style={
         Array [
@@ -1164,9 +1144,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           undefined,
         ]
       }
-    >
-      
-    </Text>
+    />
     <Text
       style={
         Array [
@@ -1178,9 +1156,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           undefined,
         ]
       }
-    >
-      
-    </Text>
+    />
   </View>
   <View
     style={
