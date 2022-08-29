@@ -3,8 +3,8 @@
 exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "black",
@@ -21,8 +21,8 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "flexDirection": "column",
           "height": "100%",
@@ -35,13 +35,13 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
   >
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "white",
             "fontSize": 18,
             "lineHeight": 27,
           },
-          Object {
+          {
             "marginTop": 100,
           },
         ]
@@ -49,8 +49,8 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     />
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "white",
             "fontSize": 18,
             "lineHeight": 27,
@@ -61,8 +61,8 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     />
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "white",
             "fontSize": 18,
             "lineHeight": 27,
@@ -74,8 +74,8 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
   </View>
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignSelf": "center",
           "bottom": 40,
           "flexDirection": "column",
@@ -88,7 +88,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
   >
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -103,7 +103,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -113,16 +113,16 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "white",
               "borderBottomColor": "white",
               "borderLeftColor": "white",
               "borderRightColor": "white",
               "borderTopColor": "white",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -136,7 +136,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -149,7 +149,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       >
         <Image
           source={
-            Object {
+            {
               "canInstrument": true,
               "createTransformer": [Function],
               "getCacheKey": [Function],
@@ -157,7 +157,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
             }
           }
           style={
-            Object {
+            {
               "height": 24,
               "left": 12,
               "position": "absolute",
@@ -168,11 +168,11 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -186,14 +186,14 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "marginTop": 12,
         }
       }
     />
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -208,7 +208,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -218,16 +218,16 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "white",
               "borderBottomColor": "white",
               "borderLeftColor": "white",
               "borderRightColor": "white",
               "borderTopColor": "white",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -241,7 +241,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -255,11 +255,11 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -273,14 +273,14 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "marginTop": 12,
         }
       }
     />
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -295,7 +295,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -305,16 +305,16 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "white",
               "borderBottomColor": "white",
               "borderLeftColor": "white",
               "borderRightColor": "white",
               "borderTopColor": "white",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -328,7 +328,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -342,11 +342,11 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -365,8 +365,8 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
 exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "black",
@@ -383,8 +383,8 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "flexDirection": "column",
           "height": "100%",
@@ -397,13 +397,13 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
   >
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "white",
             "fontSize": 18,
             "lineHeight": 27,
           },
-          Object {
+          {
             "marginTop": 100,
           },
         ]
@@ -411,8 +411,8 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     />
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "white",
             "fontSize": 18,
             "lineHeight": 27,
@@ -423,8 +423,8 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     />
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "white",
             "fontSize": 18,
             "lineHeight": 27,
@@ -436,8 +436,8 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
   </View>
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignSelf": "center",
           "bottom": 40,
           "flexDirection": "column",
@@ -450,7 +450,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
   >
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -465,7 +465,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -475,16 +475,16 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "white",
               "borderBottomColor": "white",
               "borderLeftColor": "white",
               "borderRightColor": "white",
               "borderTopColor": "white",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -498,7 +498,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -511,7 +511,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       >
         <Image
           source={
-            Object {
+            {
               "canInstrument": true,
               "createTransformer": [Function],
               "getCacheKey": [Function],
@@ -519,7 +519,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
             }
           }
           style={
-            Object {
+            {
               "height": 24,
               "left": 12,
               "position": "absolute",
@@ -530,11 +530,11 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -548,14 +548,14 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "marginTop": 12,
         }
       }
     />
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -570,7 +570,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -580,16 +580,16 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "white",
               "borderBottomColor": "white",
               "borderLeftColor": "white",
               "borderRightColor": "white",
               "borderTopColor": "white",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -603,7 +603,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -617,11 +617,11 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -635,14 +635,14 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "marginTop": 12,
         }
       }
     />
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -657,7 +657,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -667,16 +667,16 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "white",
               "borderBottomColor": "white",
               "borderLeftColor": "white",
               "borderRightColor": "white",
               "borderTopColor": "white",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -690,7 +690,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -704,11 +704,11 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -727,8 +727,8 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
 exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "black",
@@ -745,8 +745,8 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "flexDirection": "column",
           "height": "100%",
@@ -759,13 +759,13 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
   >
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "white",
             "fontSize": 18,
             "lineHeight": 27,
           },
-          Object {
+          {
             "marginTop": 100,
           },
         ]
@@ -773,8 +773,8 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
     />
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "white",
             "fontSize": 18,
             "lineHeight": 27,
@@ -785,8 +785,8 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
     />
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "white",
             "fontSize": 18,
             "lineHeight": 27,
@@ -798,8 +798,8 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
   </View>
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignSelf": "center",
           "bottom": 40,
           "flexDirection": "column",
@@ -812,7 +812,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
   >
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -827,7 +827,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -837,16 +837,16 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "white",
               "borderBottomColor": "white",
               "borderLeftColor": "white",
               "borderRightColor": "white",
               "borderTopColor": "white",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -860,7 +860,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -873,7 +873,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       >
         <Image
           source={
-            Object {
+            {
               "canInstrument": true,
               "createTransformer": [Function],
               "getCacheKey": [Function],
@@ -881,7 +881,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
             }
           }
           style={
-            Object {
+            {
               "height": 24,
               "left": 12,
               "position": "absolute",
@@ -892,11 +892,11 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -910,14 +910,14 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "marginTop": 12,
         }
       }
     />
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -932,7 +932,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -942,16 +942,16 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "white",
               "borderBottomColor": "white",
               "borderLeftColor": "white",
               "borderRightColor": "white",
               "borderTopColor": "white",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -965,7 +965,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -979,11 +979,11 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -997,14 +997,14 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "marginTop": 12,
         }
       }
     />
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -1019,7 +1019,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -1029,16 +1029,16 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "white",
               "borderBottomColor": "white",
               "borderLeftColor": "white",
               "borderRightColor": "white",
               "borderTopColor": "white",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -1052,7 +1052,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -1066,11 +1066,11 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -1089,8 +1089,8 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
 exports[`[Intro] screen rendering test should render outer component and snapshot matches 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "white",
@@ -1107,8 +1107,8 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "flexDirection": "column",
           "height": "100%",
@@ -1121,13 +1121,13 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
   >
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "black",
             "fontSize": 18,
             "lineHeight": 27,
           },
-          Object {
+          {
             "marginTop": 100,
           },
         ]
@@ -1135,8 +1135,8 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     />
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "black",
             "fontSize": 18,
             "lineHeight": 27,
@@ -1147,8 +1147,8 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     />
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "black",
             "fontSize": 18,
             "lineHeight": 27,
@@ -1160,8 +1160,8 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
   </View>
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignSelf": "center",
           "bottom": 40,
           "flexDirection": "column",
@@ -1174,7 +1174,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
   >
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -1189,7 +1189,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -1199,16 +1199,16 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "black",
               "borderBottomColor": "black",
               "borderLeftColor": "black",
               "borderRightColor": "black",
               "borderTopColor": "black",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -1222,7 +1222,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -1235,7 +1235,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       >
         <Image
           source={
-            Object {
+            {
               "canInstrument": true,
               "createTransformer": [Function],
               "getCacheKey": [Function],
@@ -1243,7 +1243,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
             }
           }
           style={
-            Object {
+            {
               "height": 24,
               "left": 12,
               "position": "absolute",
@@ -1254,11 +1254,11 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "white",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -1272,14 +1272,14 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     </View>
     <View
       style={
-        Object {
+        {
           "marginTop": 12,
         }
       }
     />
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -1294,7 +1294,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -1304,16 +1304,16 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "black",
               "borderBottomColor": "black",
               "borderLeftColor": "black",
               "borderRightColor": "black",
               "borderTopColor": "black",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -1327,7 +1327,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -1341,11 +1341,11 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "white",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],
@@ -1359,14 +1359,14 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     </View>
     <View
       style={
-        Object {
+        {
           "marginTop": 12,
         }
       }
     />
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -1381,7 +1381,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -1391,16 +1391,16 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         onLayout={[Function]}
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "backgroundColor": "black",
               "borderBottomColor": "black",
               "borderLeftColor": "black",
               "borderRightColor": "black",
               "borderTopColor": "black",
             },
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "alignSelf": "stretch",
                 "borderBottomLeftRadius": 20,
@@ -1414,7 +1414,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
                 "paddingRight": 20,
                 "paddingTop": 10,
               },
-              Array [
+              [
                 undefined,
                 false,
                 undefined,
@@ -1428,11 +1428,11 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         <Text
           outlined={false}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "white",
               },
-              Array [
+              [
                 undefined,
                 undefined,
               ],

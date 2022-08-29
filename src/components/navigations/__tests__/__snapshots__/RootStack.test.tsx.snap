@@ -3,7 +3,7 @@
 exports[`[Stack] navigator should renders [Dark] mode 1`] = `
 <View
   style={
-    Object {
+    {
       "flex": 1,
     }
   }
@@ -11,8 +11,8 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
   <RNCSafeAreaProvider
     onInsetsChange={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "flex": 1,
         },
         undefined,
@@ -21,8 +21,8 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
   >
     <View
       style={
-        Array [
-          Object {
+        [
+          {
             "backgroundColor": "rgb(242, 242, 242)",
             "flex": 1,
           },
@@ -33,7 +33,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
       <RNSScreenContainer
         onLayout={[Function]}
         style={
-          Object {
+          {
             "flex": 1,
           }
         }
@@ -43,7 +43,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
           collapsable={false}
           forwardedRef={[Function]}
           gestureResponseDistance={
-            Object {
+            {
               "bottom": -1,
               "end": -1,
               "start": -1,
@@ -52,7 +52,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
           }
           pointerEvents="box-none"
           style={
-            Object {
+            {
               "bottom": 0,
               "left": 0,
               "position": "absolute",
@@ -64,7 +64,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
           <View
             collapsable={false}
             style={
-              Object {
+              {
                 "opacity": 1,
               }
             }
@@ -82,12 +82,12 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
             onTransition={[Function]}
             pointerEvents="box-none"
             style={
-              Array [
-                Object {
+              [
+                {
                   "display": "flex",
                   "overflow": undefined,
                 },
-                Object {
+                {
                   "bottom": 0,
                   "left": 0,
                   "position": "absolute",
@@ -97,10 +97,10 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
               ]
             }
             transitionSpec={
-              Object {
-                "close": Object {
+              {
+                "close": {
                   "animation": "spring",
-                  "config": Object {
+                  "config": {
                     "damping": 500,
                     "mass": 3,
                     "overshootClamping": true,
@@ -109,9 +109,9 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                     "stiffness": 1000,
                   },
                 },
-                "open": Object {
+                "open": {
                   "animation": "spring",
-                  "config": Object {
+                  "config": {
                     "damping": 500,
                     "mass": 3,
                     "overshootClamping": true,
@@ -127,7 +127,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
               collapsable={false}
               pointerEvents="box-none"
               style={
-                Object {
+                {
                   "flex": 1,
                 }
               }
@@ -141,13 +141,13 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                 onGestureHandlerEvent={[Function]}
                 onGestureHandlerStateChange={[Function]}
                 style={
-                  Object {
+                  {
                     "flex": 1,
-                    "transform": Array [
-                      Object {
+                    "transform": [
+                      {
                         "translateX": 0,
                       },
-                      Object {
+                      {
                         "translateX": 0,
                       },
                     ],
@@ -156,13 +156,13 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
               >
                 <View
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flex": 1,
                         "overflow": "hidden",
                       },
-                      Array [
-                        Object {
+                      [
+                        {
                           "backgroundColor": "rgb(242, 242, 242)",
                         },
                         undefined,
@@ -172,7 +172,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "flex": 1,
                         "flexDirection": "column-reverse",
                       }
@@ -180,15 +180,15 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                   >
                     <View
                       style={
-                        Object {
+                        {
                           "flex": 1,
                         }
                       }
                     >
                       <View
                         style={
-                          Array [
-                            Object {
+                          [
+                            {
                               "alignItems": "center",
                               "alignSelf": "stretch",
                               "backgroundColor": "black",
@@ -205,8 +205,8 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                       >
                         <View
                           style={
-                            Array [
-                              Object {
+                            [
+                              {
                                 "alignItems": "center",
                                 "flexDirection": "column",
                                 "height": "100%",
@@ -219,13 +219,13 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                         >
                           <Text
                             style={
-                              Array [
-                                Object {
+                              [
+                                {
                                   "color": "white",
                                   "fontSize": 18,
                                   "lineHeight": 27,
                                 },
-                                Object {
+                                {
                                   "marginTop": 100,
                                 },
                               ]
@@ -233,8 +233,8 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           />
                           <Text
                             style={
-                              Array [
-                                Object {
+                              [
+                                {
                                   "color": "white",
                                   "fontSize": 18,
                                   "lineHeight": 27,
@@ -245,8 +245,8 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           />
                           <Text
                             style={
-                              Array [
-                                Object {
+                              [
+                                {
                                   "color": "white",
                                   "fontSize": 18,
                                   "lineHeight": 27,
@@ -258,8 +258,8 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                         </View>
                         <View
                           style={
-                            Array [
-                              Object {
+                            [
+                              {
                                 "alignSelf": "center",
                                 "bottom": 40,
                                 "flexDirection": "column",
@@ -272,7 +272,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                         >
                           <View
                             accessibilityState={
-                              Object {
+                              {
                                 "disabled": false,
                               }
                             }
@@ -287,7 +287,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             onResponderTerminationRequest={[Function]}
                             onStartShouldSetResponder={[Function]}
                             style={
-                              Object {
+                              {
                                 "opacity": 1,
                               }
                             }
@@ -297,16 +297,16 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               onLayout={[Function]}
                               outlined={false}
                               style={
-                                Array [
-                                  Object {
+                                [
+                                  {
                                     "backgroundColor": "white",
                                     "borderBottomColor": "white",
                                     "borderLeftColor": "white",
                                     "borderRightColor": "white",
                                     "borderTopColor": "white",
                                   },
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "alignItems": "center",
                                       "alignSelf": "stretch",
                                       "borderBottomLeftRadius": 20,
@@ -320,7 +320,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                                       "paddingRight": 20,
                                       "paddingTop": 10,
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       false,
                                       undefined,
@@ -333,7 +333,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             >
                               <Image
                                 source={
-                                  Object {
+                                  {
                                     "canInstrument": true,
                                     "createTransformer": [Function],
                                     "getCacheKey": [Function],
@@ -341,7 +341,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                                   }
                                 }
                                 style={
-                                  Object {
+                                  {
                                     "height": 24,
                                     "left": 12,
                                     "position": "absolute",
@@ -352,11 +352,11 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               <Text
                                 outlined={false}
                                 style={
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "color": "black",
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       undefined,
                                     ],
@@ -370,14 +370,14 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           </View>
                           <View
                             style={
-                              Object {
+                              {
                                 "marginTop": 12,
                               }
                             }
                           />
                           <View
                             accessibilityState={
-                              Object {
+                              {
                                 "disabled": false,
                               }
                             }
@@ -392,7 +392,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             onResponderTerminationRequest={[Function]}
                             onStartShouldSetResponder={[Function]}
                             style={
-                              Object {
+                              {
                                 "opacity": 1,
                               }
                             }
@@ -402,16 +402,16 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               onLayout={[Function]}
                               outlined={false}
                               style={
-                                Array [
-                                  Object {
+                                [
+                                  {
                                     "backgroundColor": "white",
                                     "borderBottomColor": "white",
                                     "borderLeftColor": "white",
                                     "borderRightColor": "white",
                                     "borderTopColor": "white",
                                   },
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "alignItems": "center",
                                       "alignSelf": "stretch",
                                       "borderBottomLeftRadius": 20,
@@ -425,7 +425,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                                       "paddingRight": 20,
                                       "paddingTop": 10,
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       false,
                                       undefined,
@@ -439,11 +439,11 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               <Text
                                 outlined={false}
                                 style={
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "color": "black",
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       undefined,
                                     ],
@@ -457,14 +457,14 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           </View>
                           <View
                             style={
-                              Object {
+                              {
                                 "marginTop": 12,
                               }
                             }
                           />
                           <View
                             accessibilityState={
-                              Object {
+                              {
                                 "disabled": false,
                               }
                             }
@@ -479,7 +479,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             onResponderTerminationRequest={[Function]}
                             onStartShouldSetResponder={[Function]}
                             style={
-                              Object {
+                              {
                                 "opacity": 1,
                               }
                             }
@@ -489,16 +489,16 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               onLayout={[Function]}
                               outlined={false}
                               style={
-                                Array [
-                                  Object {
+                                [
+                                  {
                                     "backgroundColor": "white",
                                     "borderBottomColor": "white",
                                     "borderLeftColor": "white",
                                     "borderRightColor": "white",
                                     "borderTopColor": "white",
                                   },
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "alignItems": "center",
                                       "alignSelf": "stretch",
                                       "borderBottomLeftRadius": 20,
@@ -512,7 +512,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                                       "paddingRight": 20,
                                       "paddingTop": 10,
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       false,
                                       undefined,
@@ -526,11 +526,11 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               <Text
                                 outlined={false}
                                 style={
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "color": "black",
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       undefined,
                                     ],
@@ -548,7 +548,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                     <View
                       collapsable={false}
                       pointerEvents="box-none"
-                      style={Object {}}
+                      style={{}}
                     >
                       <View
                         accessibilityElementsHidden={false}
@@ -561,7 +561,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           collapsable={false}
                           pointerEvents="box-none"
                           style={
-                            Object {
+                            {
                               "bottom": 0,
                               "left": 0,
                               "position": "absolute",
@@ -574,12 +574,12 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           <View
                             collapsable={false}
                             style={
-                              Object {
+                              {
                                 "backgroundColor": "black",
                                 "borderBottomColor": "rgb(216, 216, 216)",
                                 "flex": 1,
                                 "shadowColor": "rgb(216, 216, 216)",
-                                "shadowOffset": Object {
+                                "shadowOffset": {
                                   "height": 0.5,
                                   "width": 0,
                                 },
@@ -593,7 +593,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           collapsable={false}
                           pointerEvents="box-none"
                           style={
-                            Object {
+                            {
                               "height": 44,
                               "maxHeight": undefined,
                               "minHeight": undefined,
@@ -605,7 +605,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           <View
                             pointerEvents="none"
                             style={
-                              Object {
+                              {
                                 "height": 0,
                               }
                             }
@@ -613,7 +613,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                           <View
                             pointerEvents="box-none"
                             style={
-                              Object {
+                              {
                                 "alignItems": "stretch",
                                 "flex": 1,
                                 "flexDirection": "row",
@@ -624,7 +624,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               collapsable={false}
                               pointerEvents="box-none"
                               style={
-                                Object {
+                                {
                                   "alignItems": "flex-start",
                                   "flexBasis": 0,
                                   "flexGrow": 1,
@@ -637,7 +637,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               collapsable={false}
                               pointerEvents="box-none"
                               style={
-                                Object {
+                                {
                                   "justifyContent": "center",
                                   "marginHorizontal": 16,
                                   "maxWidth": 718,
@@ -651,7 +651,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                                 numberOfLines={1}
                                 onLayout={[Function]}
                                 style={
-                                  Object {
+                                  {
                                     "color": "white",
                                     "fontSize": 17,
                                     "fontWeight": "600",
@@ -665,7 +665,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                               collapsable={false}
                               pointerEvents="box-none"
                               style={
-                                Object {
+                                {
                                   "alignItems": "flex-end",
                                   "flexBasis": 0,
                                   "flexGrow": 1,
@@ -689,7 +689,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
         collapsable={false}
         pointerEvents="box-none"
         style={
-          Object {
+          {
             "height": 44,
             "left": 0,
             "position": "absolute",
@@ -707,7 +707,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
 exports[`[Stack] navigator should renders without crashing 1`] = `
 <View
   style={
-    Object {
+    {
       "flex": 1,
     }
   }
@@ -715,8 +715,8 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
   <RNCSafeAreaProvider
     onInsetsChange={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "flex": 1,
         },
         undefined,
@@ -725,8 +725,8 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
   >
     <View
       style={
-        Array [
-          Object {
+        [
+          {
             "backgroundColor": "rgb(242, 242, 242)",
             "flex": 1,
           },
@@ -738,7 +738,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
         collapsable={false}
         pointerEvents="box-none"
         style={
-          Object {
+          {
             "zIndex": 1,
           }
         }
@@ -754,7 +754,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
             collapsable={false}
             pointerEvents="box-none"
             style={
-              Object {
+              {
                 "bottom": 0,
                 "left": 0,
                 "opacity": 1,
@@ -768,12 +768,12 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
             <View
               collapsable={false}
               style={
-                Object {
+                {
                   "backgroundColor": "white",
                   "borderBottomColor": "rgb(216, 216, 216)",
                   "flex": 1,
                   "shadowColor": "rgb(216, 216, 216)",
-                  "shadowOffset": Object {
+                  "shadowOffset": {
                     "height": 0.5,
                     "width": 0,
                   },
@@ -787,7 +787,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
             collapsable={false}
             pointerEvents="box-none"
             style={
-              Object {
+              {
                 "height": 44,
                 "maxHeight": undefined,
                 "minHeight": undefined,
@@ -799,7 +799,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
             <View
               pointerEvents="none"
               style={
-                Object {
+                {
                   "height": 0,
                 }
               }
@@ -807,7 +807,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
             <View
               pointerEvents="box-none"
               style={
-                Object {
+                {
                   "alignItems": "stretch",
                   "flex": 1,
                   "flexDirection": "row",
@@ -818,7 +818,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                 collapsable={false}
                 pointerEvents="box-none"
                 style={
-                  Object {
+                  {
                     "alignItems": "flex-start",
                     "flexBasis": 0,
                     "flexGrow": 1,
@@ -832,7 +832,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                 collapsable={false}
                 pointerEvents="box-none"
                 style={
-                  Object {
+                  {
                     "justifyContent": "center",
                     "marginHorizontal": 16,
                     "maxWidth": 718,
@@ -847,7 +847,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                   numberOfLines={1}
                   onLayout={[Function]}
                   style={
-                    Object {
+                    {
                       "color": "black",
                       "fontSize": 17,
                       "fontWeight": "600",
@@ -861,7 +861,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                 collapsable={false}
                 pointerEvents="box-none"
                 style={
-                  Object {
+                  {
                     "alignItems": "flex-end",
                     "flexBasis": 0,
                     "flexGrow": 1,
@@ -878,7 +878,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
       <RNSScreenContainer
         onLayout={[Function]}
         style={
-          Object {
+          {
             "flex": 1,
           }
         }
@@ -888,7 +888,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
           collapsable={false}
           forwardedRef={[Function]}
           gestureResponseDistance={
-            Object {
+            {
               "bottom": -1,
               "end": -1,
               "start": -1,
@@ -897,7 +897,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
           }
           pointerEvents="box-none"
           style={
-            Object {
+            {
               "bottom": 0,
               "left": 0,
               "position": "absolute",
@@ -909,7 +909,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
           <View
             collapsable={false}
             style={
-              Object {
+              {
                 "opacity": 1,
               }
             }
@@ -927,12 +927,12 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
             onTransition={[Function]}
             pointerEvents="box-none"
             style={
-              Array [
-                Object {
+              [
+                {
                   "display": "flex",
                   "overflow": undefined,
                 },
-                Object {
+                {
                   "bottom": 0,
                   "left": 0,
                   "position": "absolute",
@@ -942,10 +942,10 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
               ]
             }
             transitionSpec={
-              Object {
-                "close": Object {
+              {
+                "close": {
                   "animation": "spring",
-                  "config": Object {
+                  "config": {
                     "damping": 500,
                     "mass": 3,
                     "overshootClamping": true,
@@ -954,9 +954,9 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                     "stiffness": 1000,
                   },
                 },
-                "open": Object {
+                "open": {
                   "animation": "spring",
-                  "config": Object {
+                  "config": {
                     "damping": 500,
                     "mass": 3,
                     "overshootClamping": true,
@@ -972,7 +972,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
               collapsable={false}
               pointerEvents="box-none"
               style={
-                Object {
+                {
                   "flex": 1,
                 }
               }
@@ -986,13 +986,13 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                 onGestureHandlerEvent={[Function]}
                 onGestureHandlerStateChange={[Function]}
                 style={
-                  Object {
+                  {
                     "flex": 1,
-                    "transform": Array [
-                      Object {
+                    "transform": [
+                      {
                         "translateX": 0,
                       },
-                      Object {
+                      {
                         "translateX": 0,
                       },
                     ],
@@ -1001,13 +1001,13 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
               >
                 <View
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flex": 1,
                         "overflow": "hidden",
                       },
-                      Array [
-                        Object {
+                      [
+                        {
                           "backgroundColor": "rgb(242, 242, 242)",
                         },
                         undefined,
@@ -1017,7 +1017,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "flex": 1,
                         "flexDirection": "column-reverse",
                       }
@@ -1025,15 +1025,15 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                   >
                     <View
                       style={
-                        Object {
+                        {
                           "flex": 1,
                         }
                       }
                     >
                       <View
                         style={
-                          Array [
-                            Object {
+                          [
+                            {
                               "alignItems": "center",
                               "alignSelf": "stretch",
                               "backgroundColor": "white",
@@ -1050,8 +1050,8 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                       >
                         <View
                           style={
-                            Array [
-                              Object {
+                            [
+                              {
                                 "alignItems": "center",
                                 "flexDirection": "column",
                                 "height": "100%",
@@ -1064,13 +1064,13 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                         >
                           <Text
                             style={
-                              Array [
-                                Object {
+                              [
+                                {
                                   "color": "black",
                                   "fontSize": 18,
                                   "lineHeight": 27,
                                 },
-                                Object {
+                                {
                                   "marginTop": 100,
                                 },
                               ]
@@ -1078,8 +1078,8 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                           />
                           <Text
                             style={
-                              Array [
-                                Object {
+                              [
+                                {
                                   "color": "black",
                                   "fontSize": 18,
                                   "lineHeight": 27,
@@ -1090,8 +1090,8 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                           />
                           <Text
                             style={
-                              Array [
-                                Object {
+                              [
+                                {
                                   "color": "black",
                                   "fontSize": 18,
                                   "lineHeight": 27,
@@ -1103,8 +1103,8 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                         </View>
                         <View
                           style={
-                            Array [
-                              Object {
+                            [
+                              {
                                 "alignSelf": "center",
                                 "bottom": 40,
                                 "flexDirection": "column",
@@ -1117,7 +1117,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                         >
                           <View
                             accessibilityState={
-                              Object {
+                              {
                                 "disabled": false,
                               }
                             }
@@ -1132,7 +1132,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             onResponderTerminationRequest={[Function]}
                             onStartShouldSetResponder={[Function]}
                             style={
-                              Object {
+                              {
                                 "opacity": 1,
                               }
                             }
@@ -1142,16 +1142,16 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               onLayout={[Function]}
                               outlined={false}
                               style={
-                                Array [
-                                  Object {
+                                [
+                                  {
                                     "backgroundColor": "black",
                                     "borderBottomColor": "black",
                                     "borderLeftColor": "black",
                                     "borderRightColor": "black",
                                     "borderTopColor": "black",
                                   },
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "alignItems": "center",
                                       "alignSelf": "stretch",
                                       "borderBottomLeftRadius": 20,
@@ -1165,7 +1165,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                                       "paddingRight": 20,
                                       "paddingTop": 10,
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       false,
                                       undefined,
@@ -1178,7 +1178,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             >
                               <Image
                                 source={
-                                  Object {
+                                  {
                                     "canInstrument": true,
                                     "createTransformer": [Function],
                                     "getCacheKey": [Function],
@@ -1186,7 +1186,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                                   }
                                 }
                                 style={
-                                  Object {
+                                  {
                                     "height": 24,
                                     "left": 12,
                                     "position": "absolute",
@@ -1197,11 +1197,11 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               <Text
                                 outlined={false}
                                 style={
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "color": "white",
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       undefined,
                                     ],
@@ -1215,14 +1215,14 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                           </View>
                           <View
                             style={
-                              Object {
+                              {
                                 "marginTop": 12,
                               }
                             }
                           />
                           <View
                             accessibilityState={
-                              Object {
+                              {
                                 "disabled": false,
                               }
                             }
@@ -1237,7 +1237,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             onResponderTerminationRequest={[Function]}
                             onStartShouldSetResponder={[Function]}
                             style={
-                              Object {
+                              {
                                 "opacity": 1,
                               }
                             }
@@ -1247,16 +1247,16 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               onLayout={[Function]}
                               outlined={false}
                               style={
-                                Array [
-                                  Object {
+                                [
+                                  {
                                     "backgroundColor": "black",
                                     "borderBottomColor": "black",
                                     "borderLeftColor": "black",
                                     "borderRightColor": "black",
                                     "borderTopColor": "black",
                                   },
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "alignItems": "center",
                                       "alignSelf": "stretch",
                                       "borderBottomLeftRadius": 20,
@@ -1270,7 +1270,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                                       "paddingRight": 20,
                                       "paddingTop": 10,
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       false,
                                       undefined,
@@ -1284,11 +1284,11 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               <Text
                                 outlined={false}
                                 style={
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "color": "white",
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       undefined,
                                     ],
@@ -1302,14 +1302,14 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                           </View>
                           <View
                             style={
-                              Object {
+                              {
                                 "marginTop": 12,
                               }
                             }
                           />
                           <View
                             accessibilityState={
-                              Object {
+                              {
                                 "disabled": false,
                               }
                             }
@@ -1324,7 +1324,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             onResponderTerminationRequest={[Function]}
                             onStartShouldSetResponder={[Function]}
                             style={
-                              Object {
+                              {
                                 "opacity": 1,
                               }
                             }
@@ -1334,16 +1334,16 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               onLayout={[Function]}
                               outlined={false}
                               style={
-                                Array [
-                                  Object {
+                                [
+                                  {
                                     "backgroundColor": "black",
                                     "borderBottomColor": "black",
                                     "borderLeftColor": "black",
                                     "borderRightColor": "black",
                                     "borderTopColor": "black",
                                   },
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "alignItems": "center",
                                       "alignSelf": "stretch",
                                       "borderBottomLeftRadius": 20,
@@ -1357,7 +1357,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                                       "paddingRight": 20,
                                       "paddingTop": 10,
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       false,
                                       undefined,
@@ -1371,11 +1371,11 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                               <Text
                                 outlined={false}
                                 style={
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "color": "white",
                                     },
-                                    Array [
+                                    [
                                       undefined,
                                       undefined,
                                     ],

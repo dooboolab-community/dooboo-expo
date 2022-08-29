@@ -3,8 +3,8 @@
 exports[`[Temp] render renders without crashing 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "white",
         "flexBasis": 0,
@@ -19,7 +19,7 @@ exports[`[Temp] render renders without crashing 1`] = `
 >
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -34,7 +34,7 @@ exports[`[Temp] render renders without crashing 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -44,16 +44,16 @@ exports[`[Temp] render renders without crashing 1`] = `
       onLayout={[Function]}
       outlined={false}
       style={
-        Array [
-          Object {
+        [
+          {
             "backgroundColor": "black",
             "borderBottomColor": "black",
             "borderLeftColor": "black",
             "borderRightColor": "black",
             "borderTopColor": "black",
           },
-          Array [
-            Object {
+          [
+            {
               "alignItems": "center",
               "alignSelf": "stretch",
               "borderBottomLeftRadius": 20,
@@ -67,7 +67,7 @@ exports[`[Temp] render renders without crashing 1`] = `
               "paddingRight": 20,
               "paddingTop": 10,
             },
-            Array [
+            [
               undefined,
               false,
               undefined,
@@ -82,11 +82,11 @@ exports[`[Temp] render renders without crashing 1`] = `
       <Text
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "white",
             },
-            Array [
+            [
               undefined,
               undefined,
             ],
@@ -104,8 +104,8 @@ exports[`[Temp] render renders without crashing 1`] = `
 exports[`[Temp] render should render [Dark] theme 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "black",
         "flexBasis": 0,
@@ -120,7 +120,7 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
 >
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -135,7 +135,7 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -145,16 +145,16 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
       onLayout={[Function]}
       outlined={false}
       style={
-        Array [
-          Object {
+        [
+          {
             "backgroundColor": "white",
             "borderBottomColor": "white",
             "borderLeftColor": "white",
             "borderRightColor": "white",
             "borderTopColor": "white",
           },
-          Array [
-            Object {
+          [
+            {
               "alignItems": "center",
               "alignSelf": "stretch",
               "borderBottomLeftRadius": 20,
@@ -168,7 +168,7 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
               "paddingRight": 20,
               "paddingTop": 10,
             },
-            Array [
+            [
               undefined,
               false,
               undefined,
@@ -183,25 +183,25 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "black",
               "fontSize": 16,
             },
-            Array [
-              Object {
+            [
+              {
                 "color": "black",
               },
-              Object {
+              {
                 "marginRight": 12,
               },
             ],
-            Object {
+            {
               "fontFamily": "IcoMoon",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
-            Object {},
+            {},
           ]
         }
       >
@@ -210,11 +210,11 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
       <Text
         outlined={false}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "black",
             },
-            Array [
+            [
               undefined,
               undefined,
             ],
