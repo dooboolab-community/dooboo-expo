@@ -2,7 +2,8 @@ import 'react-native';
 
 import * as React from 'react';
 
-import {RenderAPI, act, fireEvent, render} from '@testing-library/react-native';
+import type {RenderAPI} from '@testing-library/react-native';
+import {act, fireEvent, render} from '@testing-library/react-native';
 
 import {Button} from 'dooboo-ui';
 import {createTestElement} from '../../../../test/testUtils';

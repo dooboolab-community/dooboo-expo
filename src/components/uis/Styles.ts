@@ -1,13 +1,13 @@
 import styled from '@emotion/native';
 
 export const StyledButton = styled.View`
-  background-color: ${({theme}) => theme.primary};
+  background-color: ${({theme}) => theme.role.primary};
   align-self: center;
   border-radius: 4px;
   border-width: 2px;
   width: 320px;
   height: 52px;
-  border-color: ${({theme}) => theme.primary};
+  border-color: ${({theme}) => theme.role.primary};
 
   align-items: center;
   justify-content: center;

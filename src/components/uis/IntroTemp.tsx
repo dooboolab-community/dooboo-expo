@@ -13,7 +13,7 @@ const ContentWrapper = styled.View`
 const StyledText = styled.Text`
   font-size: 18px;
   line-height: 27px;
-  color: ${({theme}) => theme.text};
+  color: ${({theme}) => theme.text.contrast};
 `;
 
 function IntroView(): React.ReactElement {

@@ -30,11 +30,11 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
     style={
       [
         {
-          "backgroundColor": "black",
-          "borderBottomColor": "black",
-          "borderLeftColor": "black",
-          "borderRightColor": "black",
-          "borderTopColor": "black",
+          "backgroundColor": "#000000",
+          "borderBottomColor": "#000000",
+          "borderLeftColor": "#000000",
+          "borderRightColor": "#000000",
+          "borderTopColor": "#000000",
         },
         [
           {
@@ -67,7 +67,7 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#FFFFFF",
           },
           [
             undefined,
@@ -111,11 +111,11 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
     style={
       [
         {
-          "backgroundColor": "white",
-          "borderBottomColor": "white",
-          "borderLeftColor": "white",
-          "borderRightColor": "white",
-          "borderTopColor": "white",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomColor": "#FFFFFF",
+          "borderLeftColor": "#FFFFFF",
+          "borderRightColor": "#FFFFFF",
+          "borderTopColor": "#FFFFFF",
         },
         [
           {
@@ -148,7 +148,7 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
       style={
         [
           {
-            "color": "black",
+            "color": "#000000",
           },
           [
             undefined,
@@ -192,11 +192,11 @@ exports[`[Button] should render [isDisabled] status without crashing 1`] = `
     style={
       [
         {
-          "backgroundColor": "black",
-          "borderBottomColor": "black",
-          "borderLeftColor": "black",
-          "borderRightColor": "black",
-          "borderTopColor": "black",
+          "backgroundColor": "#000000",
+          "borderBottomColor": "#000000",
+          "borderLeftColor": "#000000",
+          "borderRightColor": "#000000",
+          "borderTopColor": "#000000",
         },
         [
           {
@@ -229,7 +229,7 @@ exports[`[Button] should render [isDisabled] status without crashing 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#FFFFFF",
           },
           [
             undefined,
@@ -273,11 +273,11 @@ exports[`[Button] should render [isLoading] status without crashing 1`] = `
     style={
       [
         {
-          "backgroundColor": "black",
-          "borderBottomColor": "black",
-          "borderLeftColor": "black",
-          "borderRightColor": "black",
-          "borderTopColor": "black",
+          "backgroundColor": "#000000",
+          "borderBottomColor": "#000000",
+          "borderLeftColor": "#000000",
+          "borderRightColor": "#000000",
+          "borderTopColor": "#000000",
         },
         [
           {
@@ -310,7 +310,7 @@ exports[`[Button] should render [isLoading] status without crashing 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#FFFFFF",
           },
           [
             undefined,

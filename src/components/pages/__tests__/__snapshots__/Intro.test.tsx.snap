@@ -7,7 +7,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "black",
+        "backgroundColor": "#000000",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -37,7 +37,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -51,7 +51,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -63,7 +63,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -115,11 +115,11 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         style={
           [
             {
-              "backgroundColor": "white",
-              "borderBottomColor": "white",
-              "borderLeftColor": "white",
-              "borderRightColor": "white",
-              "borderTopColor": "white",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomColor": "#FFFFFF",
+              "borderLeftColor": "#FFFFFF",
+              "borderRightColor": "#FFFFFF",
+              "borderTopColor": "#FFFFFF",
             },
             [
               {
@@ -170,7 +170,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             [
               {
-                "color": "black",
+                "color": "#000000",
               },
               [
                 undefined,
@@ -220,11 +220,11 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         style={
           [
             {
-              "backgroundColor": "white",
-              "borderBottomColor": "white",
-              "borderLeftColor": "white",
-              "borderRightColor": "white",
-              "borderTopColor": "white",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomColor": "#FFFFFF",
+              "borderLeftColor": "#FFFFFF",
+              "borderRightColor": "#FFFFFF",
+              "borderTopColor": "#FFFFFF",
             },
             [
               {
@@ -257,7 +257,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             [
               {
-                "color": "black",
+                "color": "#000000",
               },
               [
                 undefined,
@@ -307,11 +307,11 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
         style={
           [
             {
-              "backgroundColor": "white",
-              "borderBottomColor": "white",
-              "borderLeftColor": "white",
-              "borderRightColor": "white",
-              "borderTopColor": "white",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomColor": "#FFFFFF",
+              "borderLeftColor": "#FFFFFF",
+              "borderRightColor": "#FFFFFF",
+              "borderTopColor": "#FFFFFF",
             },
             [
               {
@@ -344,7 +344,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
           style={
             [
               {
-                "color": "black",
+                "color": "#000000",
               },
               [
                 undefined,
@@ -369,7 +369,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "black",
+        "backgroundColor": "#000000",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -399,7 +399,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -413,7 +413,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -425,7 +425,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -477,11 +477,11 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         style={
           [
             {
-              "backgroundColor": "white",
-              "borderBottomColor": "white",
-              "borderLeftColor": "white",
-              "borderRightColor": "white",
-              "borderTopColor": "white",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomColor": "#FFFFFF",
+              "borderLeftColor": "#FFFFFF",
+              "borderRightColor": "#FFFFFF",
+              "borderTopColor": "#FFFFFF",
             },
             [
               {
@@ -532,7 +532,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             [
               {
-                "color": "black",
+                "color": "#000000",
               },
               [
                 undefined,
@@ -582,11 +582,11 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         style={
           [
             {
-              "backgroundColor": "white",
-              "borderBottomColor": "white",
-              "borderLeftColor": "white",
-              "borderRightColor": "white",
-              "borderTopColor": "white",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomColor": "#FFFFFF",
+              "borderLeftColor": "#FFFFFF",
+              "borderRightColor": "#FFFFFF",
+              "borderTopColor": "#FFFFFF",
             },
             [
               {
@@ -619,7 +619,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             [
               {
-                "color": "black",
+                "color": "#000000",
               },
               [
                 undefined,
@@ -669,11 +669,11 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
         style={
           [
             {
-              "backgroundColor": "white",
-              "borderBottomColor": "white",
-              "borderLeftColor": "white",
-              "borderRightColor": "white",
-              "borderTopColor": "white",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomColor": "#FFFFFF",
+              "borderLeftColor": "#FFFFFF",
+              "borderRightColor": "#FFFFFF",
+              "borderTopColor": "#FFFFFF",
             },
             [
               {
@@ -706,7 +706,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
           style={
             [
               {
-                "color": "black",
+                "color": "#000000",
               },
               [
                 undefined,
@@ -731,7 +731,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "black",
+        "backgroundColor": "#000000",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -761,7 +761,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -775,7 +775,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -787,7 +787,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -839,11 +839,11 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         style={
           [
             {
-              "backgroundColor": "white",
-              "borderBottomColor": "white",
-              "borderLeftColor": "white",
-              "borderRightColor": "white",
-              "borderTopColor": "white",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomColor": "#FFFFFF",
+              "borderLeftColor": "#FFFFFF",
+              "borderRightColor": "#FFFFFF",
+              "borderTopColor": "#FFFFFF",
             },
             [
               {
@@ -894,7 +894,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             [
               {
-                "color": "black",
+                "color": "#000000",
               },
               [
                 undefined,
@@ -944,11 +944,11 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         style={
           [
             {
-              "backgroundColor": "white",
-              "borderBottomColor": "white",
-              "borderLeftColor": "white",
-              "borderRightColor": "white",
-              "borderTopColor": "white",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomColor": "#FFFFFF",
+              "borderLeftColor": "#FFFFFF",
+              "borderRightColor": "#FFFFFF",
+              "borderTopColor": "#FFFFFF",
             },
             [
               {
@@ -981,7 +981,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             [
               {
-                "color": "black",
+                "color": "#000000",
               },
               [
                 undefined,
@@ -1031,11 +1031,11 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
         style={
           [
             {
-              "backgroundColor": "white",
-              "borderBottomColor": "white",
-              "borderLeftColor": "white",
-              "borderRightColor": "white",
-              "borderTopColor": "white",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomColor": "#FFFFFF",
+              "borderLeftColor": "#FFFFFF",
+              "borderRightColor": "#FFFFFF",
+              "borderTopColor": "#FFFFFF",
             },
             [
               {
@@ -1068,7 +1068,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
           style={
             [
               {
-                "color": "black",
+                "color": "#000000",
               },
               [
                 undefined,
@@ -1093,7 +1093,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "white",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -1123,7 +1123,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       style={
         [
           {
-            "color": "black",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -1137,7 +1137,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       style={
         [
           {
-            "color": "black",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -1149,7 +1149,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       style={
         [
           {
-            "color": "black",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -1201,11 +1201,11 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         style={
           [
             {
-              "backgroundColor": "black",
-              "borderBottomColor": "black",
-              "borderLeftColor": "black",
-              "borderRightColor": "black",
-              "borderTopColor": "black",
+              "backgroundColor": "#000000",
+              "borderBottomColor": "#000000",
+              "borderLeftColor": "#000000",
+              "borderRightColor": "#000000",
+              "borderTopColor": "#000000",
             },
             [
               {
@@ -1256,7 +1256,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             [
               {
-                "color": "white",
+                "color": "#FFFFFF",
               },
               [
                 undefined,
@@ -1306,11 +1306,11 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         style={
           [
             {
-              "backgroundColor": "black",
-              "borderBottomColor": "black",
-              "borderLeftColor": "black",
-              "borderRightColor": "black",
-              "borderTopColor": "black",
+              "backgroundColor": "#000000",
+              "borderBottomColor": "#000000",
+              "borderLeftColor": "#000000",
+              "borderRightColor": "#000000",
+              "borderTopColor": "#000000",
             },
             [
               {
@@ -1343,7 +1343,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             [
               {
-                "color": "white",
+                "color": "#FFFFFF",
               },
               [
                 undefined,
@@ -1393,11 +1393,11 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         style={
           [
             {
-              "backgroundColor": "black",
-              "borderBottomColor": "black",
-              "borderLeftColor": "black",
-              "borderRightColor": "black",
-              "borderTopColor": "black",
+              "backgroundColor": "#000000",
+              "borderBottomColor": "#000000",
+              "borderLeftColor": "#000000",
+              "borderRightColor": "#000000",
+              "borderTopColor": "#000000",
             },
             [
               {
@@ -1430,7 +1430,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
           style={
             [
               {
-                "color": "white",
+                "color": "#FFFFFF",
               },
               [
                 undefined,
