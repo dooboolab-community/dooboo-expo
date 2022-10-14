@@ -9,11 +9,19 @@ export const colors = {
 
 export type Colors = typeof colors;
 
-export const light = {};
+export const light = {
+  bg: {
+    default: '#FFFFFF',
+  },
+};
 
 export type CustomAppTheme = typeof light & DoobooTheme;
 
-export const dark = {};
+export const dark = {
+  bg: {
+    default: '#232323',
+  },
+};
 
 export const theme = {
   light,

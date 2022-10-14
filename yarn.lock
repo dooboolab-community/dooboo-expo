@@ -1831,9 +1831,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dooboo-ui/theme@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "@dooboo-ui/theme@npm:0.9.0"
+"@dooboo-ui/theme@npm:^0.9.5":
+  version: 0.9.5
+  resolution: "@dooboo-ui/theme@npm:0.9.5"
   dependencies:
     react-responsive: ^9.0.0
   peerDependencies:
@@ -1841,7 +1841,7 @@ __metadata:
     "@emotion/react": ">=11"
     react: ">=16.9"
     react-native: ">=0.58"
-  checksum: 6dd19350c28f755c1a514703e7d2f990d07bd8681efe55bdc0c92a8cbd9532998d351b008d662de008e3c78506ee31518f2dd82bfa4afff4251ccd5aa7438815
+  checksum: fca878ba3d5543d2026d15df8f62ffa64a402259aaad691f7a81383324b708992d194b8ec716940368f950ece4b9f5befba3978aa4160b4375f9d24620551a85
   languageName: node
   linkType: hard
 
@@ -8280,7 +8280,7 @@ __metadata:
     babel-preset-expo: ~9.2.0
     babel-preset-react-native: 4.0.1
     codecov: ^3.8.3
-    dooboo-ui: ^0.1.90
+    dooboo-ui: ^0.1.91
     eslint: ^8.23.0
     eslint-plugin-jest: latest
     expo: ^46.0.9
@@ -8301,10 +8301,10 @@ __metadata:
     prettier: ^2.7.1
     react: 18.0.0
     react-dom: 18.0.0
-    react-native: 0.69.5
+    react-native: 0.69.6
     react-native-gesture-handler: ~2.5.0
     react-native-reanimated: ~2.9.1
-    react-native-safe-area-context: 4.3.3
+    react-native-safe-area-context: 4.3.1
     react-native-screens: ~3.15.0
     react-native-svg: 12.3.0
     react-native-web: ~0.18.8
@@ -8317,11 +8317,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"dooboo-ui@npm:^0.1.90":
-  version: 0.1.90
-  resolution: "dooboo-ui@npm:0.1.90"
+"dooboo-ui@npm:^0.1.91":
+  version: 0.1.91
+  resolution: "dooboo-ui@npm:0.1.91"
   dependencies:
-    "@dooboo-ui/theme": ^0.9.0
+    "@dooboo-ui/theme": ^0.9.5
     dooboolab-welcome: ^1.3.2
     react-native-web-hooks: ^3.0.2
     react-responsive: ^8.2.0
@@ -8332,7 +8332,7 @@ __metadata:
     react-native: ">=0.58"
     react-native-gesture-handler: "*"
     react-native-vector-icons: "*"
-  checksum: 6e356bb065bcca80cbe9c464065fb1228edc8e737730a066ad973b2afec99bd98e4cc5fc6ff86cc6ad6369152746a221415c1202c82bb10ed64c332b4c955c77
+  checksum: dc3d2d0f0601f10dc4f9a98208b6d37ccf0fad1e932cca3d81e1818a0b024b64f27a61101d474d9d6de91a68b57c60133ab1ca17c49ed06ba4620827cc6233db
   languageName: node
   linkType: hard
 
@@ -15831,7 +15831,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"promise@npm:^8.0.3":
+"promise@npm:^8.2.0":
   version: 8.2.0
   resolution: "promise@npm:8.2.0"
   dependencies:
@@ -16288,13 +16288,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:4.3.3":
-  version: 4.3.3
-  resolution: "react-native-safe-area-context@npm:4.3.3"
+"react-native-safe-area-context@npm:4.3.1":
+  version: 4.3.1
+  resolution: "react-native-safe-area-context@npm:4.3.1"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 18471ca740f88e8633eb8c6b403ae7e8b79e595cc0cac122228bb77dbbec6ac3eb5dc22caf84b6ab890da0893a6964092688129fc1a49e6a327e7dff5d1b15de
+  checksum: 34a4bc60448b0bc6bfa3e952b00a12754cc30ce48c07540a6618179f2c170aa2db0919ac452376322778ed34c4c56fc5d40e17c2b74157c9a134d2b766143ca3
   languageName: node
   linkType: hard
 
@@ -16353,9 +16353,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.69.5":
-  version: 0.69.5
-  resolution: "react-native@npm:0.69.5"
+"react-native@npm:0.69.6":
+  version: 0.69.6
+  resolution: "react-native@npm:0.69.6"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
     "@react-native-community/cli": ^8.0.4
@@ -16378,7 +16378,7 @@ __metadata:
     mkdirp: ^0.5.1
     nullthrows: ^1.1.1
     pretty-format: ^26.5.2
-    promise: ^8.0.3
+    promise: ^8.2.0
     react-devtools-core: 4.24.0
     react-native-codegen: ^0.69.2
     react-native-gradle-plugin: ^0.0.7
@@ -16394,7 +16394,7 @@ __metadata:
     react: 18.0.0
   bin:
     react-native: cli.js
-  checksum: 4f7cfcd0d614cc6fe897a49197bd036210625c5eb547342ac7ebea45ab5febae73d6a9a7438f08f454d1e02c2e041b3f910461c4a6e5c6e0e44f5cfe70405990
+  checksum: d050b9f0389362368cd1286c02dd46cd84def9fcbf4774dcedd5cbc3aa9ad594de48f22c5458ec257c07646d79722256bc837b25205c3a52752d5c5b6a7873f4
   languageName: node
   linkType: hard
 
