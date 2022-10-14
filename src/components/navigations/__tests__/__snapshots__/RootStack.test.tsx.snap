@@ -192,7 +192,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             {
                               "alignItems": "center",
                               "alignSelf": "stretch",
-                              "backgroundColor": "#000000",
+                              "backgroundColor": "#232323",
                               "flexBasis": 0,
                               "flexDirection": "column",
                               "flexGrow": 1,
@@ -222,7 +222,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             style={
                               [
                                 {
-                                  "color": "#000000",
+                                  "color": "#FFFFFF",
                                   "fontSize": 18,
                                   "lineHeight": 27,
                                 },
@@ -236,7 +236,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             style={
                               [
                                 {
-                                  "color": "#000000",
+                                  "color": "#FFFFFF",
                                   "fontSize": 18,
                                   "lineHeight": 27,
                                 },
@@ -248,7 +248,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             style={
                               [
                                 {
-                                  "color": "#000000",
+                                  "color": "#FFFFFF",
                                   "fontSize": 18,
                                   "lineHeight": 27,
                                 },
@@ -576,7 +576,7 @@ exports[`[Stack] navigator should renders [Dark] mode 1`] = `
                             collapsable={false}
                             style={
                               {
-                                "backgroundColor": "#000000",
+                                "backgroundColor": "#232323",
                                 "borderBottomColor": "rgb(216, 216, 216)",
                                 "flex": 1,
                                 "shadowColor": "rgb(216, 216, 216)",
@@ -1068,7 +1068,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             style={
                               [
                                 {
-                                  "color": "#FFFFFF",
+                                  "color": "#000000",
                                   "fontSize": 18,
                                   "lineHeight": 27,
                                 },
@@ -1082,7 +1082,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             style={
                               [
                                 {
-                                  "color": "#FFFFFF",
+                                  "color": "#000000",
                                   "fontSize": 18,
                                   "lineHeight": 27,
                                 },
@@ -1094,7 +1094,7 @@ exports[`[Stack] navigator should renders without crashing 1`] = `
                             style={
                               [
                                 {
-                                  "color": "#FFFFFF",
+                                  "color": "#000000",
                                   "fontSize": 18,
                                   "lineHeight": 27,
                                 },

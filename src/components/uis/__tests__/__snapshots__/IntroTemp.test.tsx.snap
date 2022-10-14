@@ -19,7 +19,7 @@ exports[`[IntroTemp] render renders without crashing 1`] = `
     style={
       [
         {
-          "color": "#FFFFFF",
+          "color": "#000000",
           "fontSize": 18,
           "lineHeight": 27,
         },
@@ -33,7 +33,7 @@ exports[`[IntroTemp] render renders without crashing 1`] = `
     style={
       [
         {
-          "color": "#FFFFFF",
+          "color": "#000000",
           "fontSize": 18,
           "lineHeight": 27,
         },
@@ -45,7 +45,7 @@ exports[`[IntroTemp] render renders without crashing 1`] = `
     style={
       [
         {
-          "color": "#FFFFFF",
+          "color": "#000000",
           "fontSize": 18,
           "lineHeight": 27,
         },

@@ -7,7 +7,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "#000000",
+        "backgroundColor": "#232323",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -37,7 +37,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -51,7 +51,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -63,7 +63,7 @@ exports[`[Intro] screen rendering test should render [Dark] theme 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -369,7 +369,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "#000000",
+        "backgroundColor": "#232323",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -399,7 +399,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -413,7 +413,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -425,7 +425,7 @@ exports[`[Intro] screen rendering test should render [isDisabled] status 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -731,7 +731,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "#000000",
+        "backgroundColor": "#232323",
         "flexBasis": 0,
         "flexDirection": "column",
         "flexGrow": 1,
@@ -761,7 +761,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -775,7 +775,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -787,7 +787,7 @@ exports[`[Intro] screen rendering test should render [isLoading] status 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -1123,7 +1123,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       style={
         [
           {
-            "color": "#FFFFFF",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -1137,7 +1137,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       style={
         [
           {
-            "color": "#FFFFFF",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },
@@ -1149,7 +1149,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       style={
         [
           {
-            "color": "#FFFFFF",
+            "color": "#000000",
             "fontSize": 18,
             "lineHeight": 27,
           },

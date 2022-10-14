@@ -107,7 +107,7 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
     [
       {
         "alignItems": "center",
-        "backgroundColor": "#000000",
+        "backgroundColor": "#232323",
         "flexBasis": 0,
         "flexDirection": "row",
         "flexGrow": 1,
