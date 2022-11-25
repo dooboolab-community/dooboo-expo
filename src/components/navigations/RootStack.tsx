@@ -1,12 +1,9 @@
-import {
-  StackNavigationProp,
-  createStackNavigator,
-} from '@react-navigation/stack';
-
 import Intro from '../pages/Intro';
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
+import type {StackNavigationProp} from '@react-navigation/stack';
 import Temp from '../pages/Temp';
+import {createStackNavigator} from '@react-navigation/stack';
 import {useTheme} from 'dooboo-ui';
 
 export type RootStackParamList = {
@@ -31,10 +28,10 @@ function RootStack(): React.ReactElement {
         screenOptions={{
           headerMode: themeType === 'dark' ? 'screen' : 'float',
           headerStyle: {
-            backgroundColor: theme.background,
+            backgroundColor: theme.bg.default,
           },
-          headerTitleStyle: {color: theme.text},
-          headerTintColor: theme.primary,
+          headerTitleStyle: {color: theme.text.default},
+          headerTintColor: theme.role.primary,
         }}
       >
         <Stack.Screen name="Intro" component={Intro} />

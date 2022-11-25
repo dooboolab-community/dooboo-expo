@@ -1,7 +1,9 @@
 import 'react-native';
 
-import React, {ReactElement} from 'react';
-import {RenderAPI, act, fireEvent, render} from '@testing-library/react-native';
+import type {ReactElement} from 'react';
+import React from 'react';
+import type {RenderAPI} from '@testing-library/react-native';
+import {act, fireEvent, render} from '@testing-library/react-native';
 import {createTestElement, createTestProps} from '../../../../test/testUtils';
 
 import Temp from '../Temp';

@@ -1,4 +1,4 @@
-import {ReactElement} from 'react';
+import type {ReactElement} from 'react';
 import {useMediaQuery} from 'react-responsive';
 
 export type MediaQueryType = {

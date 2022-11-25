@@ -3,7 +3,7 @@
 exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -18,7 +18,7 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -28,16 +28,16 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
     onLayout={[Function]}
     outlined={false}
     style={
-      Array [
-        Object {
-          "backgroundColor": "black",
-          "borderBottomColor": "black",
-          "borderLeftColor": "black",
-          "borderRightColor": "black",
-          "borderTopColor": "black",
+      [
+        {
+          "backgroundColor": "#000000",
+          "borderBottomColor": "#000000",
+          "borderLeftColor": "#000000",
+          "borderRightColor": "#000000",
+          "borderTopColor": "#000000",
         },
-        Array [
-          Object {
+        [
+          {
             "alignItems": "center",
             "alignSelf": "stretch",
             "borderBottomLeftRadius": 20,
@@ -51,7 +51,7 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
             "paddingRight": 20,
             "paddingTop": 10,
           },
-          Array [
+          [
             undefined,
             false,
             undefined,
@@ -65,11 +65,11 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
     <Text
       outlined={false}
       style={
-        Array [
-          Object {
-            "color": "white",
+        [
+          {
+            "color": "#FFFFFF",
           },
-          Array [
+          [
             undefined,
             undefined,
           ],
@@ -84,7 +84,7 @@ exports[`[Button] [ThemeType.Light] renders without crashing 1`] = `
 exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -99,7 +99,7 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -109,16 +109,16 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
     onLayout={[Function]}
     outlined={false}
     style={
-      Array [
-        Object {
-          "backgroundColor": "white",
-          "borderBottomColor": "white",
-          "borderLeftColor": "white",
-          "borderRightColor": "white",
-          "borderTopColor": "white",
+      [
+        {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomColor": "#FFFFFF",
+          "borderLeftColor": "#FFFFFF",
+          "borderRightColor": "#FFFFFF",
+          "borderTopColor": "#FFFFFF",
         },
-        Array [
-          Object {
+        [
+          {
             "alignItems": "center",
             "alignSelf": "stretch",
             "borderBottomLeftRadius": 20,
@@ -132,7 +132,7 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
             "paddingRight": 20,
             "paddingTop": 10,
           },
-          Array [
+          [
             undefined,
             false,
             undefined,
@@ -146,11 +146,11 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
     <Text
       outlined={false}
       style={
-        Array [
-          Object {
-            "color": "black",
+        [
+          {
+            "color": "#000000",
           },
-          Array [
+          [
             undefined,
             undefined,
           ],
@@ -165,7 +165,7 @@ exports[`[Button] should render [ThemeType.Dark] without crashing 1`] = `
 exports[`[Button] should render [isDisabled] status without crashing 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -180,7 +180,7 @@ exports[`[Button] should render [isDisabled] status without crashing 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -190,16 +190,16 @@ exports[`[Button] should render [isDisabled] status without crashing 1`] = `
     onLayout={[Function]}
     outlined={false}
     style={
-      Array [
-        Object {
-          "backgroundColor": "black",
-          "borderBottomColor": "black",
-          "borderLeftColor": "black",
-          "borderRightColor": "black",
-          "borderTopColor": "black",
+      [
+        {
+          "backgroundColor": "#000000",
+          "borderBottomColor": "#000000",
+          "borderLeftColor": "#000000",
+          "borderRightColor": "#000000",
+          "borderTopColor": "#000000",
         },
-        Array [
-          Object {
+        [
+          {
             "alignItems": "center",
             "alignSelf": "stretch",
             "borderBottomLeftRadius": 20,
@@ -213,7 +213,7 @@ exports[`[Button] should render [isDisabled] status without crashing 1`] = `
             "paddingRight": 20,
             "paddingTop": 10,
           },
-          Array [
+          [
             undefined,
             false,
             undefined,
@@ -227,11 +227,11 @@ exports[`[Button] should render [isDisabled] status without crashing 1`] = `
     <Text
       outlined={false}
       style={
-        Array [
-          Object {
-            "color": "white",
+        [
+          {
+            "color": "#FFFFFF",
           },
-          Array [
+          [
             undefined,
             undefined,
           ],
@@ -246,7 +246,7 @@ exports[`[Button] should render [isDisabled] status without crashing 1`] = `
 exports[`[Button] should render [isLoading] status without crashing 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -261,7 +261,7 @@ exports[`[Button] should render [isLoading] status without crashing 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -271,16 +271,16 @@ exports[`[Button] should render [isLoading] status without crashing 1`] = `
     onLayout={[Function]}
     outlined={false}
     style={
-      Array [
-        Object {
-          "backgroundColor": "black",
-          "borderBottomColor": "black",
-          "borderLeftColor": "black",
-          "borderRightColor": "black",
-          "borderTopColor": "black",
+      [
+        {
+          "backgroundColor": "#000000",
+          "borderBottomColor": "#000000",
+          "borderLeftColor": "#000000",
+          "borderRightColor": "#000000",
+          "borderTopColor": "#000000",
         },
-        Array [
-          Object {
+        [
+          {
             "alignItems": "center",
             "alignSelf": "stretch",
             "borderBottomLeftRadius": 20,
@@ -294,7 +294,7 @@ exports[`[Button] should render [isLoading] status without crashing 1`] = `
             "paddingRight": 20,
             "paddingTop": 10,
           },
-          Array [
+          [
             undefined,
             false,
             undefined,
@@ -308,11 +308,11 @@ exports[`[Button] should render [isLoading] status without crashing 1`] = `
     <Text
       outlined={false}
       style={
-        Array [
-          Object {
-            "color": "white",
+        [
+          {
+            "color": "#FFFFFF",
           },
-          Array [
+          [
             undefined,
             undefined,
           ],

@@ -1,16 +1,16 @@
 import {Button, Icon, useTheme} from 'dooboo-ui';
-import {
+import type {
   RootStackNavigationProps,
   RootStackParamList,
 } from '../navigations/RootStack';
 
 import React from 'react';
-import {RouteProp} from '@react-navigation/core';
+import type {RouteProp} from '@react-navigation/core';
 import styled from '@emotion/native';
 
 const Container = styled.View`
   flex: 1;
-  background-color: ${({theme}) => theme.background};
+  background-color: ${({theme}) => theme.bg.default};
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@ function Page(props: Props): React.ReactElement {
           <Icon
             name="chevron-left-light"
             size={16}
-            color={theme.textContrast}
+            color={theme.text.contrast}
             style={{
               marginRight: 12,
             }}

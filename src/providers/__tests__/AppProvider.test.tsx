@@ -2,10 +2,11 @@ import * as React from 'react';
 
 import {AppProvider, useAppContext} from '../AppProvider';
 import {Button, Text, View} from 'react-native';
-import {RenderAPI, act, fireEvent, render} from '@testing-library/react-native';
+import type {RenderAPI} from '@testing-library/react-native';
+import {act, fireEvent, render} from '@testing-library/react-native';
 
 // Note: test renderer must be required after react-native.
-import {ReactTestRendererJSON} from 'react-test-renderer';
+import type {ReactTestRendererJSON} from 'react-test-renderer';
 
 let testingLib: RenderAPI;
 

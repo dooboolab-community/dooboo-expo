@@ -4,8 +4,8 @@ import {Image, View} from 'react-native';
 import {IC_MASK} from '../../utils/Icons';
 import IntroView from '../uis/IntroTemp';
 import React from 'react';
-import {RootStackNavigationProps} from '../navigations/RootStack';
-import {User} from '../../types';
+import type {RootStackNavigationProps} from '../navigations/RootStack';
+import type {User} from '../../types';
 import {getString} from '../../../STRINGS';
 import styled from '@emotion/native';
 import {useAppContext} from '../../providers/AppProvider';
@@ -14,7 +14,7 @@ const Container = styled.View`
   flex: 1;
   align-self: stretch;
   overflow: scroll;
-  background-color: ${({theme}) => theme.background};
+  background-color: ${({theme}) => theme.bg.default};
 
   flex-direction: column;
   justify-content: flex-start;

@@ -1,6 +1,7 @@
 import 'react-native';
 
-import React, {ReactElement} from 'react';
+import type {ReactElement} from 'react';
+import React from 'react';
 import {createTestElement, createTestProps} from '../../../../test/testUtils';
 import renderer, {act} from 'react-test-renderer';
 

@@ -3,8 +3,8 @@
 exports[`[IntroTemp] render renders without crashing 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "flexDirection": "column",
         "height": "100%",
@@ -17,47 +17,41 @@ exports[`[IntroTemp] render renders without crashing 1`] = `
 >
   <Text
     style={
-      Array [
-        Object {
-          "color": "black",
+      [
+        {
+          "color": "#000000",
           "fontSize": 18,
           "lineHeight": 27,
         },
-        Object {
+        {
           "marginTop": 100,
         },
       ]
     }
-  >
-    
-  </Text>
+  />
   <Text
     style={
-      Array [
-        Object {
-          "color": "black",
+      [
+        {
+          "color": "#000000",
           "fontSize": 18,
           "lineHeight": 27,
         },
         undefined,
       ]
     }
-  >
-    
-  </Text>
+  />
   <Text
     style={
-      Array [
-        Object {
-          "color": "black",
+      [
+        {
+          "color": "#000000",
           "fontSize": 18,
           "lineHeight": 27,
         },
         undefined,
       ]
     }
-  >
-    
-  </Text>
+  />
 </View>
 `;

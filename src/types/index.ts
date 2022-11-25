@@ -1,6 +1,6 @@
-import {StyleProp, TextStyle} from 'react-native';
+import type {StyleProp, TextStyle} from 'react-native';
 
-import {SFC} from 'react';
+import type {SFC} from 'react';
 
 export interface User {
   displayName: string;
