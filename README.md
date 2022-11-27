@@ -210,4 +210,4 @@ NativeModules.ReactLocalization = {
 
 ### Expo
 
-35
+46
