@@ -1,12 +1,15 @@
 import 'react-native';
 
-import type {ReactElement} from 'react';
-import React from 'react';
-import type {RenderAPI} from '@testing-library/react-native';
 import {act, fireEvent, render} from '@testing-library/react-native';
-import {createTestElement, createTestProps} from '../../../../test/testUtils';
+import {
+  createTestElement,
+  createTestProps,
+} from '../../../test/utils/testUtils';
 
-import Temp from '../Temp';
+import React from 'react';
+import type {ReactElement} from 'react';
+import type {RenderAPI} from '@testing-library/react-native';
+import Temp from '../../../src/components/pages/Temp';
 
 let props: any;
 let component: ReactElement;

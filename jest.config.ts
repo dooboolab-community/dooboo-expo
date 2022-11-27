@@ -32,13 +32,13 @@ export default async (): Promise<Config.InitialOptions> => {
     },
     setupFiles: [
       ...expoPreset.setupFiles,
-      '<rootDir>/test/jestSetup.ts',
+      '<rootDir>/test/utils/jestSetup.ts',
       './node_modules/react-native-gesture-handler/jestSetup.js',
     ],
     cacheDirectory: '.jest/cache',
     setupFilesAfterEnv: [
       '@testing-library/jest-native/extend-expect',
-      './test/setupTest.ts',
+      './test/utils/setupTest.ts',
     ],
     haste: {
       defaultPlatform: 'ios',

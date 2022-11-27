@@ -1,9 +1,9 @@
 import 'react-native';
 
-import React, {ReactElement} from 'react';
-
-import RootProvider from '../src/providers';
-import {ThemeType} from 'dooboo-ui';
+import React from 'react';
+import type {ReactElement} from 'react';
+import RootProvider from '../../src/providers';
+import type {ThemeType} from 'dooboo-ui';
 
 export const createTestElement = (
   child: ReactElement,

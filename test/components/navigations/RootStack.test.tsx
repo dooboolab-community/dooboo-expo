@@ -1,11 +1,11 @@
 import 'react-native';
 
-import type {ReactElement} from 'react';
-import React from 'react';
-import {createTestElement, createTestProps} from '../../../../test/testUtils';
+import {createTestElement, createTestProps} from '../../utils/testUtils';
 import renderer, {act} from 'react-test-renderer';
 
-import StackNavigator from '../RootStack';
+import React from 'react';
+import type {ReactElement} from 'react';
+import StackNavigator from '../../../src/components/navigations/RootStack';
 
 let props: any;
 let component: ReactElement;

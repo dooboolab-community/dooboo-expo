@@ -1,11 +1,14 @@
-import type {ReactElement} from 'react';
-import React from 'react';
-import type {RenderAPI} from '@testing-library/react-native';
 import {act, fireEvent, render} from '@testing-library/react-native';
-import {createTestElement, createTestProps} from '../../../../test/testUtils';
+import {
+  createTestElement,
+  createTestProps,
+} from '../../../test/utils/testUtils';
 
 import {Button} from 'dooboo-ui';
-import Intro from '../Intro';
+import Intro from '../../../src/components/pages/Intro';
+import React from 'react';
+import type {ReactElement} from 'react';
+import type {RenderAPI} from '@testing-library/react-native';
 import renderer from 'react-test-renderer';
 
 let props: any;
@@ -98,6 +101,7 @@ describe('[Intro] Interaction', () => {
     });
   });
 
+  // eslint-disable-next-line jest/expect-expect
   it('should change theme when button has clicked', () => {
     testingLib = render(component);
 

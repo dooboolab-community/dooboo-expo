@@ -2,11 +2,11 @@ import 'react-native';
 
 import * as React from 'react';
 
-import type {RenderAPI} from '@testing-library/react-native';
 import {act, fireEvent, render} from '@testing-library/react-native';
 
 import {Button} from 'dooboo-ui';
-import {createTestElement} from '../../../../test/testUtils';
+import type {RenderAPI} from '@testing-library/react-native';
+import {createTestElement} from '../../../test/utils/testUtils';
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
@@ -68,7 +68,7 @@ describe('[Button]', () => {
     });
 
     it('should simulate onClick', () => {
-      const btn = testingLib.queryByTestId('btn');
+      const btn = testingLib.getByTestId('btn');
 
       act(() => {
         fireEvent.press(btn);
