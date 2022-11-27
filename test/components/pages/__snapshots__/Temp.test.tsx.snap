@@ -179,34 +179,7 @@ exports[`[Temp] render should render [Dark] theme 1`] = `
       testID="button-container"
       type="primary"
     >
-      <Text
-        allowFontScaling={false}
-        selectable={false}
-        style={
-          [
-            {
-              "color": "#000000",
-              "fontSize": 16,
-            },
-            [
-              {
-                "color": "#000000",
-              },
-              {
-                "marginRight": 12,
-              },
-            ],
-            {
-              "fontFamily": "IcoMoon",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-            {},
-          ]
-        }
-      >
-        
-      </Text>
+      <Text />
       <Text
         outlined={false}
         style={
