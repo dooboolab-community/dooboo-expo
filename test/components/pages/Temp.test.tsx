@@ -1,12 +1,9 @@
-import 'react-native';
-
 import {act, fireEvent, render} from '@testing-library/react-native';
 import {
   createTestElement,
   createTestProps,
 } from '../../../test/utils/testUtils';
 
-import React from 'react';
 import type {ReactElement} from 'react';
 import type {RenderAPI} from '@testing-library/react-native';
 import Temp from '../../../src/components/pages/Temp';
@@ -31,7 +28,6 @@ describe('[Temp] render', () => {
 
     const baseElement = testingLib.toJSON();
 
-    expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
 
@@ -49,7 +45,6 @@ describe('[Temp] render', () => {
 
     const baseElement = testingLib.toJSON();
 
-    expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
 });

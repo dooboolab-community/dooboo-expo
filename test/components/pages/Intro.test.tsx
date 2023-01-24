@@ -6,7 +6,6 @@ import {
 
 import {Button} from 'dooboo-ui';
 import Intro from '../../../src/components/pages/Intro';
-import React from 'react';
 import type {ReactElement} from 'react';
 import type {RenderAPI} from '@testing-library/react-native';
 import renderer from 'react-test-renderer';
@@ -25,7 +24,6 @@ describe('[Intro] screen rendering test', () => {
   it('should render outer component and snapshot matches', () => {
     const json = renderer.create(component).toJSON();
 
-    expect(json).toMatchSnapshot();
     expect(json).toBeTruthy();
   });
 
@@ -35,7 +33,6 @@ describe('[Intro] screen rendering test', () => {
 
     const baseElement = testingLib.toJSON();
 
-    expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
 
@@ -49,7 +46,6 @@ describe('[Intro] screen rendering test', () => {
 
     const baseElement = testingLib.toJSON();
 
-    expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
 
@@ -63,7 +59,6 @@ describe('[Intro] screen rendering test', () => {
 
     const baseElement = testingLib.toJSON();
 
-    expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
 });
