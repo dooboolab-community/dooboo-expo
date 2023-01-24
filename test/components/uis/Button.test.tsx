@@ -1,7 +1,3 @@
-import 'react-native';
-
-import * as React from 'react';
-
 import {act, fireEvent, render} from '@testing-library/react-native';
 
 import {Button} from 'dooboo-ui';
