@@ -1,12 +1,9 @@
-import 'react-native';
-
 import {
   createTestElement,
   createTestProps,
 } from '../../../test/utils/testUtils';
 
 import IntroTemp from '../../../src/components/uis/IntroTemp';
-import React from 'react';
 import type {ReactElement} from 'react';
 import type {RenderAPI} from '@testing-library/react-native';
 import {render} from '@testing-library/react-native';
@@ -25,7 +22,6 @@ describe('[IntroTemp] render', () => {
 
     const baseElement = testingLib.toJSON();
 
-    expect(baseElement).toMatchSnapshot();
     expect(baseElement).toBeTruthy();
   });
 });

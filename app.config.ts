@@ -1,4 +1,4 @@
-import {ConfigContext, ExpoConfig} from '@expo/config';
+import type {ConfigContext, ExpoConfig} from '@expo/config';
 
 export default ({config}: ConfigContext): ExpoConfig => ({
   ...config,
@@ -27,7 +27,6 @@ export default ({config}: ConfigContext): ExpoConfig => ({
     },
   },
   android: {
-    useNextNotificationsApi: true,
     userInterfaceStyle: 'automatic',
   },
   description: 'Starter project from dooboo-cli.',

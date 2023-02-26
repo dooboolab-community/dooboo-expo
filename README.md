@@ -210,4 +210,4 @@ NativeModules.ReactLocalization = {
 
 ### Expo
 
-46
+version: 47

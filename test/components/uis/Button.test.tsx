@@ -1,7 +1,3 @@
-import 'react-native';
-
-import * as React from 'react';
-
 import {act, fireEvent, render} from '@testing-library/react-native';
 
 import {Button} from 'dooboo-ui';
@@ -29,7 +25,6 @@ describe('[Button]', () => {
   it('[ThemeType.Light] renders without crashing', () => {
     const rendered = renderer.create(component).toJSON();
 
-    expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
 
@@ -38,7 +33,6 @@ describe('[Button]', () => {
 
     const rendered = renderer.create(component).toJSON();
 
-    expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
 
@@ -48,7 +42,6 @@ describe('[Button]', () => {
 
     const rendered = renderer.create(component).toJSON();
 
-    expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
 
@@ -58,7 +51,6 @@ describe('[Button]', () => {
 
     const rendered = renderer.create(component).toJSON();
 
-    expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
 

@@ -1,6 +1,6 @@
 import type {StyleProp, TextStyle} from 'react-native';
 
-import type {SFC} from 'react';
+import type {FC} from 'react';
 
 export interface User {
   displayName: string;
@@ -15,4 +15,4 @@ interface IconProps {
   children?: never;
 }
 
-export type IconType = SFC<IconProps>;
+export type IconType = FC<IconProps>;
