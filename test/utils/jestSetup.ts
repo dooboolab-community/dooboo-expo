@@ -6,10 +6,12 @@ jest.mock('@react-navigation/stack', () => ({
   useHeaderHeight: () => 12,
 }));
 
+// @ts-ignore
 global.__reanimatedWorkletInit = jest.fn();
 
 jest.mock('@react-native-async-storage/async-storage', () => mockAsyncStorage);
 jest.mock('react-native/Libraries/EventEmitter/NativeEventEmitter');
+jest.mock('expo-font');
 
 jest.mock('react-native-reanimated', () =>
   require('react-native-reanimated/mock'),
