@@ -1,4 +1,4 @@
-import {Button, useTheme} from 'dooboo-ui';
+import {Button, useDooboo} from 'dooboo-ui';
 import {Image, View} from 'react-native';
 
 import {IC_MASK} from '../../utils/Icons';
@@ -39,7 +39,7 @@ function Intro(props: Props): React.ReactElement {
 
   const {setUser} = useAppContext();
 
-  const {changeThemeType} = useTheme();
+  const {changeThemeType} = useDooboo();
   const [isLoggingIn, setIsLoggingIn] = React.useState<boolean>(false);
 
   const onLogin = (): void => {
@@ -64,7 +64,7 @@ function Intro(props: Props): React.ReactElement {
       <ButtonWrapper>
         <Button
           testID="btn-login"
-          leftElement={
+          startElement={
             <Image
               source={IC_MASK}
               style={{

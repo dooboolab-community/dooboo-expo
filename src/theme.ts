@@ -1,4 +1,4 @@
-import type {DoobooTheme} from 'dooboo-ui';
+import type {DoobooThemeParams} from '@dooboo-ui/theme';
 
 export const colors = {
   success: '#00BA90',
@@ -15,7 +15,7 @@ export const light = {
   },
 };
 
-export type CustomAppTheme = typeof light & DoobooTheme;
+export type CustomAppTheme = typeof light & DoobooThemeParams;
 
 export const dark = {
   bg: {

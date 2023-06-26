@@ -1,4 +1,4 @@
-import {Button, Icon, useTheme} from 'dooboo-ui';
+import {Button, Icon, useDooboo} from 'dooboo-ui';
 import type {
   RootStackNavigationProps,
   RootStackParamList,
@@ -22,7 +22,7 @@ interface Props {
 }
 
 function Page(props: Props): React.ReactElement {
-  const {theme} = useTheme();
+  const {theme} = useDooboo();
 
   const {
     route: {
@@ -36,9 +36,9 @@ function Page(props: Props): React.ReactElement {
       <Button
         testID="btn-back"
         onPress={(): void => navigation.goBack()}
-        leftElement={
+        startElement={
           <Icon
-            name="chevron-left-light"
+            name="ArrowLeftAlt"
             size={16}
             color={theme.text.contrast}
             style={{

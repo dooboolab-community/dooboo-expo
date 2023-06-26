@@ -5,7 +5,7 @@ import React, {useCallback, useEffect, useState} from 'react';
 import Icons from './utils/Icons';
 import RootNavigator from './components/navigations/RootStack';
 import RootProvider from './providers';
-import {StatusBarBrightness} from 'dooboo-ui';
+import StatusBarBrightness from 'dooboo-ui/uis/StatusbarBrightness';
 import {View} from 'react-native';
 import {gestureHandlerRootHOC} from 'react-native-gesture-handler';
 import {useAssets} from 'expo-asset';
